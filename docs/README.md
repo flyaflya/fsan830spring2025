@@ -10,6 +10,8 @@ This video is perhaps the most important background video for the second half of
 
 [Link to Video](https://youtu.be/jsBpNCxxlNE?si=4LHByThKyIkbBJx1&t=5500)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jsBpNCxxlNE?si=QiqzbgQRvpnYT1B1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 We will watch the above video in segments throughout the semester.
 
 # Important Papers
