@@ -19,16 +19,17 @@ Our first mission is to start populating this class website that will serve as a
 > Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 ### Instructor
-| ![Fleischhacker](images/Fleischhacker_300x300.png)<br>[Fleischhacker's Notes](Fleischhacker.md) |
+| ![Fleischhacker](images/Fleischhacker_300x300.png)  |
 |:---:|
+| [Fleischhacker's Profile](Fleischhacker.md) |
 
 ### Student Profiles
-| Profile | Profile | Profile |
+| ![Aghababaei](images/race_horse_avatar_300x300.png) <br> [Aghababaei's Profile](Aghababaei.md) | ![Buskin](images/race_horse_avatar_300x300.png) <br> [Buskin's Profile](Buskin.md) | ![Dong](images/race_horse_avatar_300x300.png) <br> [Dong's Profile](Dong.md) |
 |:---:|:---:|:---:|
-| ![Aghababaei](images/race_horse_avatar_300x300.png)<br>[Aghababaei's Profile](Aghababaei.md) | ![Buskin](images/race_horse_avatar_300x300.png)<br>[Buskin's Profile](Buskin.md) | ![Dong](images/race_horse_avatar_300x300.png)<br>[Dong's Profile](Dong.md) |
-| ![G. Chen](images/race_horse_avatar_300x300.png)<br>[G. Chen's Profile](GChen.md) | ![Guo](images/race_horse_avatar_300x300.png)<br>[Guo's Profile](Guo.md) | ![He](images/race_horse_avatar_300x300.png)<br>[He's Profile](He.md) |
-| ![Li](images/race_horse_avatar_300x300.png)<br>[Li's Profile](Li.md) | ![Neshastehriz](images/race_horse_avatar_300x300.png)<br>[Neshastehriz's Profile](Neshastehriz.md) | ![Okediran](images/race_horse_avatar_300x300.png)<br>[Okediran's Profile](Okediran.md) |
-| ![S. Chen](images/race_horse_avatar_300x300.png)<br>[S. Chen's Profile](SChen.md) | ![Wagner](images/race_horse_avatar_300x300.png)<br>[Wagner's Profile](Wagner.md) | ![Zou](images/race_horse_avatar_300x300.png)<br>[Zou's Profile](Zou.md) |
+| ![G. Chen](images/race_horse_avatar_300x300.png) <br> [G. Chen's Profile](GChen.md) | ![Guo](images/race_horse_avatar_300x300.png) <br> [Guo's Profile](Guo.md) | ![He](images/race_horse_avatar_300x300.png) <br> [He's Profile](He.md) |
+| ![Li](images/race_horse_avatar_300x300.png) <br> [Li's Profile](Li.md) | ![Neshastehriz](images/race_horse_avatar_300x300.png) <br> [Neshastehriz's Profile](Neshastehriz.md) | ![Okediran](images/race_horse_avatar_300x300.png) <br> [Okediran's Profile](Okediran.md) |
+| ![S. Chen](images/race_horse_avatar_300x300.png) <br> [S. Chen's Profile](SChen.md) | ![Wagner](images/race_horse_avatar_300x300.png) <br> [Wagner's Profile](Wagner.md) | ![Zou](images/race_horse_avatar_300x300.png) <br> [Zou's Profile](Zou.md) |
+
 
 # Motivational Video
 
