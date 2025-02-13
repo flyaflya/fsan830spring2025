@@ -1,8 +1,34 @@
-# fsan830spring2025
-github repository to support UD's Spring 2025 FSAN830 Business Process Innovation Class
+# The Most Ambitious Class on The Internet - FSAN830 Business Process Innovation
 
-# Class Pages
-[Fleischhacker's Notes](docs/Fleischhacker.md)
+This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Business Process Innovation class. Our ambitious goal is to revolutionize horse racing predictions by implementing a state-of-the-art statistical model (BART) within an automated workflow, testing academic theory against real-world market outcomes. Through this public repository, students gain hands-on experience with modern DevOps practices, agile methodologies, and the power of having 'skin in the game' – skills essential for driving real-world innovation. By combining rigorous statistical analysis with industry-standard development practices, we're preparing students to make meaningful impacts in their future careers.
+
+# Our First Mission - Class Pages
+
+Our first mission is to start populating this class website that will serve as a central hub for our class.  We will use the internet to its fullest extent to accomplish this goal.
+
+> Provide some details about yourself on your profile page and add a picture.  Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
+
+Page Links:
+[Fleischhacker's Notes](Fleischhacker.md)
+[Aghababaei's Profile](Aghababaei.md)
+
+# Our First Mission - Class Pages
+
+Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
+
+> Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
+
+### Instructor
+| ![Fleischhacker](images/Fleischhacker_300x300.png)<br>[Fleischhacker's Notes](Fleischhacker.md) |
+|:---:|
+
+### Student Profiles
+| Profile | Profile | Profile |
+|:---:|:---:|:---:|
+| ![Aghababaei](images/race_horse_avatar_300x300.png)<br>[Aghababaei's Profile](Aghababaei.md) | ![Buskin](images/race_horse_avatar_300x300.png)<br>[Buskin's Profile](Buskin.md) | ![Dong](images/race_horse_avatar_300x300.png)<br>[Dong's Profile](Dong.md) |
+| ![G. Chen](images/race_horse_avatar_300x300.png)<br>[G. Chen's Profile](GChen.md) | ![Guo](images/race_horse_avatar_300x300.png)<br>[Guo's Profile](Guo.md) | ![He](images/race_horse_avatar_300x300.png)<br>[He's Profile](He.md) |
+| ![Li](images/race_horse_avatar_300x300.png)<br>[Li's Profile](Li.md) | ![Neshastehriz](images/race_horse_avatar_300x300.png)<br>[Neshastehriz's Profile](Neshastehriz.md) | ![Okediran](images/race_horse_avatar_300x300.png)<br>[Okediran's Profile](Okediran.md) |
+| ![S. Chen](images/race_horse_avatar_300x300.png)<br>[S. Chen's Profile](SChen.md) | ![Wagner](images/race_horse_avatar_300x300.png)<br>[Wagner's Profile](Wagner.md) | ![Zou](images/race_horse_avatar_300x300.png)<br>[Zou's Profile](Zou.md) |
 
 # Motivational Video
 
