@@ -14,21 +14,75 @@ Our first mission is to start populating this class website that will serve as a
 
 > Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
-### Instructor
-| <img src="images/fleischhacker_300x300.png" width="100" height="100"> |
-|:---:|
-| [Fleischhacker's Profile](Fleischhacker.md) |
+<h3>Instructor</h3>
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/fleischhacker_300x300.png" width="100" height="100"><br>
+            <a href="Fleischhacker.md">Fleischhacker's Profile</a>
+        </td>
+    </tr>
+</table>
 
-### Student Profiles
-| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
-|:---:|:---:|:---:|
-| [Aghababaei's Profile](Aghababaei.md) | [Buskin's Profile](Buskin.md) | [Dong's Profile](Dong.md) |
-| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
-| [G. Chen's Profile](GChen.md) | [Guo's Profile](Guo.md) | [He's Profile](He.md) |
-| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
-| [Li's Profile](Li.md) | [Neshastehriz's Profile](Neshastehriz.md) | [Okediran's Profile](Okediran.md) |
-| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
-| [S. Chen's Profile](SChen.md) | [Wagner's Profile](Wagner.md) | [Zou's Profile](Zou.md) |
+<h3>Student Profiles</h3>
+<table>
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Aghababaei.md">Aghababaei's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Buskin.md">Buskin's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Dong.md">Dong's Profile</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="GChen.md">G. Chen's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Guo.md">Guo's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="He.md">He's Profile</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Li.md">Li's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Neshastehriz.md">Neshastehriz's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Okediran.md">Okediran's Profile</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="SChen.md">S. Chen's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Wagner.md">Wagner's Profile</a>
+        </td>
+        <td style="text-align: center;">
+            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <a href="Zou.md">Zou's Profile</a>
+        </td>
+    </tr>
+</table>
 
 
 # Motivational Video
