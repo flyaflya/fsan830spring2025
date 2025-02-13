@@ -12,7 +12,7 @@ Our first mission is to start populating this class website that will serve as a
 
 Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
 
-> Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
+> Provide some details about yourself on your profile page and add a picture (100x100px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 <h3>Instructor</h3>
 <table>
