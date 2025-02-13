@@ -1,5 +1,6 @@
 # fsan830spring2025 - Current Sprint
 github repository to support UD's Spring 2025 FSAN830 Business Process Innovation Class
+Site: [https://flyaflya.github.io/fsan830spring2025/](https://flyaflya.github.io/fsan830spring2025/)
 
 # Setting Up Git and Making Your First Pull Request
 
