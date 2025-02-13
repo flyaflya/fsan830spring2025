@@ -4,21 +4,15 @@ This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Bus
 
 # Our First Mission - Class Pages
 
-Our first mission is to start populating this class website that will serve as a central hub for our class.  We will use the internet to its fullest extent to accomplish this goal.
-
-> Provide some details about yourself on your profile page and add a picture.  Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
-
-# Our First Mission - Class Pages
-
 Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
 
-> Provide some details about yourself on your profile page and add a picture (100x100px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
+> Provide some details about yourself on your profile page and add a picture (80 x 80px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 <h3>Instructor</h3>
 <table>
     <tr>
         <td style="text-align: center;">
-            <img src="images/fleischhacker_300x300.png" width="100" height="100"><br>
+            <img src="images/fleischhacker_300x300.png" width="80" height="80"><br>
             <a href="Fleischhacker.md">Fleischhacker's Profile</a>
         </td>
     </tr>
@@ -28,57 +22,53 @@ Our first mission is to start populating this class website that will serve as a
 <table>
     <tr>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Aghababaei.md">Aghababaei's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Buskin.md">Buskin's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Dong.md">Dong's Profile</a>
         </td>
-    </tr>
-    <tr>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="GChen.md">G. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Guo.md">Guo's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="He.md">He's Profile</a>
         </td>
     </tr>
     <tr>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Li.md">Li's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Neshastehriz.md">Neshastehriz's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Okediran.md">Okediran's Profile</a>
         </td>
-    </tr>
-    <tr>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="SChen.md">S. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Wagner.md">Wagner's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="100" height="100"><br>
+            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
             <a href="Zou.md">Zou's Profile</a>
         </td>
     </tr>
