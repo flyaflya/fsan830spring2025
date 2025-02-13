@@ -19,7 +19,7 @@ Our first mission is to start populating this class website that will serve as a
 > Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 ### Instructor
-| ![Fleischhacker](images/Fleischhacker_300x300.png)  |
+| ![Fleischhacker](images/fleischhacker_300x300.png)  |
 |:---:|
 | [Fleischhacker's Profile](Fleischhacker.md) |
 
