@@ -8,10 +8,6 @@ Our first mission is to start populating this class website that will serve as a
 
 > Provide some details about yourself on your profile page and add a picture.  Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
-Page Links:
-[Fleischhacker's Notes](Fleischhacker.md)
-[Aghababaei's Profile](Aghababaei.md)
-
 # Our First Mission - Class Pages
 
 Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
@@ -19,16 +15,20 @@ Our first mission is to start populating this class website that will serve as a
 > Provide some details about yourself on your profile page and add a picture (50x50px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 ### Instructor
-| ![Fleischhacker](images/fleischhacker_300x300.png)  |
+| <img src="images/fleischhacker_300x300.png" width="100" height="100"> |
 |:---:|
 | [Fleischhacker's Profile](Fleischhacker.md) |
 
 ### Student Profiles
-| ![Aghababaei](images/race_horse_avatar_300x300.png) <br> [Aghababaei's Profile](Aghababaei.md) | ![Buskin](images/race_horse_avatar_300x300.png) <br> [Buskin's Profile](Buskin.md) | ![Dong](images/race_horse_avatar_300x300.png) <br> [Dong's Profile](Dong.md) |
+| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
 |:---:|:---:|:---:|
-| ![G. Chen](images/race_horse_avatar_300x300.png) <br> [G. Chen's Profile](GChen.md) | ![Guo](images/race_horse_avatar_300x300.png) <br> [Guo's Profile](Guo.md) | ![He](images/race_horse_avatar_300x300.png) <br> [He's Profile](He.md) |
-| ![Li](images/race_horse_avatar_300x300.png) <br> [Li's Profile](Li.md) | ![Neshastehriz](images/race_horse_avatar_300x300.png) <br> [Neshastehriz's Profile](Neshastehriz.md) | ![Okediran](images/race_horse_avatar_300x300.png) <br> [Okediran's Profile](Okediran.md) |
-| ![S. Chen](images/race_horse_avatar_300x300.png) <br> [S. Chen's Profile](SChen.md) | ![Wagner](images/race_horse_avatar_300x300.png) <br> [Wagner's Profile](Wagner.md) | ![Zou](images/race_horse_avatar_300x300.png) <br> [Zou's Profile](Zou.md) |
+| [Aghababaei's Profile](Aghababaei.md) | [Buskin's Profile](Buskin.md) | [Dong's Profile](Dong.md) |
+| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
+| [G. Chen's Profile](GChen.md) | [Guo's Profile](Guo.md) | [He's Profile](He.md) |
+| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
+| [Li's Profile](Li.md) | [Neshastehriz's Profile](Neshastehriz.md) | [Okediran's Profile](Okediran.md) |
+| <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> | <img src="images/race_horse_avatar_300x300.png" width="100" height="100"> |
+| [S. Chen's Profile](SChen.md) | [Wagner's Profile](Wagner.md) | [Zou's Profile](Zou.md) |
 
 
 # Motivational Video
