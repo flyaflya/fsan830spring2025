@@ -13,7 +13,7 @@ Our first mission is to start populating this class website that will serve as a
     <tr>
         <td style="text-align: center;">
             <img src="images/fleischhacker_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Fleischhacker.md">Fleischhacker's Profile</a>
+            <a href="markdownProfilePages/Fleischhacker">Fleischhacker's Profile</a>
         </td>
     </tr>
 </table>
@@ -23,53 +23,53 @@ Our first mission is to start populating this class website that will serve as a
     <tr>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Aghababaei.md">Aghababaei's Profile</a>
+            <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Buskin.md">Buskin's Profile</a>
+            <a href="markdownProfilePages/Buskin">Buskin's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Dong.md">Dong's Profile</a>
+            <a href="markdownProfilePages/Dong">Dong's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/GChen.md">G. Chen's Profile</a>
+            <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Guo.md">Guo's Profile</a>
+            <a href="markdownProfilePages/Guo">Guo's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/He.md">He's Profile</a>
+            <a href="markdownProfilePages/He">He's Profile</a>
         </td>
     </tr>
     <tr>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Li.md">Li's Profile</a>
+            <a href="markdownProfilePages/Li">Li's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Neshastehriz.md">Neshastehriz's Profile</a>
+            <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Okediran.md">Okediran's Profile</a>
+            <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/SChen.md">S. Chen's Profile</a>
+            <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Wagner.md">Wagner's Profile</a>
+            <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
         </td>
         <td style="text-align: center;">
             <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Zou.md">Zou's Profile</a>
+            <a href="markdownProfilePages/Zou">Zou's Profile</a>
         </td>
     </tr>
 </table>
