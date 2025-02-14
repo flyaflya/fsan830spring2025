@@ -8,5 +8,5 @@ permalink: /markdownProfilePages/Fleischhacker/
 
 ## Introduction
 
-I am Adam.
+I am Adam. My last name is pronounced "Fleisch-hacker".
 
