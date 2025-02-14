@@ -1,3 +1,6 @@
+include:
+  - markdownProfilePages
+
 theme: jekyll-theme-minimal
 title: FSAN830's Awesone Homepage
 description: Bookmark this to keep an eye on our project updates!
