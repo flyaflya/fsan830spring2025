@@ -30,11 +30,11 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Buskin">Buskin's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
+            <img src="images/ZhiyuanDong.jpeg" width="80" height="80"><br>
             <a href="markdownProfilePages/Dong">Dong's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
+            <img src="images/GChen11111.jpeg" width="80" height="80"><br>
             <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
@@ -42,7 +42,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Guo">Guo's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
+            <img src="images/chenchuan.jpg" width="80" height="80"><br>
             <a href="markdownProfilePages/He">He's Profile</a>
         </td>
     </tr>
@@ -56,7 +56,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
+            <img src="images/Tunmbi.jpg" width="80" height="80"><br>
             <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
         </td>
         <td style="text-align: center;">
@@ -68,7 +68,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
+            <img src="images/WentaoBrandyZou.jpg" width="80" height="80"><br>
             <a href="markdownProfilePages/Zou">Zou's Profile</a>
         </td>
     </tr>
