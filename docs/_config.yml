@@ -5,4 +5,5 @@ theme: jekyll-theme-minimal
 title: FSAN830's Awesome Homepage
 description: Bookmark this to keep an eye on our project updates!
 baseurl: "/fsan830spring2025" # the name of your repository
-url: "https://flyaflya.github.io/fsan830spring2025/" # your GitHub Pages URL
+url: "https://flyaflya.github.io/" # your GitHub Pages URL
+toc: true
