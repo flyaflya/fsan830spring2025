@@ -34,7 +34,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Dong">Dong's Profile</a>
         </td>
         <td style="text-align: center;">
-            <img src="images/GChen11111.jpeg" width="80" height="80"><br>
+            <img src="images/GChen11111.jpg" width="80" height="80"><br>
             <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
         </td>
         <td style="text-align: center;">
