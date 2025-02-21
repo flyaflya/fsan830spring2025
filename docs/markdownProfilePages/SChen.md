@@ -1,5 +1,5 @@
 # Your Name
-
+[Shi Chen]
 ![Profile Picture](../images/ShiChen.png)
 
 ## About Me
