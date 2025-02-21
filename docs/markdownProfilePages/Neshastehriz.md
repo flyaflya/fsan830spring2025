@@ -1,5 +1,5 @@
 # Your Name
-![Profile Picture](../images/Masoud_Neshastehriz.jpg)
+![Profile Picture](../images/Masoud.jpg)
 
 ## About Me
 
