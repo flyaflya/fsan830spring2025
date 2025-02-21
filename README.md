@@ -89,28 +89,60 @@ git checkout -b update-profile-YOUR-NAME
 
 ## Part 5: Submit Changes
 
-### Commit Your Changes
-```bash
-git add images/YOUR-NAME.jpg
-git add markdownProfilePages/YOUR-NAME.md
-git commit -m "Add profile for YOUR-NAME"
-git push origin update-profile-YOUR-NAME
-```
+### Fixing Profile Issues and Resubmitting
+Several profiles need updates. If you see the default horse avatar on the class website, follow these steps:
 
-### Create Pull Request
-1. Visit original repo: `https://github.com/flyaflya/fsan830spring2025`
-2. You should see a yellow banner suggesting to create a pull request
-   - If not, click "Pull requests" → "New pull request"
-3. Click "compare across forks"
-4. From dropdown menus:
-   - base repository: `flyaflya/fsan830spring2025`
-   - base: `main`
-   - head repository: `YOUR-USERNAME/fsan830spring2025`
-   - compare: `update-profile-YOUR-NAME`
-5. Click "Create pull request"
-6. Add title: "Add profile for YOUR-NAME"
-7. Add any comments (optional)
-8. Click "Create pull request"
+1. Common issues to fix:
+   - Empty or incomplete profile pages
+   - Images not properly formatted (must be exactly 300x300 pixels)
+   - Images with incorrect aspect ratios (appearing stretched)
+
+2. Update your fork:
+   ```bash
+   # Switch back to main branch
+   git checkout main
+   
+   # Sync with original repository
+   git fetch upstream
+   git merge upstream/main
+   ```
+
+3. Create new branch for fixes:
+   ```bash
+   git checkout -b profile-update-YOUR-NAME-v2
+   ```
+
+4. Make necessary corrections:
+   - For image issues:
+     1. First crop image to perfect square (1:1 ratio)
+     2. Then resize to exactly 300x300 pixels
+   - For profile page:
+     1. Ensure content follows template
+     2. Check all sections are filled out
+
+5. Commit and push fixes:
+   ```bash
+   git add .
+   git commit -m "Fix profile issues for YOUR-NAME"
+   git push origin profile-update-YOUR-NAME-v2
+   ```
+
+6. Create new pull request:
+   - Go to original repo: `https://github.com/flyaflya/fsan830spring2025`
+   - Click "Pull requests" → "New pull request"
+   - Click "compare across forks"
+   - Select your fork and new branch
+   - Reference your previous pull request number in the comment
+   - Submit the pull request
+
+Note: If you're having trouble with git commands, you can use VS Code/Cursor's Source Control interface:
+- Click Source Control icon (Ctrl+Shift+G)
+- Make your changes
+- Type commit message
+- Click ✓ to commit
+- Click "Publish Branch" or "Push"
+
+Replace `YOUR-NAME` with your actual name throughout these instructions.
 
 ## Troubleshooting
 - If push fails, ensure you're logged into GitHub in terminal:
@@ -120,5 +152,3 @@ git push origin update-profile-YOUR-NAME
   ```
 - If images don't show in preview, check file path is correct
 - For any errors, copy the exact error message and ask for help
-
-Replace `YOUR-NAME` and `YOUR-USERNAME` with your actual name and GitHub username throughout these instructions.
