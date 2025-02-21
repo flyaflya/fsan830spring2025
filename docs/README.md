@@ -2,80 +2,151 @@
 
 This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Business Process Innovation class. Our ambitious goal is to revolutionize horse racing predictions by implementing a state-of-the-art statistical model (BART) within an automated workflow, testing academic theory against real-world market outcomes. Through this public repository, students gain hands-on experience with modern DevOps practices, agile methodologies, and the power of having 'skin in the game' – skills essential for driving real-world innovation. By combining rigorous statistical analysis with industry-standard development practices, we're preparing students to make meaningful impacts in their future careers.
 
-# Our First Mission - Class Pages
+## Our First Mission - Class Pages
+
+<span style="color:darkred; font-weight: bold">Pull Request Status Update: Several profile pages need corrections from the first round of pull requests. Common issues found:
+1. Empty or incomplete profile pages
+2. Images not properly formatted (must be exactly 300x300 pixels)
+3. Images with incorrect aspect ratios (appearing stretched)
+
+If you see the default horse avatar below instead of your photo, please follow the "Instructions for Profile Updates" section below to submit a new pull request with these corrections.</span>
 
 Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
 
 > Provide some details about yourself on your profile page and add a picture (80 x 80px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 <h3>Instructor</h3>
-<table>
+<table style="border-collapse: collapse; border: none;">
     <tr>
-        <td style="text-align: center;">
-            <img src="images/fleischhacker_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Fleischhacker.md">Fleischhacker's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/fleischhacker_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Fleischhacker">Fleischhacker's Profile</a>
         </td>
     </tr>
 </table>
 
 <h3>Student Profiles</h3>
-<table>
+<table style="border-collapse: collapse; border: none;">
     <tr>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Aghababaei.md">Aghababaei's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Buskin.md">Buskin's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/EvgenyBuskin.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Buskin">Buskin's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Dong.md">Dong's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/ZhiyuanDong.jpeg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Dong">Dong's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/GChen.md">G. Chen's Profile</a>
-        </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Guo.md">Guo's Profile</a>
-        </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/He.md">He's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/GChen11111.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
         </td>
     </tr>
     <tr>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Li.md">Li's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Guo">Guo's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Neshastehriz.md">Neshastehriz's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/chenchuan.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/He">He's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Okediran.md">Okediran's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Li">Li's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/SChen.md">S. Chen's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Wagner.md">Wagner's Profile</a>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/Tunmbi.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
         </td>
-        <td style="text-align: center;">
-            <img src="images/race_horse_avatar_300x300.png" width="80" height="80"><br>
-            <a href="markdownProfilePages/Zou.md">Zou's Profile</a>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/riley.wagner.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/WentaoBrandyZou.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Zou">Zou's Profile</a>
         </td>
     </tr>
 </table>
 
+### Instructions for Profile Updates
 
-# Motivational Video
+If you need to update your profile or image, follow these steps:
+
+1. First, sync your fork with the main repository:
+   - Go to your fork on GitHub
+   - Click the "Sync fork" button
+   - Click "Update branch" to get the latest changes
+
+2. Update your local repository (choose either method):
+
+   **Using Command Line:**
+   ```bash
+   # Switch to your main branch
+   git checkout main
+   
+   # Pull the latest changes
+   git pull origin main
+   
+   # Create a new branch for your updates
+   git checkout -b profile-update-yourname
+   ```
+
+   **Using VS Code/Cursor:**
+   - Click the Source Control icon in the left sidebar (or press Ctrl+Shift+G)
+   - Click the three dots (...) menu
+   - Select "Pull" to get latest changes
+   - Click the branch name in the bottom left corner
+   - Select "+ Create new branch" and name it "profile-update-yourname"
+
+3. Make your updates:
+   - Prepare your profile image:
+     1. First crop your image to a perfect square (1:1 aspect ratio)
+     2. Then resize the cropped image to exactly 300x300 pixels
+     3. You can use tools like paint.net, GIMP, or online editors like pixlr.com
+   - Place your image in the `docs/images` folder
+   - Update your profile page in `docs/markdownProfilePages/YourName.md`
+   - Test your changes locally if possible
+
+4. Commit and push your changes (choose either method):
+
+   **Using Command Line:**
+   ```bash
+   git add .
+   git commit -m "Updated profile and image"
+   git push origin profile-update-yourname
+   ```
+
+   **Using VS Code/Cursor:**
+   - In Source Control, review your changes
+   - Enter a commit message: "Updated profile and image"
+   - Click the ✓ (Commit) button
+   - Click "Publish Branch" or "Push"
+
+5. Create a new pull request:
+   - Go to the main repository on GitHub
+   - Click "New Pull Request"
+   - Choose "compare across forks"
+   - Select your fork and new branch
+   - Submit the pull request
+
+Note: If you're having trouble, feel free to delete your fork entirely, create a new fork, and start fresh with these steps.
+
+## Motivational Video
 
 This video is perhaps the most important background video for the second half of our semester together.
 
@@ -92,7 +163,7 @@ We will watch the above video in segments throughout the semester.
 * Hill, J., Linero, A., & Murray, J. (2020). *Bayesian additive regression trees: A review and look forward. Annual Review of Statistics and Its Application*, 7(1), 251-278.
 
 
-# Beliefs
+## Beliefs
 
 Observational Data:
 * it is nearly impossible to correctly leverage statistical methods on **observational** data to make reliable predictions about **causal** effects, e.g. confounding, selection bias, garbage can regressions, etc.
