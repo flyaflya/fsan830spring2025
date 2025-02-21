@@ -29,7 +29,7 @@ Our first mission is to start populating this class website that will serve as a
 <table style="border-collapse: collapse; border: none;">
     <tr>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/HomaAghababaei.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
