@@ -59,7 +59,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Li">Li's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/Masoud.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
         </td>
     </tr>
@@ -69,7 +69,7 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/ShiChen.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
