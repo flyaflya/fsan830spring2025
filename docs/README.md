@@ -1,3 +1,71 @@
+<h3>Instructor</h3>
+<table style="border-collapse: collapse; border: none;">
+    <tr>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/fleischhacker_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Fleischhacker">Fleischhacker's Profile</a>
+        </td>
+    </tr>
+</table>
+
+<h3>Student Profiles</h3>
+<table style="border-collapse: collapse; border: none;">
+    <tr>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/HomaAghababaei.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/EvgenyBuskin.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Buskin">Buskin's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/ZhiyuanDong.jpeg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Dong">Dong's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/GChen11111.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/Sean_resized.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Guo">Guo's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/chenchuan.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/He">He's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/Run Li.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Li">Li's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/Masoud.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/Tunmbi.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/ShiChen.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/riley.wagner.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
+        </td>
+        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
+            <img src="images/WentaoBrandyZou.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <a href="markdownProfilePages/Zou">Zou's Profile</a>
+        </td>
+    </tr>
+</table>
+
 # The Most Ambitious Class on The Internet - FSAN830 Business Process Innovation
 
 This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Business Process Innovation class. Our ambitious goal is to revolutionize horse racing predictions by implementing a state-of-the-art statistical model (BART) within an automated workflow, testing academic theory against real-world market outcomes. Through this public repository, students gain hands-on experience with modern DevOps practices, agile methodologies, and the power of having 'skin in the game' – skills essential for driving real-world innovation. By combining rigorous statistical analysis with industry-standard development practices, we're preparing students to make meaningful impacts in their future careers.
@@ -142,74 +210,6 @@ If you see the default horse avatar below instead of your photo, please follow t
 Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
 
 > Provide some details about yourself on your profile page and add a picture (80 x 80px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
-
-<h3>Instructor</h3>
-<table style="border-collapse: collapse; border: none;">
-    <tr>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/fleischhacker_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Fleischhacker">Fleischhacker's Profile</a>
-        </td>
-    </tr>
-</table>
-
-<h3>Student Profiles</h3>
-<table style="border-collapse: collapse; border: none;">
-    <tr>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/HomaAghababaei.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/EvgenyBuskin.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Buskin">Buskin's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/ZhiyuanDong.jpeg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Dong">Dong's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/GChen11111.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/GChen">G. Chen's Profile</a>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/Sean_resized.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Guo">Guo's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/chenchuan.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/He">He's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/Run Li.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Li">Li's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/Masoud.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/Tunmbi.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/ShiChen.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/riley.wagner.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
-        </td>
-        <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/WentaoBrandyZou.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
-            <a href="markdownProfilePages/Zou">Zou's Profile</a>
-        </td>
-    </tr>
-</table>
 
 ### Instructions for Profile Updates
 
