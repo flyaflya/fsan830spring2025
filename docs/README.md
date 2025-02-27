@@ -1,20 +1,3 @@
-# The Most Ambitious Class on The Internet - FSAN830 Business Process Innovation
-
-This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Business Process Innovation class. Our ambitious goal is to revolutionize horse racing predictions by implementing a state-of-the-art statistical model (BART) within an automated workflow, testing academic theory against real-world market outcomes. Through this public repository, students gain hands-on experience with modern DevOps practices, agile methodologies, and the power of having 'skin in the game' – skills essential for driving real-world innovation. By combining rigorous statistical analysis with industry-standard development practices, we're preparing students to make meaningful impacts in their future careers.
-
-## Our First Mission - Class Pages
-
-<span style="color:darkred; font-weight: bold">Pull Request Status Update: Several profile pages need corrections from the first round of pull requests. Common issues found:
-1. Empty or incomplete profile pages
-2. Images not properly formatted (must be exactly 300x300 pixels)
-3. Images with incorrect aspect ratios (appearing stretched)
-
-If you see the default horse avatar below instead of your photo, please follow the "Instructions for Profile Updates" section below to submit a new pull request with these corrections.</span>
-
-Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
-
-> Provide some details about yourself on your profile page and add a picture (80 x 80px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
-
 <h3>Instructor</h3>
 <table style="border-collapse: collapse; border: none;">
     <tr>
@@ -29,7 +12,7 @@ Our first mission is to start populating this class website that will serve as a
 <table style="border-collapse: collapse; border: none;">
     <tr>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/HomaAghababaei.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Aghababaei">Aghababaei's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
@@ -47,7 +30,7 @@ Our first mission is to start populating this class website that will serve as a
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/Sean_resized.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Guo">Guo's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
@@ -55,11 +38,11 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/He">He's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/Run Li.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Li">Li's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/Masoud.jpg" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Neshastehriz">Neshastehriz's Profile</a>
         </td>
     </tr>
@@ -69,11 +52,11 @@ Our first mission is to start populating this class website that will serve as a
             <a href="markdownProfilePages/Okediran">Okediran's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/ShiChen.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/SChen">S. Chen's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
-            <img src="images/race_horse_avatar_300x300.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
+            <img src="images/riley.wagner.png" style="width: 80px; height: 80px; object-fit: cover;"><br>
             <a href="markdownProfilePages/Wagner">Wagner's Profile</a>
         </td>
         <td style="text-align: center; vertical-align: top; padding: 10px; width: 120px;">
@@ -82,6 +65,151 @@ Our first mission is to start populating this class website that will serve as a
         </td>
     </tr>
 </table>
+
+# The Most Ambitious Class on The Internet - FSAN830 Business Process Innovation
+
+This repository documents the 'Innovation Track' of UD's Spring 2025 FSAN830 Business Process Innovation class. Our ambitious goal is to revolutionize horse racing predictions by implementing a state-of-the-art statistical model (BART) within an automated workflow, testing academic theory against real-world market outcomes. Through this public repository, students gain hands-on experience with modern DevOps practices, agile methodologies, and the power of having 'skin in the game' – skills essential for driving real-world innovation. By combining rigorous statistical analysis with industry-standard development practices, we're preparing students to make meaningful impacts in their future careers.
+
+## Our Current Mission - XML to xarray Challenge
+
+Our current mission is to convert race result XML data into a structured xarray dataset for analysis. This will allow us to perform sophisticated queries and analysis on horse racing data, preparing us for our ultimate goal of implementing BART models for race predictions.
+
+### Code Organization
+
+For this challenge, we'll use the following project structure:
+
+```
+fsan830spring2025/
+├── data/
+│   └── sampleRaceResults/
+│       └── del20230708tch.xml
+├── docs/
+│   └── ...
+└── students/
+    ├── lastname_firstname/
+    │   ├── xml_to_xarray.py
+    │   └── query_results.py
+    └── ...
+```
+
+Each student should:
+1. Create a folder with your `lastname_firstname` under the `students/` directory
+2. Place your Python scripts in this folder
+3. Use relative paths in your code (e.g., `../../data/sampleRaceResults/del20230708tch.xml`)
+
+This organization keeps your code separate from other students while maintaining a consistent project structure. When working on your solution:
+
+1. **Sync your fork** with the main repository to get the latest structure:
+   - Go to your fork on GitHub
+   - Click the "Sync fork" button
+   - Click "Update branch" to get the latest changes
+   - Pull these changes to your local repository:
+     * **Using Cursor**: Click the Source Control icon in the sidebar → Click ••• (More Actions) → Pull
+     * **Using command line**: `git pull origin main`
+
+2. **Set up your development environment**:
+   - Clone your updated fork locally (if you haven't already)
+   - Create a new branch for this challenge:
+     * **Using Cursor**: Click the branch name in the bottom left corner → Select "Create new branch..." → Enter "xml-xarray-challenge"
+     * **Using command line**: `git checkout -b xml-xarray-challenge`
+   - Create your personal folder under `students/lastname_firstname/`
+
+3. **Develop your solution**:
+   - Work on your code in your personal folder
+   - Test your code against the shared data file
+   - Commit your changes regularly:
+     * **Using Cursor**: Click the Source Control icon in the sidebar → Stage changes → Enter commit message → Click ✓ (Commit)
+     * **Using command line**: `git add .` then `git commit -m "Your message"`
+
+4. **Submit your work**:
+   - Push your branch to your fork on GitHub:
+     * **Using Cursor**: In Source Control view → Click ••• (More Actions) → Push
+     * **Using command line**: `git push origin xml-xarray-challenge`
+   - Update your profile page as described in the submission instructions
+   - Create a pull request to the main repository
+
+### XML to xarray Dataset Conversion Guide
+
+Students will convert the provided XML race results file (`data/sampleRaceResults/del20230708tch.xml`) into an xarray dataset with the following dimensions:
+
+1. **TRACK**: Coordinates include:
+   - `trackID`: The track identifier (from the `CODE` element in the XML)
+   - `trackName`: The track name (from the `n` element under `TRACK`)
+
+2. **RACE_DATE**: The date of the races (from the `RACE_DATE` attribute in the `CHART` element)
+
+3. **RACE_NUMBER**: The race number (from the `NUMBER` attribute in the `RACE` element)
+
+4. **ENTRY**: Information about each horse entry, including:
+   - `horse`: Horse name (from the `n` element under `ENTRY`)
+   - `jockey`: Jockey name (combining `FIRST_NAME`, `MIDDLE_NAME`, and `LAST_NAME` under `JOCKEY`)
+   - `trainer`: Trainer name (combining `FIRST_NAME`, `MIDDLE_NAME`, and `LAST_NAME` under `TRAINER`)
+
+The dataset should also include relevant variables such as:
+- Finishing position (`OFFICIAL_FIN`)
+- Odds (`DOLLAR_ODDS`)
+- Race purse (`PURSE`)
+- Race distance (`DISTANCE`)
+- Track condition (`TRK_COND`)
+
+#### Implementation Steps:
+
+1. Parse the XML file using Python's built-in `xml.etree.ElementTree` library
+   ```python
+   import xml.etree.ElementTree as ET
+   
+   # Path is relative to the repository root
+   xml_path = 'data/sampleRaceResults/del20230708tch.xml'
+   tree = ET.parse(xml_path)
+   root = tree.getroot()
+   ```
+
+2. Extract the relevant data for each dimension and variable
+3. Organize the data into appropriate data structures
+4. Create an xarray Dataset with the proper dimensions and coordinates
+5. Save the dataset in a suitable format (e.g., NetCDF)
+
+#### Query Challenge:
+
+Once the xarray dataset is created, students should implement a query that returns the top 3 horses in each race along with:
+- Horse name
+- Jockey name
+- Trainer name
+- Finishing position
+- Odds
+
+This query should demonstrate the power of xarray for multidimensional data analysis and provide a foundation for more complex analyses in the future.
+
+#### Submission Instructions
+
+To demonstrate completion of this challenge:
+
+1. Update your profile page in the `markdownProfilePages/` directory to include a new section titled "XML to xarray Challenge"
+2. In this section, include:
+   - A brief explanation (2-3 sentences) of how you approached the XML to xarray conversion
+   - A code snippet showing your query implementation for finding the top 3 horses in each race
+   - Sample output from your query showing results from at least one race
+
+3. Create a pull request with your updated profile page
+   - Title your PR: "XML to xarray Challenge - [Your Name]"
+   - In the PR description, briefly mention one insight you gained from working with the racing data
+
+This approach allows you to publicly showcase your work while keeping the submission process streamlined. Your solution demonstrates your ability to work with complex data structures and implement practical queries on multidimensional datasets.
+
+The completed dataset will serve as the foundation for our BART model implementation, allowing us to test academic theory against real-world market outcomes.
+
+## [COMPLETED] Our First Mission - Class Pages
+
+<span style="color:darkred; font-weight: bold">Pull Request Status Update: Several profile pages need corrections from the first round of pull requests. Common issues found:
+1. Empty or incomplete profile pages
+2. Images not properly formatted (must be exactly 300x300 pixels)
+3. Images with incorrect aspect ratios (appearing stretched)
+
+If you see the default horse avatar below instead of your photo, please follow the "Instructions for Profile Updates" section below to submit a new pull request with these corrections.</span>
+
+Our first mission is to start populating this class website that will serve as a central hub for our class. We will use the internet to its fullest extent to accomplish this goal.
+
+> Provide some details about yourself on your profile page and add a picture (80 x 80px). Ensure it includes some notion of your aspirations in using data science and mention any passions that might overlap with the course material.
 
 ### Instructions for Profile Updates
 

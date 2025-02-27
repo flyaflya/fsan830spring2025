@@ -1,6 +1,6 @@
 # Riley Wagner
 
-![Riley Wagner](../images/rileywagner.png)
+![Riley Wagner](../images/riley.wagner.png)
 
 ## About Me
 

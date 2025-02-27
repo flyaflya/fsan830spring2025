@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML to xarray Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, Monaco, 'Courier New', monospace;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>XML to xarray Challenge</h1>
+
+    <p>Our current mission is to convert race result XML data into a structured xarray dataset for analysis. This will allow us to perform sophisticated queries and analysis on horse racing data, preparing us for our ultimate goal of implementing BART models for race predictions.</p>
+
+    <h3>Code Organization</h3>
+
+    <p>For this challenge, we'll use the following project structure:</p>
+
+    <pre><code>fsan830spring2025/
+├── data/
+│   └── sampleRaceResults/
+│       └── del20230708tch.xml
+├── docs/
+│   └── ...
+└── students/
+    ├── lastname_firstname/
+    │   ├── xml_to_xarray.py
+    │   └── query_results.py
+    └── ...
+</code></pre>
+
+    <p>Each student should:</p>
+    <ol>
+        <li>Create a folder with your <code>lastname_firstname</code> under the <code>students/</code> directory</li>
+        <li>Place your Python scripts in this folder</li>
+        <li>Use relative paths in your code (e.g., <code>../../data/sampleRaceResults/del20230708tch.xml</code>)</li>
+    </ol>
+
+    <p>This organization keeps your code separate from other students while maintaining a consistent project structure. When working on your solution:</p>
+
+    <ol>
+        <li><strong>Sync your fork</strong> with the main repository to get the latest structure:
+            <ul>
+                <li>Go to your fork on GitHub</li>
+                <li>Click the "Sync fork" button</li>
+                <li>Click "Update branch" to get the latest changes</li>
+                <li>Pull these changes to your local repository:
+                    <ul>
+                        <li><strong>Using Cursor</strong>: Click the Source Control icon in the sidebar → Click ••• (More Actions) → Pull</li>
+                        <li><strong>Using command line</strong>: <code>git pull origin main</code></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Set up your development environment</strong>:
+            <ul>
+                <li>Clone your updated fork locally (if you haven't already)</li>
+                <li>Create a new branch for this challenge:
+                    <ul>
+                        <li><strong>Using Cursor</strong>: Click the branch name in the bottom left corner → Select "Create new branch..." → Enter "xml-xarray-challenge"</li>
+                        <li><strong>Using command line</strong>: <code>git checkout -b xml-xarray-challenge</code></li>
+                    </ul>
+                </li>
+                <li>Create your personal folder under <code>students/lastname_firstname/</code></li>
+            </ul>
+        </li>
+        <li><strong>Develop your solution</strong>:
+            <ul>
+                <li>Work on your code in your personal folder</li>
+                <li>Test your code against the shared data file</li>
+                <li>Commit your changes regularly:
+                    <ul>
+                        <li><strong>Using Cursor</strong>: Click the Source Control icon in the sidebar → Stage changes → Enter commit message → Click ✓ (Commit)</li>
+                        <li><strong>Using command line</strong>: <code>git add .</code> then <code>git commit -m "Your message"</code></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Submit your work</strong>:
+            <ul>
+                <li>Push your branch to your fork on GitHub:
+                    <ul>
+                        <li><strong>Using Cursor</strong>: In Source Control view → Click ••• (More Actions) → Push</li>
+                        <li><strong>Using command line</strong>: <code>git push origin xml-xarray-challenge</code></li>
+                    </ul>
+                </li>
+                <li>Update your profile page as described in the submission instructions</li>
+                <li>Create a pull request to the main repository</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>XML to xarray Dataset Conversion Guide</h3>
+
+    <p>Students will convert the provided XML race results file (<code>data/sampleRaceResults/del20230708tch.xml</code>) into an xarray dataset with the following dimensions:</p>
+
+    <ol>
+        <li><strong>TRACK</strong>: Coordinates include:
+            <ul>
+                <li><code>trackID</code>: The track identifier (from the <code>CODE</code> element in the XML)</li>
+                <li><code>trackName</code>: The track name (from the <code>n</code> element under <code>TRACK</code>)</li>
+            </ul>
+        </li>
+        <li><strong>RACE_DATE</strong>: The date of the races (from the <code>RACE_DATE</code> attribute in the <code>CHART</code> element)</li>
+        <li><strong>RACE_NUMBER</strong>: The race number (from the <code>NUMBER</code> attribute in the <code>RACE</code> element)</li>
+        <li><strong>ENTRY</strong>: Information about each horse entry, including:
+            <ul>
+                <li><code>horse</code>: Horse name (from the <code>n</code> element under <code>ENTRY</code>)</li>
+                <li><code>jockey</code>: Jockey name (combining <code>FIRST_NAME</code>, <code>MIDDLE_NAME</code>, and <code>LAST_NAME</code> under <code>JOCKEY</code>)</li>
+                <li><code>trainer</code>: Trainer name (combining <code>FIRST_NAME</code>, <code>MIDDLE_NAME</code>, and <code>LAST_NAME</code> under <code>TRAINER</code>)</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>The dataset should also include relevant variables such as:</p>
+    <ul>
+        <li>Finishing position (<code>OFFICIAL_FIN</code>)</li>
+        <li>Odds (<code>DOLLAR_ODDS</code>)</li>
+        <li>Race purse (<code>PURSE</code>)</li>
+        <li>Race distance (<code>DISTANCE</code>)</li>
+        <li>Track condition (<code>TRK_COND</code>)</li>
+    </ul>
+
+    <h4>Implementation Steps:</h4>
+
+    <ol>
+        <li>Parse the XML file using Python's built-in <code>xml.etree.ElementTree</code> library
+            <pre><code>import xml.etree.ElementTree as ET
+
+# Path is relative to the repository root
+xml_path = 'data/sampleRaceResults/del20230708tch.xml'
+tree = ET.parse(xml_path)
+root = tree.getroot()</code></pre>
+        </li>
+        <li>Extract the relevant data for each dimension and variable</li>
+        <li>Organize the data into appropriate data structures</li>
+        <li>Create an xarray Dataset with the proper dimensions and coordinates</li>
+        <li>Save the dataset in a suitable format (e.g., NetCDF)</li>
+    </ol>
+
+    <h4>Query Challenge:</h4>
+
+    <p>Once the xarray dataset is created, students should implement a query that returns the top 3 horses in each race along with:</p>
+    <ul>
+        <li>Horse name</li>
+        <li>Jockey name</li>
+        <li>Trainer name</li>
+        <li>Finishing position</li>
+        <li>Odds</li>
+    </ul>
+
+    <p>This query should demonstrate the power of xarray for multidimensional data analysis and provide a foundation for more complex analyses in the future.</p>
+
+    <h4>Submission Instructions</h4>
+
+    <p>To demonstrate completion of this challenge:</p>
+
+    <ol>
+        <li>Update your profile page in the <code>markdownProfilePages/</code> directory to include a new section titled "XML to xarray Challenge"</li>
+        <li>In this section, include:
+            <ul>
+                <li>A brief explanation (2-3 sentences) of how you approached the XML to xarray conversion</li>
+                <li>A code snippet showing your query implementation for finding the top 3 horses in each race</li>
+                <li>Sample output from your query showing results from at least one race</li>
+            </ul>
+        </li>
+        <li>Create a pull request with your updated profile page
+            <ul>
+                <li>Title your PR: "XML to xarray Challenge - [Your Name]"</li>
+                <li>In the PR description, briefly mention one insight you gained from working with the racing data</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>This approach allows you to publicly showcase your work while keeping the submission process streamlined. Your solution demonstrates your ability to work with complex data structures and implement practical queries on multidimensional datasets.</p>
+
+    <p>The completed dataset will serve as the foundation for our BART model implementation, allowing us to test academic theory against real-world market outcomes.</p>
+</body>
+</html> 
