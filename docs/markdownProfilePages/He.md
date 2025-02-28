@@ -64,3 +64,25 @@ Trainer: John J Robb
 Odds: 6.1
 ```
 
+Also Race 9
+```
+Race 9:
+---------
+Position: 1.0
+Horse: Idiomatic
+Jockey: Florent Geroux
+Trainer: Brad H Cox
+Odds: 0.4
+
+Position: 2.0
+Horse: Classy Edition
+Jockey: Kendrick Carmouche
+Trainer: Todd A Pletcher
+Odds: 2.5
+
+Position: 3.0
+Horse: Morning Matcha
+Jockey: Paco Lopez
+Trainer: Robert E Reid
+Odds: 5.9
+```
