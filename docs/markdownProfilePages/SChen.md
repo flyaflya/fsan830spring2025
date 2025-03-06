@@ -1,5 +1,4 @@
-# Your Name
-[Shi Chen]
+# Shi Chen
 ![Profile Picture](../images/ShiChen.png)
 
 ## About Me
@@ -7,8 +6,16 @@ Hello World!
 
 ## Research Interests And/Or Favorite Three Topics Covered In Other Classes
 - AI
-- MATH
+- MATHEMATICS
+- OPTIMIZATION
 - COMPUTER GAMES
+- DATA SCIENCE
+- FINTACH
+- MARKET MICROSTRUCTURE
+- GAME THEORY
+- NATURAL LANGUAGE PROCESSING
+
+
 
 ## XML to xarray Challenge
 1 To convert XML data to an Xarray structure, I first used the xml.etree.ElementTree module to parse the XML file and extract relevant information. I then structured the data into a Pandas DataFrame, ensuring the hierarchical race information was properly mapped. Finally, I converted the DataFrame into an Xarray dataset using xarray.Dataset, which allowed for efficient querying and analysis.
