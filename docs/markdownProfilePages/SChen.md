@@ -5,14 +5,8 @@
 Hello World!
 
 ## Research Interests And/Or Favorite Three Topics Covered In Other Classes
-- AI
 - MATHEMATICS
-- OPTIMIZATION
-- COMPUTER GAMES
-- DATA SCIENCE
 - FINTACH
-- MARKET MICROSTRUCTURE
-- GAME THEORY
 - NATURAL LANGUAGE PROCESSING
 
 
