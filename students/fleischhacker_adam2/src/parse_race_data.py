@@ -122,7 +122,10 @@ def parse_past_performance_xml(xml_file):
             'recent_dates': [],
             'recent_purses': [],
             'recent_start_positions': [],
-            'recent_numStarters': []
+            'recent_numStarters': [],
+            'recent_jockeys': [],
+            'recent_trainers': [],
+            'recent_last_call_positions': []
         }
         
         # Process each race in the current card
@@ -189,11 +192,14 @@ def parse_past_performance_xml(xml_file):
                         past_finish_positions = []
                         past_lengths_back_finish = []
                         past_lengths_back_last_call = []
+                        past_last_call_positions = []
                         past_surfaces = []
                         past_distances = []
                         past_dates = []
                         past_purses = []
                         past_numStarters = []
+                        past_jockeys = []
+                        past_trainers = []
                         
                         # Get past performances (up to 5 most recent)
                         past_perf_elements = starter.findall('PastPerformance')
@@ -210,6 +216,7 @@ def parse_past_performance_xml(xml_file):
                                 lengths_last_call = 0.0
                                 start_position = 0
                                 finish_position = 0
+                                last_call_position = 0
                                 
                                 point_of_calls = start_elem.findall('PointOfCall')
                                 last_printed_call = None
@@ -226,12 +233,23 @@ def parse_past_performance_xml(xml_file):
                                         position = call.find('Position')
                                         if position is not None:
                                             finish_position = int(position.text)
-                                        lengths_behind = call.find('LengthsBehind')
-                                        if lengths_behind is not None:
-                                            lengths_finish = float(lengths_behind.text)
+                                            # If horse is in first position, lengths behind should be 0
+                                            if finish_position == 1:
+                                                lengths_finish = 0.0
+                                            else:
+                                                lengths_behind = call.find('LengthsBehind')
+                                                if lengths_behind is not None:
+                                                    lengths_finish = float(lengths_behind.text)
+                                        else:
+                                            lengths_behind = call.find('LengthsBehind')
+                                            if lengths_behind is not None:
+                                                lengths_finish = float(lengths_behind.text)
                                     elif call.find('PointOfCallPrint').text == 'Y':
                                         # Track the last printed call point
                                         last_printed_call = call
+                                        position = call.find('Position')
+                                        if position is not None:
+                                            last_call_position = int(position.text)
                                 
                                 # Get lengths behind at last printed call point
                                 if last_printed_call is not None:
@@ -264,6 +282,10 @@ def parse_past_performance_xml(xml_file):
                                 perf_track = perf.find('Track/TrackID').text if perf.find('Track/TrackID') is not None else ''
                                 perf_race_num = perf.find('RaceNumber').text if perf.find('RaceNumber') is not None else ''
                                 
+                                # Get jockey and trainer info
+                                perf_jockey = start_elem.find('Jockey/LastName').text if start_elem.find('Jockey/LastName') is not None else ''
+                                perf_trainer = start_elem.find('Trainer/LastName').text if start_elem.find('Trainer/LastName') is not None else ''
+                                
                                 # Create past race ID
                                 past_race_id = f"{perf_track}-{perf_month}-{perf_day}-{perf_year}-R{int(perf_race_num):02d}" if perf_track and perf_race_num else None
                                 
@@ -271,12 +293,15 @@ def parse_past_performance_xml(xml_file):
                                 past_finish_positions.append(finish_position)  # Store actual finish position
                                 past_lengths_back_finish.append(lengths_finish)  # Store lengths behind at finish
                                 past_lengths_back_last_call.append(lengths_last_call)  # Store lengths behind at last printed call
+                                past_last_call_positions.append(last_call_position)  # Store position at last printed call
                                 past_surfaces.append(perf_surface)
                                 past_distances.append(perf_distance)
                                 past_dates.append(perf_date)
                                 past_purses.append(perf_purse)
                                 past_start_positions.append(start_position)
                                 past_numStarters.append(num_starters)
+                                past_jockeys.append(perf_jockey)
+                                past_trainers.append(perf_trainer)
                                 
                             except Exception as e:
                                 print(f"Error processing past performance for horse {horse}: {str(e)}")
@@ -288,12 +313,15 @@ def parse_past_performance_xml(xml_file):
                             past_finish_positions.append(None)
                             past_lengths_back_finish.append(None)
                             past_lengths_back_last_call.append(None)
+                            past_last_call_positions.append(None)
                             past_surfaces.append(None)
                             past_distances.append(None)
                             past_dates.append(None)
                             past_purses.append(None)
                             past_start_positions.append(None)
                             past_numStarters.append(None)
+                            past_jockeys.append(None)
+                            past_trainers.append(None)
                         
                         # Store past performance data
                         past_performances['horse'].append(horse)
@@ -301,12 +329,15 @@ def parse_past_performance_xml(xml_file):
                         past_performances['recent_finish_positions'].append(past_finish_positions)
                         past_performances['recent_lengths_back_finish'].append(past_lengths_back_finish)
                         past_performances['recent_lengths_back_last_call'].append(past_lengths_back_last_call)
+                        past_performances['recent_last_call_positions'].append(past_last_call_positions)
                         past_performances['recent_surfaces'].append(past_surfaces)
                         past_performances['recent_distances'].append(past_distances)
                         past_performances['recent_dates'].append(past_dates)
                         past_performances['recent_purses'].append(past_purses)
                         past_performances['recent_start_positions'].append(past_start_positions)
                         past_performances['recent_numStarters'].append(past_numStarters)
+                        past_performances['recent_jockeys'].append(past_jockeys)
+                        past_performances['recent_trainers'].append(past_trainers)
                         
                     except Exception as e:
                         print(f"Error processing starter {starter_idx + 1}: {str(e)}")
@@ -354,7 +385,10 @@ def create_xarray_dataset(data_dir):
         'recent_dates': [],
         'recent_purses': [],
         'recent_start_positions': [],
-        'recent_numStarters': []
+        'recent_numStarters': [],
+        'recent_jockeys': [],
+        'recent_trainers': [],
+        'recent_last_call_positions': []
     }
     
     # Process all XML files in the directory
@@ -475,12 +509,15 @@ def create_xarray_dataset(data_dir):
             'recent_finish_pos': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_finish_positions'], np.float32)),
             'recent_lengths_back_finish': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_lengths_back_finish'], np.float32)),
             'recent_lengths_back_last_call': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_lengths_back_last_call'], np.float32)),
+            'recent_last_call_pos': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_last_call_positions'], np.int16)),
             'recent_surface': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_surfaces'], 'U5')),
             'recent_distance': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_distances'], np.float32)),
             'recent_date': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_dates'], 'U10')),
             'recent_purse': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_purses'], np.float32)),
             'recent_start_pos': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_start_positions'], np.int16)),
-            'recent_num_starters': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_numStarters'], np.int16))
+            'recent_num_starters': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_numStarters'], np.int16)),
+            'recent_jockey': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_jockeys'], 'U250')),
+            'recent_trainer': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_trainers'], 'U250'))
         },
         coords={
             'race': race_coords,
