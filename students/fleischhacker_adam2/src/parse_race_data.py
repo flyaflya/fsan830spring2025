@@ -1,3 +1,11 @@
+"""
+This script processes XML racing data from the following locations:
+- Input: ../data/rawDataForTraining/pastPerformanceData/*.xml (raw XML racing data files)
+- Output: ../data/processed/processed_race_data.nc (processed data in netCDF format)
+The script parses XML files containing past performance data and creates a structured dataset
+for analysis.
+"""
+
 import xml.etree.ElementTree as ET
 import xarray as xr
 import numpy as np

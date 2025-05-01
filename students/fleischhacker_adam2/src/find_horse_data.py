@@ -1,3 +1,9 @@
+"""
+This script searches for horse data in the following locations:
+- Input: ../data/processed/processed_race_data.nc (processed racing data in netCDF format)
+- The script searches this dataset for specific horse information and displays race history
+"""
+
 import xarray as xr
 import pandas as pd
 from pathlib import Path

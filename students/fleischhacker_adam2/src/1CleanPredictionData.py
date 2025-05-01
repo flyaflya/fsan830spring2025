@@ -1,3 +1,11 @@
+"""
+This script processes racing data from the following locations:
+- Input: ../data/CDX0426.csv (raw racing data)
+- Output: ../data/CDX0426_processed.csv (processed data with all columns)
+- Output: ../data/CDX0426_filtered.csv (filtered data with only mapped columns)
+- Mapping: ../data/column_mapping.csv (column header mappings)
+"""
+
 import pandas as pd
 import json
 import csv
@@ -5,7 +13,7 @@ import csv
 def load_column_mapping():
     """Load column mapping from CSV file."""
     try:
-        mapping_df = pd.read_csv('professor/column_mapping.csv')
+        mapping_df = pd.read_csv('../data/column_mapping.csv')
         # Convert column_number to integer and create dictionary
         mapping_dict = dict(zip(mapping_df['column_number'].astype(int), mapping_df['header_name']))
         return mapping_dict
@@ -17,9 +25,9 @@ def load_column_mapping():
 def process_racing_data():
     """Process the racing data CSV file."""
     # Read the input file
-    input_file = 'data/rawDataForPrediction/CDX0426.csv'
-    output_file = 'professor/CDX0426_processed.csv'
-    filtered_output_file = 'professor/CDX0426_filtered.csv'
+    input_file = '../data/CDX0426.csv'
+    output_file = '../data/CDX0426_processed.csv'
+    filtered_output_file = '../data/CDX0426_filtered.csv'
 
     
     # Load column mapping
