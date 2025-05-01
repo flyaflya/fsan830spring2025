@@ -224,7 +224,7 @@ def main():
 
 import sys
 import xarray as xr
-from xml_to_xarray import parse_xml_to_xarray
+from students.okediran_tunmbi.preprocessing.training.xml_to_xarray import parse_xml_to_xarray
 
 def main():
     xml_path = sys.argv[1] if len(sys.argv) > 1 else '/Users/masoud/fsan830spring2025/data/sampleRaceResults/del20230708tch.xml'
