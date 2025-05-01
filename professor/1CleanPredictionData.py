@@ -6,8 +6,8 @@ def load_column_mapping():
     """Load column mapping from CSV file."""
     try:
         mapping_df = pd.read_csv('professor/column_mapping.csv')
-        # Convert to dictionary with column numbers as keys
-        mapping_dict = dict(zip(mapping_df['column_number'], mapping_df['header_name']))
+        # Convert column_number to integer and create dictionary
+        mapping_dict = dict(zip(mapping_df['column_number'].astype(int), mapping_df['header_name']))
         return mapping_dict
     except Exception as e:
         print(f"Error loading column mapping: {e}")
