@@ -1,0 +1,50 @@
+[
+  {
+    "field": 1,
+    "description": "Track                         CHARACTER  XXX       3"
+  },
+  {
+    "field": 2,
+    "description": "Date                          CHARACTER  XXXXXXXX  8"
+  },
+  {
+    "field": 3,
+    "description": "Race"
+  },
+  {
+    "field": 4,
+    "description": "Post Position                 NUMERIC    99        2"
+  },
+  {
+    "field": 5,
+    "description": "Entry                         CHARACTER  X         1"
+  },
+  {
+    "field": 6,
+    "description": "Distance (in yards)           NUMERIC    99999     5"
+  },
+  {
+    "field": 7,
+    "description": "Surface                       CHARACTER  X         1"
+  },
+  {
+    "field": 8,
+    "description": "Reserved"
+  },
+  {
+    "field": 9,
+    "description": "Race Type                     CHARACTER  XX        2"
+  },
+  {
+    "field": 10,
+    "description": "Age/Sex Restrictions          CHARACTER  XXX"
+  },
+  {
+    "field": 11,
+    "description": "Today's Race Classification   CHARACTER X(14)"
+  },
+  {
+    "field": 12,
+    "description": "Purse                         NUMERIC    99999999  8"
+  }
+]
