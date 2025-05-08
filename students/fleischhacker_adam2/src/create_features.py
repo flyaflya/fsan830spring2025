@@ -26,20 +26,24 @@ def calculate_points(finish_pos):
     float
         Points earned
     """
-    if pd.isna(finish_pos):
-        return np.nan
+    # Handle any invalid input by returning 0
+    if pd.isna(finish_pos) or finish_pos == '' or finish_pos is None:
+        return 0.0
     
-    finish_pos = float(finish_pos)
-    if finish_pos == 1:
-        return 6.0
-    elif finish_pos == 2:
-        return 2.0
-    elif finish_pos == 3:
-        return 1.0
-    else:
+    try:
+        finish_pos = float(finish_pos)
+        if finish_pos == 1:
+            return 6.0
+        elif finish_pos == 2:
+            return 2.0
+        elif finish_pos == 3:
+            return 1.0
+        else:
+            return 0.0
+    except (ValueError, TypeError):
         return 0.0
 
-def load_and_process_data(input_path, is_training_data=False):
+def load_and_process_data(input_path, is_training_data=False, max_starters=14):
     """
     Load and process the dataset to create initial features.
     
@@ -50,6 +54,8 @@ def load_and_process_data(input_path, is_training_data=False):
     is_training_data : bool
         If True, convert distance from furlongs to yards
         If False, assume distance is already in yards
+    max_starters : int
+        Maximum number of starters to include. Default is 14.
         
     Returns:
     --------
@@ -65,12 +71,12 @@ def load_and_process_data(input_path, is_training_data=False):
     purses = []
     
     # Initialize dictionaries to store data for each starter
-    points = {f'st{i+1}_r1_pts': [] for i in range(23)}  # 23 starters max, r1 = recent1, pts = points
-    stretch_pos = {f'st{i+1}_r1_str': [] for i in range(23)}  # str = stretch position
-    num_entrants = {f'st{i+1}_r1_ent': [] for i in range(23)}  # ent = number of entrants
+    points = {f'st{i+1}_r1_pts': [] for i in range(max_starters)}  # r1 = recent1, pts = points
+    stretch_pos = {f'st{i+1}_r1_str': [] for i in range(max_starters)}  # str = stretch position
+    num_entrants = {f'st{i+1}_r1_ent': [] for i in range(max_starters)}  # ent = number of entrants
     
-    # Initialize dictionary for finish positions (target variables)
-    finish_positions = {f'st{i+1}_fin': [] for i in range(23)}  # fin = finish position
+    # Initialize dictionary for target points (6-2-1 system)
+    target_points = {f'st{i+1}_pts': [] for i in range(max_starters)}  # pts = points (target variable)
     
     # Process each race
     for race_idx in range(len(ds.race)):
@@ -94,10 +100,10 @@ def load_and_process_data(input_path, is_training_data=False):
                         distance_yards = float(dist)
                         break
                 else:
-                    # If all values are empty
-                    distance_yards = np.nan
+                    # If all values are empty, use 0
+                    distance_yards = 0.0
             except (ValueError, TypeError):
-                distance_yards = np.nan
+                distance_yards = 0.0
         
         # Get purse value
         try:
@@ -106,13 +112,13 @@ def load_and_process_data(input_path, is_training_data=False):
             else:
                 # For prediction data, get the first non-null purse value for the race
                 race_purses = ds.purse.values[race_idx]
-                purse = np.nan
+                purse = 0.0  # Default to 0 for missing purse values
                 for p in race_purses:
                     if not pd.isna(p) and p != '':
                         purse = float(p)
                         break
         except (ValueError, TypeError, AttributeError):
-            purse = np.nan  # Use NaN for missing purse values
+            purse = 0.0  # Use 0 for missing purse values
         
         # Get most recent race data for all starters
         if is_training_data:
@@ -132,28 +138,32 @@ def load_and_process_data(input_path, is_training_data=False):
         purses.append(purse)
         
         # Store data for each starter
-        for starter_idx in range(23):  # Process all 23 possible starter positions
+        for starter_idx in range(max_starters):  # Process only up to max_starters
             if starter_idx < len(race_finish_positions):
                 # Calculate points from finish position
                 finish_pos = race_finish_positions[starter_idx]
                 points[f'st{starter_idx+1}_r1_pts'].append(calculate_points(finish_pos))
                 
-                # Store stretch position
-                stretch_pos[f'st{starter_idx+1}_r1_str'].append(race_stretch_positions[starter_idx])
+                # Store stretch position (use 20 for missing values)
+                stretch_pos[f'st{starter_idx+1}_r1_str'].append(
+                    float(race_stretch_positions[starter_idx]) if not pd.isna(race_stretch_positions[starter_idx]) else 20.0
+                )
                 
-                # Store number of entrants
-                num_entrants[f'st{starter_idx+1}_r1_ent'].append(race_num_entrants[starter_idx])
+                # Store number of entrants (use 0 for missing values)
+                num_entrants[f'st{starter_idx+1}_r1_ent'].append(
+                    float(race_num_entrants[starter_idx]) if not pd.isna(race_num_entrants[starter_idx]) else 0.0
+                )
                 
-                # Store finish position (target variable)
-                if not is_training_data:
-                    finish_positions[f'st{starter_idx+1}_fin'].append(finish_pos)
+                # Store target points (6-2-1 system) only for training data
+                if is_training_data:
+                    target_points[f'st{starter_idx+1}_pts'].append(calculate_points(finish_pos))
             else:
-                # Add NaN for missing starters
-                points[f'st{starter_idx+1}_r1_pts'].append(np.nan)
-                stretch_pos[f'st{starter_idx+1}_r1_str'].append(np.nan)
-                num_entrants[f'st{starter_idx+1}_r1_ent'].append(np.nan)
-                if not is_training_data:
-                    finish_positions[f'st{starter_idx+1}_fin'].append(np.nan)
+                # Add default values for missing starters
+                points[f'st{starter_idx+1}_r1_pts'].append(0.0)  # 0 points for missing starters
+                stretch_pos[f'st{starter_idx+1}_r1_str'].append(20.0)  # Position 20 for missing starters
+                num_entrants[f'st{starter_idx+1}_r1_ent'].append(0.0)  # 0 entrants for missing starters
+                if is_training_data:
+                    target_points[f'st{starter_idx+1}_pts'].append(0.0)  # 0 points for missing starters
     
     # Create DataFrame with all columns
     df_dict = {
@@ -165,11 +175,15 @@ def load_and_process_data(input_path, is_training_data=False):
         **num_entrants  # Add all starter number of entrants columns
     }
     
-    # Add finish position columns for prediction data
-    if not is_training_data:
-        df_dict.update(finish_positions)
+    # Add target points columns only for training data
+    if is_training_data:
+        df_dict.update(target_points)
     
     df = pd.DataFrame(df_dict)
+    
+    # Ensure all points columns have 0.0 instead of NaN
+    points_cols = [col for col in df.columns if col.endswith('_pts')]
+    df[points_cols] = df[points_cols].fillna(0.0)
     
     return df
 
@@ -185,15 +199,15 @@ def create_feature_dataframes():
     output_dir = Path("students/fleischhacker_adam2/data/features")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Process training data
-    print("Processing training data...")
-    training_df = load_and_process_data(training_input, is_training_data=True)
+    # Process training data with fixed 14 starters
+    print("\nProcessing training data...")
+    training_df = load_and_process_data(training_input, is_training_data=True, max_starters=14)
     training_df.to_csv(output_dir / "training_features.csv", index=False)
     print(f"Training features saved to {output_dir / 'training_features.csv'}")
     
-    # Process prediction data
+    # Process prediction data with actual number of starters per race
     print("\nProcessing prediction data...")
-    prediction_df = load_and_process_data(prediction_input, is_training_data=False)
+    prediction_df = load_and_process_data(prediction_input, is_training_data=False, max_starters=14)
     prediction_df.to_csv(output_dir / "prediction_features.csv", index=False)
     print(f"Prediction features saved to {output_dir / 'prediction_features.csv'}")
     
