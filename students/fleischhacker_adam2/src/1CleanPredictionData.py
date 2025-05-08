@@ -1,19 +1,21 @@
 """
 This script processes racing data from the following locations:
-- Input: ../data/CDX0426.csv (raw racing data)
-- Output: ../data/CDX0426_processed.csv (processed data with all columns)
-- Output: ../data/CDX0426_filtered.csv (filtered data with only mapped columns)
+- Input: ../data/rawDataForPrediction/CDX0426.csv (raw racing data)
+- Output: ../data/processed/CDX0426_processed.csv (processed data with all columns)
+- Output: ../data/processed/CDX0426_filtered.csv (filtered data with only mapped columns)
 - Mapping: ../data/column_mapping.csv (column header mappings)
 """
 
 import pandas as pd
-import json
+import numpy as np
+import xarray as xr
+from pathlib import Path
 import csv
 
 def load_column_mapping():
     """Load column mapping from CSV file."""
     try:
-        mapping_df = pd.read_csv('../data/column_mapping.csv')
+        mapping_df = pd.read_csv('students/fleischhacker_adam2/data/column_mapping.csv')
         # Convert column_number to integer and create dictionary
         mapping_dict = dict(zip(mapping_df['column_number'].astype(int), mapping_df['header_name']))
         return mapping_dict
@@ -21,20 +23,24 @@ def load_column_mapping():
         print(f"Error loading column mapping: {e}")
         return {}
 
-
-def process_racing_data():
-    """Process the racing data CSV file."""
-    # Read the input file
-    input_file = '../data/CDX0426.csv'
-    output_file = '../data/CDX0426_processed.csv'
-    filtered_output_file = '../data/CDX0426_filtered.csv'
-
+def create_prediction_dataset(data_dir):
+    """Create an xarray dataset from the prediction data CSV file."""
+    # Process the CSV file
+    data_dir_path = Path(data_dir)
+    if not data_dir_path.exists():
+        raise FileNotFoundError(f"Data directory not found: {data_dir}")
+    
+    csv_file = data_dir_path / 'CDX0426.csv'
+    if not csv_file.exists():
+        raise FileNotFoundError(f"CSV file not found: {csv_file}")
+    
+    print(f"Processing {csv_file.name}...")
     
     # Load column mapping
     column_mapping = load_column_mapping()
     
     # Read CSV file
-    df = pd.read_csv(input_file, header=None, quoting=csv.QUOTE_MINIMAL)
+    df = pd.read_csv(csv_file, header=None, quoting=csv.QUOTE_MINIMAL)
     
     # Create default column names (col_1, col_2, etc.)
     default_columns = [f'col_{i+1}' for i in range(len(df.columns))]
@@ -46,7 +52,9 @@ def process_racing_data():
             df.rename(columns={f'col_{col_num}': header_name}, inplace=True)
     
     # Save processed CSV with all columns
-    df.to_csv(output_file, index=False)
+    processed_file = Path("data/processed") / 'CDX0426_processed.csv'
+    processed_file.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(processed_file, index=False)
     
     # Create a filtered dataframe with only the columns that have headers from the mapping
     mapped_columns = []
@@ -56,15 +64,84 @@ def process_racing_data():
     
     filtered_df = df[mapped_columns]
     
-    # Save filtered CSV with only mapped columns
-    filtered_df.to_csv(filtered_output_file, index=False)
+    # Sort by race number and post position
+    filtered_df = filtered_df.sort_values(['race_number', 'post_position'])
     
+    # Group by race to get number of starters per race
+    race_groups = filtered_df.groupby('race_number')
+    max_starters = race_groups.size().max()
     
-    print(f"Processed file saved to: {output_file}")
-    print(f"Filtered file (mapped columns only) saved to: {filtered_output_file}")
+    # Create xarray dataset with proper dimensions
+    ds = xr.Dataset()
+    
+    # Add dimensions
+    ds.coords['race'] = np.arange(1, len(race_groups) + 1)  # Race numbers
+    ds.coords['starter'] = np.arange(max_starters)  # Maximum number of starters
+    
+    # Initialize arrays for each variable
+    for col in filtered_df.columns:
+        if col not in ['race_number', 'post_position']:  # Skip these as they're used for indexing
+            # Determine if the column contains numeric or string data
+            sample_value = filtered_df[col].iloc[0]
+            if isinstance(sample_value, (int, float)) or (isinstance(sample_value, str) and sample_value.replace('.', '').isdigit()):
+                # Numeric data
+                arr = np.full((len(ds.race), len(ds.starter)), np.nan, dtype=float)
+            else:
+                # String data
+                arr = np.full((len(ds.race), len(ds.starter)), '', dtype=object)
+            
+            # Fill in values for each race
+            for race_idx, (race_num, race_df) in enumerate(race_groups):
+                for starter_idx, (_, row) in enumerate(race_df.iterrows()):
+                    value = row[col]
+                    if pd.isna(value):
+                        continue
+                    if isinstance(arr, np.ndarray) and arr.dtype == float:
+                        try:
+                            arr[race_idx, starter_idx] = float(value)
+                        except (ValueError, TypeError):
+                            arr[race_idx, starter_idx] = np.nan
+                    else:
+                        arr[race_idx, starter_idx] = str(value).strip()
+            
+            ds[col] = (['race', 'starter'], arr)
+    
+    # Add race number and post position as coordinates
+    race_nums = np.array([race_num for race_num, _ in race_groups])
+    ds.coords['race_number'] = ('race', race_nums)
+    
+    post_positions = np.full((len(ds.race), len(ds.starter)), np.nan)
+    for race_idx, (_, race_df) in enumerate(race_groups):
+        for starter_idx, (_, row) in enumerate(race_df.iterrows()):
+            post_positions[race_idx, starter_idx] = row['post_position']
+    ds.coords['post_position'] = (['race', 'starter'], post_positions)
+    
+    # Print summary statistics
+    print("\nProcessing Summary:")
+    print("=" * 80)
+    print(f"Total races: {len(ds.race)}")
+    print(f"Maximum starters per race: {len(ds.starter)}")
+    print(f"Total entries: {filtered_df.shape[0]}")
+    print("=" * 80)
+    
+    return ds
 
-    print(f"Applied {len(column_mapping)} column headers from mapping file")
-    print(f"Filtered file contains {len(mapped_columns)} columns with defined headers")
+def save_dataset(ds, output_dir):
+    """Save the xarray dataset to a netCDF file in the specified directory."""
+    # Create output directory if it doesn't exist
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+    
+    # Save the dataset
+    output_file = output_path / "processed_prediction_data.nc"
+    ds.to_netcdf(output_file)
+    print(f"Dataset saved to {output_file}")
 
 if __name__ == "__main__":
-    process_racing_data()
+    # Process prediction data
+    data_dir = "data/rawDataForPrediction"
+    ds = create_prediction_dataset(data_dir)
+    
+    # Save the dataset
+    output_dir = "students/fleischhacker_adam2/data/processed"
+    save_dataset(ds, output_dir)
