@@ -188,7 +188,7 @@ def parse_past_performance_xml(xml_file):
                         current_races['race_ids'].append(current_race_id)
                         current_races['surfaces'].append(surface)
                         current_races['distances'].append(distance)
-                        current_races['purses'].append(purse)
+                        current_races['purses'].append(purse)  # Store purse per race
                         current_races['horses'].append(horse)
                         current_races['jockeys'].append(jockey)
                         current_races['trainers'].append(trainer)

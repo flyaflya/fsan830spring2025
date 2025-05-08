@@ -31,6 +31,7 @@ def load_and_process_data(input_path, is_training_data=False):
     # Initialize lists to store data
     race_ids = []
     distances = []
+    purses = []
     
     # Process each race
     for race_idx in range(len(ds.race)):
@@ -59,14 +60,31 @@ def load_and_process_data(input_path, is_training_data=False):
             except (ValueError, TypeError):
                 distance_yards = np.nan
         
+        # Get purse value
+        try:
+            if is_training_data:
+                purse = float(ds.purse.values[race_idx])
+            else:
+                # For prediction data, get the first non-null purse value for the race
+                race_purses = ds.purse.values[race_idx]
+                purse = np.nan
+                for p in race_purses:
+                    if not pd.isna(p) and p != '':
+                        purse = float(p)
+                        break
+        except (ValueError, TypeError, AttributeError):
+            purse = np.nan  # Use NaN for missing purse values
+        
         # Store the data
         race_ids.append(race_id)
         distances.append(distance_yards)
+        purses.append(purse)
     
     # Create DataFrame
     df = pd.DataFrame({
         'race_id': race_ids,
-        'distance_yards': distances
+        'distance_yards': distances,
+        'purse': purses
     })
     
     return df
