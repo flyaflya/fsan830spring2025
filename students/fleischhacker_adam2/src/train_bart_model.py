@@ -4,6 +4,7 @@ import pymc as pm
 import arviz as az
 import pymc_bart as pmb
 import os
+import xarray as xr
 
 def load_data():
     # Load training and prediction data
@@ -29,7 +30,14 @@ def load_data():
     # Prepare prediction data (only features, no targets)
     X_pred = pred_df[feature_cols].values
     
-    return X_train, y_train, X_pred, feature_cols, target_cols, n_starters
+    # Extract race_ids from prediction data if available
+    if 'race_id' in pred_df.columns:
+        race_ids = pred_df['race_id'].values
+    else:
+        # If race_ids aren't available, just use indices 1-10
+        race_ids = np.arange(1, len(pred_df) + 1)
+    
+    return X_train, y_train, X_pred, feature_cols, target_cols, n_starters, race_ids
 
 def create_multi_output_bart_model(X_train, y_train, n_starters):
     # Set up coordinates for our dimensions
@@ -67,7 +75,7 @@ def create_multi_output_bart_model(X_train, y_train, n_starters):
 def main():
     # Load and preprocess data
     print("Loading data...")
-    X_train, y_train, X_pred, feature_cols, target_cols, n_starters = load_data()
+    X_train, y_train, X_pred, feature_cols, target_cols, n_starters, race_ids = load_data()
     
     # Create and train model
     print("Creating multi-output BART model...")
@@ -124,7 +132,10 @@ def main():
     
     # Combine chains and draws to get all samples
     # Reshape to (4000, 14, 179) by merging chains and draws dimensions
-    combined_samples = mu_preds.reshape(-1, mu_preds.shape[2], mu_preds.shape[3])
+    n_chains = mu_preds.shape[0]
+    n_draws = mu_preds.shape[1]
+    total_samples = n_chains * n_draws
+    combined_samples = mu_preds.reshape(total_samples, mu_preds.shape[2], mu_preds.shape[3])
     print(f"Combined samples shape: {combined_samples.shape}")
     
     # Extract only the predictions for our 10 observations
@@ -143,8 +154,7 @@ def main():
     os.makedirs('posterior_draws', exist_ok=True)
     
     # Select 100 random sample indices
-    n_total_samples = combined_samples.shape[0]  # Should be 4000
-    random_indices = np.random.choice(n_total_samples, size=100, replace=False)
+    random_indices = np.random.choice(total_samples, size=100, replace=False)
     
     for i, idx in enumerate(random_indices):
         # Extract a single draw from the posterior - shape (14, 10)
@@ -172,6 +182,40 @@ def main():
     median_df.to_csv('predictions_median.csv', index=False)
     q05_df.to_csv('predictions_q05.csv', index=False)
     q95_df.to_csv('predictions_q95.csv', index=False)
+    
+    # Option 4: Create and save an xarray Dataset with the structure you requested
+    print("Creating xarray Dataset...")
+    
+    # Transpose predictions_subset to get (draws, starters, races) shape
+    # Original shape: (4000, 14, 10) -> Desired shape: (4000, 14, 10)
+    # So actually no transposition needed, just reshape for clarity
+    xr_predictions = predictions_subset
+    
+    # Create coordinates for the xarray Dataset
+    draw_ids = np.arange(1, total_samples + 1)  # 1 to 4000
+    starter_ids = np.arange(1, n_starters + 1)  # 1 to 14
+    race_ids_subset = race_ids[:n_pred]  # First 10 race ids from prediction data
+    
+    # Create xarray Dataset
+    ds = xr.Dataset(
+        data_vars={
+            "predictions": (["draw", "starter", "race"], xr_predictions)
+        },
+        coords={
+            "draw": draw_ids,
+            "starter": starter_ids,
+            "race": race_ids_subset
+        }
+    )
+    
+    # Add some metadata
+    ds.attrs["description"] = "Posterior predictive draws for race predictions"
+    ds.attrs["model"] = "BART"
+    ds.attrs["date_created"] = pd.Timestamp.now().strftime("%Y-%m-%d")
+    
+    # Save the xarray Dataset
+    print("Saving xarray Dataset...")
+    ds.to_netcdf("posterior_predictions.nc")
     
     print("Training and prediction complete!")
 
