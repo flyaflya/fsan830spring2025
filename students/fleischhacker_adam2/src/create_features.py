@@ -72,7 +72,7 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
     
     # Initialize dictionaries to store data for each starter
     # points = {f'st{i+1}_r1_pts': [] for i in range(max_starters)}  # r1 = recent1, pts = points
-    # stretch_pos = {f'st{i+1}_r1_str': [] for i in range(max_starters)}  # str = stretch position
+    # surge = {f'st{i+1}_surge': [] for i in range(max_starters)}  # surge = improvement in final stretch
     # num_entrants = {f'st{i+1}_r1_ent': [] for i in range(max_starters)}  # ent = number of entrants
     odds = {f'st{i+1}_odds': [] for i in range(max_starters)}  # odds for each starter
     
@@ -140,16 +140,14 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
         
         # Get most recent race data for all starters
         if is_training_data:
-            # For training data, use the official finish positions for the current race
-            race_finish_positions = ds.finish_position.isel(race=race_idx).values
-            # race_stretch_positions = ds.recent_last_call_pos.isel(race=race_idx, past_race=0).values
-            # race_num_entrants = ds.recent_num_starters.isel(race=race_idx, past_race=0).values
+            # For training data, use the most recent prior race's finish and stretch positions
+            prior_finish_positions = ds.recent_finish_pos.isel(race=race_idx, past_race=0).values
+            prior_stretch_positions = ds.recent_last_call_pos.isel(race=race_idx, past_race=0).values
             race_odds = ds.odds.isel(race=race_idx).values if 'odds' in ds else np.full(max_starters, 999.0)
         else:
-            # For prediction data, get the first post position
-            race_finish_positions = ds.recentPostPosition1.isel(race=race_idx).values
-            # race_stretch_positions = ds.recentStretchPosition1.isel(race=race_idx).values
-            # race_num_entrants = ds.recentNumEntrants1.isel(race=race_idx).values
+            # For prediction data, use the most recent prior race's finish and stretch positions
+            prior_finish_positions = ds.recentFinishPosition1.isel(race=race_idx).values
+            prior_stretch_positions = ds.recentStretchPosition1.isel(race=race_idx).values
             race_odds = ds.odds.isel(race=race_idx).values if 'odds' in ds else np.full(max_starters, 999.0)
         
         # Store the data
@@ -159,20 +157,19 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
         
         # Store data for each starter
         for starter_idx in range(max_starters):  # Process only up to max_starters
-            if starter_idx < len(race_finish_positions):
-                # Calculate points from finish position
-                finish_pos = race_finish_positions[starter_idx]
-                # points[f'st{starter_idx+1}_r1_pts'].append(calculate_points(finish_pos))
-                
-                # Store stretch position (use -1 for missing values - indicates no position)
-                # stretch_pos[f'st{starter_idx+1}_r1_str'].append(
-                #     float(race_stretch_positions[starter_idx]) if not pd.isna(race_stretch_positions[starter_idx]) else -1.0
-                # )
-                
-                # Store number of entrants (use 0 for missing values)
-                # num_entrants[f'st{starter_idx+1}_r1_ent'].append(
-                #     float(race_num_entrants[starter_idx]) if not pd.isna(race_num_entrants[starter_idx]) else 0.0
-                # )
+            if starter_idx < len(prior_finish_positions):
+                finish_pos = prior_finish_positions[starter_idx]
+                stretch_pos_value = float(prior_stretch_positions[starter_idx]) if not pd.isna(prior_stretch_positions[starter_idx]) else -1.0
+                # Calculate surge (improvement in final stretch)
+                # if stretch_pos_value == -1.0 or pd.isna(finish_pos):
+                #     surge_value = 0.0
+                # else:
+                #     # Only calculate surge for horses that finished in top 2 in the prior race
+                #     if finish_pos <= 2:
+                #         surge_value = max(0, stretch_pos_value - finish_pos)
+                #     else:
+                #         surge_value = 0.0
+                # surge[f'st{starter_idx+1}_surge'].append(surge_value)
                 
                 # Store odds (use 999.0 for missing values - worst possible odds)
                 odds[f'st{starter_idx+1}_odds'].append(
@@ -184,9 +181,7 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
                     target_points[f'st{starter_idx+1}_pts'].append(calculate_points(finish_pos))
             else:
                 # Add default values for missing starters
-                # points[f'st{starter_idx+1}_r1_pts'].append(0.0)  # 0 points for missing starters
-                # stretch_pos[f'st{starter_idx+1}_r1_str'].append(-1.0)  # -1 for missing starters (no position)
-                # num_entrants[f'st{starter_idx+1}_r1_ent'].append(0.0)  # 0 entrants for missing starters
+                # surge[f'st{starter_idx+1}_surge'].append(0.0)  # 0 surge for missing starters
                 odds[f'st{starter_idx+1}_odds'].append(999.0)  # 999 for missing odds
                 if is_training_data:
                     target_points[f'st{starter_idx+1}_pts'].append(0.0)  # 0 points for missing starters
@@ -197,7 +192,7 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
         'distance_yards': distances,
         'purse': purses,
         # **points,  # Add all starter points columns
-        # **stretch_pos,  # Add all starter stretch position columns
+        # **surge,  # Add all starter surge columns
         # **num_entrants,  # Add all starter number of entrants columns
         **odds  # Add all starter odds columns
     }

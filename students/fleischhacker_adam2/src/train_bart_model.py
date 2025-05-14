@@ -83,7 +83,7 @@ def create_multi_output_bart_model(X_train, y_train, n_starters):
             "μ", 
             X,
             y_train,  
-            m=200,     # Reduced number of trees to prevent overfitting
+            m=500,     # number of trees
             dims=["starters", "n_obs"],
             separate_trees=False  # Use separate trees for each starter
         )

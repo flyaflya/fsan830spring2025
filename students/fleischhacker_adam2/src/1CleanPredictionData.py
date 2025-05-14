@@ -47,7 +47,7 @@ def create_prediction_dataset(data_dir):
     if not data_dir_path.exists():
         raise FileNotFoundError(f"Data directory not found: {data_dir}")
     
-    csv_file = data_dir_path / 'CDX0426.csv'
+    csv_file = data_dir_path / 'CDX0515.csv'
     if not csv_file.exists():
         raise FileNotFoundError(f"CSV file not found: {csv_file}")
     

@@ -1,0 +1,106 @@
+Kelly Criterion Analysis Report (Condensed)
+========================================
+Generated on: 2025-05-14 17:01:24
+
+Race 1:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #1 - odds 4.0, win prob: 35.8%
+  2. Starter #7 - odds 3.5, win prob: 13.8%
+  3. Starter #8 - odds 3.0, win prob: 11.9%
+Best Kelly Bet:
+  Starter #1 - odds 4.0, win prob: 35.8%, Kelly: 14.4% of bankroll
+
+Race 2:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #4 - odds 3.0, win prob: 36.4%
+  2. Starter #7 - odds 2.0, win prob: 17.2%
+  3. Starter #1 - odds 20.0, win prob: 16.3%
+Best Kelly Bet:
+  Starter #1 - odds 20.0, win prob: 16.3%, Kelly: 11.9% of bankroll
+
+Race 3:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #7 - odds 2.5, win prob: 32.0%
+  2. Starter #2 - odds 5.0, win prob: 18.1%
+  3. Starter #1 - odds 3.0, win prob: 13.5%
+Best Kelly Bet:
+  Starter #4 - odds 15.0, win prob: 12.5%, Kelly: 6.3% of bankroll
+
+Race 4:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #1 - odds 4.5, win prob: 51.4%
+  2. Starter #6 - odds 2.0, win prob: 16.9%
+  3. Starter #2 - odds 15.0, win prob: 11.8%
+Best Kelly Bet:
+  Starter #1 - odds 4.5, win prob: 51.4%, Kelly: 37.6% of bankroll
+
+Race 5:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #7 - odds 5.0, win prob: 27.5%
+  2. Starter #2 - odds 4.0, win prob: 23.5%
+  3. Starter #4 - odds 2.5, win prob: 18.4%
+Best Kelly Bet:
+  Starter #7 - odds 5.0, win prob: 27.5%, Kelly: 9.3% of bankroll
+
+Race 6:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #3 - odds 4.5, win prob: 21.6%
+  2. Starter #4 - odds 4.0, win prob: 17.9%
+  3. Starter #2 - odds 5.0, win prob: 15.7%
+Best Kelly Bet:
+  Starter #6 - odds 20.0, win prob: 7.4%, Kelly: 2.5% of bankroll
+
+Race 7:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #2 - odds 2.5, win prob: 56.3%
+  2. Starter #6 - odds 4.5, win prob: 16.0%
+  3. Starter #4 - odds 4.0, win prob: 12.3%
+Best Kelly Bet:
+  Starter #2 - odds 2.5, win prob: 56.3%, Kelly: 27.2% of bankroll
+
+Race 8:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #5 - odds 15.0, win prob: 22.7%
+  2. Starter #4 - odds 4.5, win prob: 22.1%
+  3. Starter #12 - odds 5.0, win prob: 12.4%
+Best Kelly Bet:
+  Starter #5 - odds 15.0, win prob: 22.7%, Kelly: 17.2% of bankroll
+
+Race 9:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #2 - odds 2.5, win prob: 52.7%
+  2. Starter #6 - odds 3.0, win prob: 21.5%
+  3. Starter #1 - odds 4.5, win prob: 15.9%
+Best Kelly Bet:
+  Starter #2 - odds 2.5, win prob: 52.7%, Kelly: 21.1% of bankroll
+
+Race 10:
+----------------------------------------
+Top 3 by Win Probability:
+  1. Starter #3 - odds 1.4, win prob: 28.1%
+  2. Starter #10 - odds 6.0, win prob: 20.8%
+  3. Starter #1 - odds 6.0, win prob: 13.0%
+Best Kelly Bet:
+  Starter #10 - odds 6.0, win prob: 20.8%, Kelly: 4.9% of bankroll
+
+Summary of Best Kelly Bets:
+===========================
+Race 1: Starter #1 - odds 4.0, win prob: 35.8%, Kelly: 14.4% of bankroll
+Race 2: Starter #1 - odds 20.0, win prob: 16.3%, Kelly: 11.9% of bankroll
+Race 3: Starter #4 - odds 15.0, win prob: 12.5%, Kelly: 6.3% of bankroll
+Race 4: Starter #1 - odds 4.5, win prob: 51.4%, Kelly: 37.6% of bankroll
+Race 5: Starter #7 - odds 5.0, win prob: 27.5%, Kelly: 9.3% of bankroll
+Race 6: Starter #6 - odds 20.0, win prob: 7.4%, Kelly: 2.5% of bankroll
+Race 7: Starter #2 - odds 2.5, win prob: 56.3%, Kelly: 27.2% of bankroll
+Race 8: Starter #5 - odds 15.0, win prob: 22.7%, Kelly: 17.2% of bankroll
+Race 9: Starter #2 - odds 2.5, win prob: 52.7%, Kelly: 21.1% of bankroll
+Race 10: Starter #10 - odds 6.0, win prob: 20.8%, Kelly: 4.9% of bankroll
