@@ -23,6 +23,30 @@ def load_data():
     # Get target columns (only from training data)
     target_cols = [f'st{i}_pts' for i in range(1, n_starters + 1)]
     
+    # Handle any remaining NaN values in features
+    # For numeric columns, use appropriate imputation values
+    for col in feature_cols:
+        if 'odds' in col:
+            # For odds, use 999.0 (worst possible odds)
+            train_df[col] = train_df[col].fillna(999.0)
+            pred_df[col] = pred_df[col].fillna(999.0)
+        elif 'str' in col:  # stretch position
+            # For stretch position, use -1.0 (indicates no position)
+            train_df[col] = train_df[col].fillna(-1.0)
+            pred_df[col] = pred_df[col].fillna(-1.0)
+        elif 'ent' in col:  # number of entrants
+            # For number of entrants, use 0.0
+            train_df[col] = train_df[col].fillna(0.0)
+            pred_df[col] = pred_df[col].fillna(0.0)
+        elif 'pts' in col:  # points
+            # For points, use 0.0
+            train_df[col] = train_df[col].fillna(0.0)
+            pred_df[col] = pred_df[col].fillna(0.0)
+        else:
+            # For any other numeric columns, use 0.0
+            train_df[col] = train_df[col].fillna(0.0)
+            pred_df[col] = pred_df[col].fillna(0.0)
+    
     # Prepare training data
     X_train = train_df[feature_cols].values
     y_train = train_df[target_cols].values
@@ -59,16 +83,18 @@ def create_multi_output_bart_model(X_train, y_train, n_starters):
             "μ", 
             X,
             y_train,  
-            m=50,     
+            m=200,     # Reduced number of trees to prevent overfitting
             dims=["starters", "n_obs"],
-            separate_trees=False  # Share tree structure across outputs
+            separate_trees=True  # Use separate trees for each starter
         )
         
-        # Error term with appropriate dimensions
-        σ = pm.HalfNormal("σ", 1, dims=["starters"])
+        # More flexible error term with appropriate dimensions
+        # Allow different error terms for each starter and observation
+        σ = pm.HalfNormal("σ", 2, dims=["starters", "n_obs"])
         
         # Make sure the observation matches dimensions properly
-        obs = pm.Normal("obs", mu=μ, sigma=σ.dimshuffle(0, 'x'), observed=y_train.T)
+        # No need for dimshuffle since dimensions already match
+        obs = pm.Normal("obs", mu=μ, sigma=σ, observed=y_train.T)
     
     return model, X  # Return both the model and the X variable
 
@@ -85,8 +111,8 @@ def main():
     print("Sampling from posterior...")
     with model:
         idata = pm.sample(
-            draws=1000,
-            tune=1000,
+            draws=2000,
+            tune=2000,
             chains=4,
             cores=4,
             return_inferencedata=True
@@ -146,12 +172,17 @@ def main():
     # Save the full posterior predictive distribution
     print("Saving full posterior predictive distribution...")
     
+    # Create output directory
+    output_dir = 'students/fleischhacker_adam2/model_outputs'
+    os.makedirs(output_dir, exist_ok=True)
+    
     # Option 1: Save as numpy array - contains all 4000 samples for all starters and observations
-    np.save('posterior_predictive_full.npy', predictions_subset)
+    np.save(os.path.join(output_dir, 'posterior_predictive_full.npy'), predictions_subset)
     
     # Option 2: Save CSV files for a subset of draws to avoid creating too many files
     # Let's save 100 random draws instead of all 4000
-    os.makedirs('posterior_draws', exist_ok=True)
+    draws_dir = os.path.join(output_dir, 'posterior_draws')
+    os.makedirs(draws_dir, exist_ok=True)
     
     # Select 100 random sample indices
     random_indices = np.random.choice(total_samples, size=100, replace=False)
@@ -162,7 +193,7 @@ def main():
         
         # Transpose to get (10, 14) shape for DataFrame - observations as rows, starters as columns
         draw_df = pd.DataFrame(single_draw.T, columns=target_cols)
-        draw_df.to_csv(f'posterior_draws/draw_{i+1}.csv', index=False)
+        draw_df.to_csv(os.path.join(draws_dir, f'draw_{i+1}.csv'), index=False)
     
     # Option 3: Calculate summary statistics and save them
     # Calculate across the samples dimension (axis=0)
@@ -177,11 +208,37 @@ def main():
     q05_df = pd.DataFrame(q05_preds.T, columns=target_cols)
     q95_df = pd.DataFrame(q95_preds.T, columns=target_cols)
     
+    # Add diagnostic analysis of odds vs predictions
+    print("\nAnalyzing relationship between odds and predictions...")
+    
+    # Load the prediction features to get odds
+    pred_features = pd.read_csv('students/fleischhacker_adam2/data/features/prediction_features.csv')
+    odds_cols = [col for col in pred_features.columns if 'odds' in col]
+    
+    # For each race, compare odds with predictions
+    for race_idx in range(len(mean_df)):
+        print(f"\nRace {race_idx + 1}:")
+        race_odds = pred_features.iloc[race_idx][odds_cols].values
+        race_preds = mean_df.iloc[race_idx].values
+        
+        # Get the lowest odds horse and highest predicted points horse
+        lowest_odds_idx = np.argmin(race_odds)
+        highest_pred_idx = np.argmax(race_preds)
+        
+        print(f"Lowest odds horse (starter {lowest_odds_idx + 1}): {race_odds[lowest_odds_idx]:.2f}")
+        print(f"Highest predicted points horse (starter {highest_pred_idx + 1}): {race_preds[highest_pred_idx]:.2f}")
+        print(f"Predicted points for lowest odds horse: {race_preds[lowest_odds_idx]:.2f}")
+        
+        # Print all horses' odds and predictions
+        print("\nAll horses in this race:")
+        for i in range(len(race_odds)):
+            print(f"Starter {i+1}: Odds = {race_odds[i]:.2f}, Predicted Points = {race_preds[i]:.2f}")
+    
     # Save summary statistics
-    mean_df.to_csv('predictions_mean.csv', index=False)
-    median_df.to_csv('predictions_median.csv', index=False)
-    q05_df.to_csv('predictions_q05.csv', index=False)
-    q95_df.to_csv('predictions_q95.csv', index=False)
+    mean_df.to_csv(os.path.join(output_dir, 'predictions_mean.csv'), index=False)
+    median_df.to_csv(os.path.join(output_dir, 'predictions_median.csv'), index=False)
+    q05_df.to_csv(os.path.join(output_dir, 'predictions_q05.csv'), index=False)
+    q95_df.to_csv(os.path.join(output_dir, 'predictions_q95.csv'), index=False)
     
     # Option 4: Create and save an xarray Dataset with the structure you requested
     print("Creating xarray Dataset...")
@@ -215,7 +272,7 @@ def main():
     
     # Save the xarray Dataset
     print("Saving xarray Dataset...")
-    ds.to_netcdf("posterior_predictions.nc")
+    ds.to_netcdf(os.path.join(output_dir, "posterior_predictions.nc"))
     
     print("Training and prediction complete!")
 

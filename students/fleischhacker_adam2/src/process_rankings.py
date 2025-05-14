@@ -1,6 +1,7 @@
 import xarray as xr
 import numpy as np
 import pandas as pd
+import os
 
 def compute_rankings(ds):
     """
@@ -36,9 +37,13 @@ def compute_rankings(ds):
     return first_place, second_place, third_place
 
 def main():
+    # Create output directory if it doesn't exist
+    output_dir = "students/fleischhacker_adam2/model_outputs"
+    os.makedirs(output_dir, exist_ok=True)
+    
     # Load the xarray dataset
     print("Loading xarray dataset...")
-    ds = xr.open_dataset("posterior_predictions.nc")
+    ds = xr.open_dataset(os.path.join(output_dir, "posterior_predictions.nc"))
     
     # Compute rankings
     print("Computing rankings...")
@@ -70,7 +75,7 @@ def main():
     
     # Save the updated dataset
     print("Saving updated dataset...")
-    ds.to_netcdf("posterior_predictions_with_rankings.nc")
+    ds.to_netcdf(os.path.join(output_dir, "posterior_predictions_with_rankings.nc"))
     
     # Also save summary statistics of rankings
     print("Computing and saving ranking summary statistics...")
@@ -82,20 +87,36 @@ def main():
     
     # Initialize counters
     first_place_counts = np.zeros((n_races, n_starters))
-    second_place_counts = np.zeros((n_races, n_starters))
-    third_place_counts = np.zeros((n_races, n_starters))
+    place_counts = np.zeros((n_races, n_starters))  # For top 2
+    show_counts = np.zeros((n_races, n_starters))   # For top 3
     
     # Count occurrences
     for r in range(n_races):
+        # Get predictions for this race across all draws
+        race_preds = ds.predictions[:, :, r].values
+        
+        # Find actual starters (those with non-zero predictions in at least one draw)
+        actual_starters = np.any(race_preds != 0, axis=0)
+        n_actual_starters = np.sum(actual_starters)
+        
         for d in range(n_draws):
-            first_place_counts[r, first_place[d, r] - 1] += 1
-            second_place_counts[r, second_place[d, r] - 1] += 1
-            third_place_counts[r, third_place[d, r] - 1] += 1
+            # Only count rankings for actual starters
+            if first_place[d, r] <= n_actual_starters:
+                first_place_counts[r, first_place[d, r] - 1] += 1
+                place_counts[r, first_place[d, r] - 1] += 1
+                show_counts[r, first_place[d, r] - 1] += 1
+                
+            if second_place[d, r] <= n_actual_starters:
+                place_counts[r, second_place[d, r] - 1] += 1
+                show_counts[r, second_place[d, r] - 1] += 1
+                
+            if third_place[d, r] <= n_actual_starters:
+                show_counts[r, third_place[d, r] - 1] += 1
     
     # Convert to probabilities
     first_place_probs = first_place_counts / n_draws
-    second_place_probs = second_place_counts / n_draws
-    third_place_probs = third_place_counts / n_draws
+    place_probs = place_counts / n_draws
+    show_probs = show_counts / n_draws
     
     # Create DataFrames for each position
     races = ds.race.values
@@ -103,13 +124,13 @@ def main():
     
     # Create DataFrames
     first_df = pd.DataFrame(first_place_probs, index=races, columns=starters)
-    second_df = pd.DataFrame(second_place_probs, index=races, columns=starters)
-    third_df = pd.DataFrame(third_place_probs, index=races, columns=starters)
+    place_df = pd.DataFrame(place_probs, index=races, columns=starters)
+    show_df = pd.DataFrame(show_probs, index=races, columns=starters)
     
     # Save to CSV
-    first_df.to_csv("first_place_probabilities.csv")
-    second_df.to_csv("second_place_probabilities.csv")
-    third_df.to_csv("third_place_probabilities.csv")
+    first_df.to_csv(os.path.join(output_dir, "first_place_probabilities.csv"))
+    place_df.to_csv(os.path.join(output_dir, "place_probabilities.csv"))
+    show_df.to_csv(os.path.join(output_dir, "show_probabilities.csv"))
     
     print("Processing complete!")
 

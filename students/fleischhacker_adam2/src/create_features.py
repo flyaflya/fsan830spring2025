@@ -71,12 +71,30 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
     purses = []
     
     # Initialize dictionaries to store data for each starter
-    points = {f'st{i+1}_r1_pts': [] for i in range(max_starters)}  # r1 = recent1, pts = points
-    stretch_pos = {f'st{i+1}_r1_str': [] for i in range(max_starters)}  # str = stretch position
-    num_entrants = {f'st{i+1}_r1_ent': [] for i in range(max_starters)}  # ent = number of entrants
+    # points = {f'st{i+1}_r1_pts': [] for i in range(max_starters)}  # r1 = recent1, pts = points
+    # stretch_pos = {f'st{i+1}_r1_str': [] for i in range(max_starters)}  # str = stretch position
+    # num_entrants = {f'st{i+1}_r1_ent': [] for i in range(max_starters)}  # ent = number of entrants
+    odds = {f'st{i+1}_odds': [] for i in range(max_starters)}  # odds for each starter
     
     # Initialize dictionary for target points (6-2-1 system)
-    target_points = {f'st{i+1}_pts': [] for i in range(max_starters)}  # pts = points (target variable)
+    target_points = {f'st{i+1}_pts': [] for i in range(max_starters)}
+    
+    def convert_odds(odds_str):
+        """Convert odds to decimal format consistently."""
+        try:
+            if pd.isna(odds_str) or str(odds_str).strip() == '0':
+                return 999.0  # Use high number for missing odds
+            odds_str = str(odds_str).strip()
+            # Handle decimal odds (e.g., "4.00", "30.00")
+            if odds_str.replace('.', '').isdigit():
+                return float(odds_str)
+            # Handle fractional odds (e.g., "6/1")
+            if '/' in odds_str:
+                num, denom = odds_str.split('/')
+                return float(num) / float(denom) + 1
+            return float(odds_str)
+        except (ValueError, ZeroDivisionError):
+            return 999.0  # Use high number for invalid odds
     
     # Process each race
     for race_idx in range(len(ds.race)):
@@ -122,16 +140,18 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
         
         # Get most recent race data for all starters
         if is_training_data:
-            # For training data, get the most recent data (index 0 in past_race dimension)
-            race_finish_positions = ds.recent_finish_pos.isel(race=race_idx, past_race=0).values
-            race_stretch_positions = ds.recent_last_call_pos.isel(race=race_idx, past_race=0).values
-            race_num_entrants = ds.recent_num_starters.isel(race=race_idx, past_race=0).values
+            # For training data, use the official finish positions for the current race
+            race_finish_positions = ds.finish_position.isel(race=race_idx).values
+            # race_stretch_positions = ds.recent_last_call_pos.isel(race=race_idx, past_race=0).values
+            # race_num_entrants = ds.recent_num_starters.isel(race=race_idx, past_race=0).values
+            race_odds = ds.odds.isel(race=race_idx).values if 'odds' in ds else np.full(max_starters, 999.0)
         else:
             # For prediction data, get the first post position
             race_finish_positions = ds.recentPostPosition1.isel(race=race_idx).values
-            race_stretch_positions = ds.recentStretchPosition1.isel(race=race_idx).values
-            race_num_entrants = ds.recentNumEntrants1.isel(race=race_idx).values
-            
+            # race_stretch_positions = ds.recentStretchPosition1.isel(race=race_idx).values
+            # race_num_entrants = ds.recentNumEntrants1.isel(race=race_idx).values
+            race_odds = ds.odds.isel(race=race_idx).values if 'odds' in ds else np.full(max_starters, 999.0)
+        
         # Store the data
         race_ids.append(race_id)
         distances.append(distance_yards)
@@ -142,16 +162,21 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
             if starter_idx < len(race_finish_positions):
                 # Calculate points from finish position
                 finish_pos = race_finish_positions[starter_idx]
-                points[f'st{starter_idx+1}_r1_pts'].append(calculate_points(finish_pos))
+                # points[f'st{starter_idx+1}_r1_pts'].append(calculate_points(finish_pos))
                 
-                # Store stretch position (use 20 for missing values)
-                stretch_pos[f'st{starter_idx+1}_r1_str'].append(
-                    float(race_stretch_positions[starter_idx]) if not pd.isna(race_stretch_positions[starter_idx]) else 20.0
-                )
+                # Store stretch position (use -1 for missing values - indicates no position)
+                # stretch_pos[f'st{starter_idx+1}_r1_str'].append(
+                #     float(race_stretch_positions[starter_idx]) if not pd.isna(race_stretch_positions[starter_idx]) else -1.0
+                # )
                 
                 # Store number of entrants (use 0 for missing values)
-                num_entrants[f'st{starter_idx+1}_r1_ent'].append(
-                    float(race_num_entrants[starter_idx]) if not pd.isna(race_num_entrants[starter_idx]) else 0.0
+                # num_entrants[f'st{starter_idx+1}_r1_ent'].append(
+                #     float(race_num_entrants[starter_idx]) if not pd.isna(race_num_entrants[starter_idx]) else 0.0
+                # )
+                
+                # Store odds (use 999.0 for missing values - worst possible odds)
+                odds[f'st{starter_idx+1}_odds'].append(
+                    convert_odds(race_odds[starter_idx])
                 )
                 
                 # Store target points (6-2-1 system) only for training data
@@ -159,9 +184,10 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
                     target_points[f'st{starter_idx+1}_pts'].append(calculate_points(finish_pos))
             else:
                 # Add default values for missing starters
-                points[f'st{starter_idx+1}_r1_pts'].append(0.0)  # 0 points for missing starters
-                stretch_pos[f'st{starter_idx+1}_r1_str'].append(20.0)  # Position 20 for missing starters
-                num_entrants[f'st{starter_idx+1}_r1_ent'].append(0.0)  # 0 entrants for missing starters
+                # points[f'st{starter_idx+1}_r1_pts'].append(0.0)  # 0 points for missing starters
+                # stretch_pos[f'st{starter_idx+1}_r1_str'].append(-1.0)  # -1 for missing starters (no position)
+                # num_entrants[f'st{starter_idx+1}_r1_ent'].append(0.0)  # 0 entrants for missing starters
+                odds[f'st{starter_idx+1}_odds'].append(999.0)  # 999 for missing odds
                 if is_training_data:
                     target_points[f'st{starter_idx+1}_pts'].append(0.0)  # 0 points for missing starters
     
@@ -170,9 +196,10 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
         'race_id': race_ids,
         'distance_yards': distances,
         'purse': purses,
-        **points,  # Add all starter points columns
-        **stretch_pos,  # Add all starter stretch position columns
-        **num_entrants  # Add all starter number of entrants columns
+        # **points,  # Add all starter points columns
+        # **stretch_pos,  # Add all starter stretch position columns
+        # **num_entrants,  # Add all starter number of entrants columns
+        **odds  # Add all starter odds columns
     }
     
     # Add target points columns only for training data
@@ -192,7 +219,7 @@ def create_feature_dataframes():
     Create feature dataframes for both training and prediction data.
     """
     # Define paths
-    training_input = Path("students/fleischhacker_adam2/data/processed/processed_race_data.nc")
+    training_input = Path("students/fleischhacker_adam2/data/processed/processed_race_data_with_results.nc")
     prediction_input = Path("students/fleischhacker_adam2/data/processed/processed_prediction_data.nc")
     
     # Create output directory if it doesn't exist
