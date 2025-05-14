@@ -85,12 +85,11 @@ def create_multi_output_bart_model(X_train, y_train, n_starters):
             y_train,  
             m=200,     # Reduced number of trees to prevent overfitting
             dims=["starters", "n_obs"],
-            separate_trees=True  # Use separate trees for each starter
+            separate_trees=False  # Use separate trees for each starter
         )
         
-        # More flexible error term with appropriate dimensions
-        # Allow different error terms for each starter and observation
-        σ = pm.HalfNormal("σ", 2, dims=["starters", "n_obs"])
+        # error term
+        σ = pm.HalfNormal("σ", 3)
         
         # Make sure the observation matches dimensions properly
         # No need for dimshuffle since dimensions already match

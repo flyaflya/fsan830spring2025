@@ -26,13 +26,21 @@ def compute_rankings(ds):
             # Get predictions for this draw and race
             race_preds = predictions[d, :, r].values
             
-            # Get indices of top 3 predictions
-            top_3_indices = np.argsort(race_preds)[-3:][::-1]
-            
-            # Store rankings (add 1 since starter IDs are 1-based)
-            first_place[d, r] = top_3_indices[0] + 1
-            second_place[d, r] = top_3_indices[1] + 1
-            third_place[d, r] = top_3_indices[2] + 1
+            # Get indices of top 3 predictions, but only consider non-zero predictions
+            # This ensures we only rank horses that are actually in the race
+            valid_indices = np.where(race_preds > 0)[0]
+            if len(valid_indices) > 0:
+                valid_preds = race_preds[valid_indices]
+                top_3_indices = valid_indices[np.argsort(valid_preds)[-3:][::-1]]
+                
+                # Pad with -1 if we don't have 3 valid predictions
+                while len(top_3_indices) < 3:
+                    top_3_indices = np.append(top_3_indices, -1)
+                
+                # Store rankings (add 1 since starter IDs are 1-based)
+                first_place[d, r] = top_3_indices[0] + 1 if top_3_indices[0] != -1 else 0
+                second_place[d, r] = top_3_indices[1] + 1 if top_3_indices[1] != -1 else 0
+                third_place[d, r] = top_3_indices[2] + 1 if top_3_indices[2] != -1 else 0
     
     return first_place, second_place, third_place
 
@@ -96,21 +104,21 @@ def main():
         race_preds = ds.predictions[:, :, r].values
         
         # Find actual starters (those with non-zero predictions in at least one draw)
-        actual_starters = np.any(race_preds != 0, axis=0)
+        actual_starters = np.any(race_preds > 0, axis=0)
         n_actual_starters = np.sum(actual_starters)
         
         for d in range(n_draws):
             # Only count rankings for actual starters
-            if first_place[d, r] <= n_actual_starters:
+            if first_place[d, r] > 0:
                 first_place_counts[r, first_place[d, r] - 1] += 1
                 place_counts[r, first_place[d, r] - 1] += 1
                 show_counts[r, first_place[d, r] - 1] += 1
                 
-            if second_place[d, r] <= n_actual_starters:
+            if second_place[d, r] > 0:
                 place_counts[r, second_place[d, r] - 1] += 1
                 show_counts[r, second_place[d, r] - 1] += 1
                 
-            if third_place[d, r] <= n_actual_starters:
+            if third_place[d, r] > 0:
                 show_counts[r, third_place[d, r] - 1] += 1
     
     # Convert to probabilities
