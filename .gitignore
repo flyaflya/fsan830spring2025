@@ -56,6 +56,7 @@ Thumbs.db
 *.netcdf
 *.h5
 *.hdf5
+posterior_draws/
 
 # Temporary files
 *.log
