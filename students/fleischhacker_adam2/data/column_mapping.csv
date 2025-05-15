@@ -32,9 +32,9 @@ column_number,header_name
 39,jockey_shows
 40,owner_name
 41,owner_silks
-44,program_number
-45,odds
-46,horse_name
+43,program_number
+44,odds
+45,horse_name
 47,age
 48,sex
 50,color
@@ -199,9 +199,3 @@ column_number,header_name
 1265,BrisMudPedigree
 1266,BrisTurfPedigree
 1267,BrisDistPedigree
-
-
-
-
-
-

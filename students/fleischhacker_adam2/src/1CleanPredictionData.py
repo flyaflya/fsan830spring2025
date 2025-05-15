@@ -23,6 +23,23 @@ def load_column_mapping():
         print(f"Error loading column mapping: {e}")
         return {}
 
+def convert_odds(odds_str):
+    """Convert odds to decimal format consistently."""
+    try:
+        if pd.isna(odds_str) or str(odds_str).strip() == '0':
+            return np.nan
+        odds_str = str(odds_str).strip()
+        # Handle decimal odds (e.g., "4.00", "30.00")
+        if odds_str.replace('.', '').isdigit():
+            return float(odds_str)
+        # Handle fractional odds (e.g., "6/1")
+        if '/' in odds_str:
+            num, denom = odds_str.split('/')
+            return float(num) / float(denom) + 1
+        return float(odds_str)
+    except (ValueError, ZeroDivisionError):
+        return np.nan
+
 def create_prediction_dataset(data_dir):
     """Create an xarray dataset from the prediction data CSV file."""
     # Process the CSV file
@@ -30,7 +47,7 @@ def create_prediction_dataset(data_dir):
     if not data_dir_path.exists():
         raise FileNotFoundError(f"Data directory not found: {data_dir}")
     
-    csv_file = data_dir_path / 'CDX0426.csv'
+    csv_file = data_dir_path / 'CDX0515.csv'
     if not csv_file.exists():
         raise FileNotFoundError(f"CSV file not found: {csv_file}")
     
@@ -50,9 +67,16 @@ def create_prediction_dataset(data_dir):
     for col_num, header_name in column_mapping.items():
         if col_num <= len(df.columns):
             df.rename(columns={f'col_{col_num}': header_name}, inplace=True)
-    
+    print("\n[DEBUG] Columns after renaming:", df.columns.tolist())
+    if 'odds' in df.columns:
+        print("[DEBUG] First 10 raw odds values:", df['odds'].head(10).tolist())
+        df['odds'] = df['odds'].apply(convert_odds)
+        print("[DEBUG] First 10 processed odds values:", df['odds'].head(10).tolist())
+    else:
+        print("[DEBUG] 'odds' column not found after renaming.")
     # Save processed CSV with all columns
     processed_file = Path("data/processed") / 'CDX0426_processed.csv'
+    print("[DEBUG] Saving processed DataFrame to:", processed_file)
     processed_file.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(processed_file, index=False)
     
@@ -122,6 +146,26 @@ def create_prediction_dataset(data_dir):
     print(f"Total races: {len(ds.race)}")
     print(f"Maximum starters per race: {len(ds.starter)}")
     print(f"Total entries: {filtered_df.shape[0]}")
+    
+    # Print odds statistics if odds data exists
+    if 'odds' in ds:
+        print("\nOdds Data Statistics:")
+        print("-" * 50)
+        total_entries = ds.odds.size
+        valid_odds = np.sum(~np.isnan(ds.odds))
+        print(f"Total possible odds entries: {total_entries}")
+        print(f"Valid odds entries found: {valid_odds}")
+        print(f"Percentage of valid odds: {(valid_odds/total_entries)*100:.2f}%")
+        
+        # Calculate statistics for valid odds
+        valid_odds_values = ds.odds.values[~np.isnan(ds.odds.values)]
+        if len(valid_odds_values) > 0:
+            print(f"\nOdds Statistics (for valid entries):")
+            print(f"Minimum odds: {np.min(valid_odds_values):.2f}")
+            print(f"Maximum odds: {np.max(valid_odds_values):.2f}")
+            print(f"Mean odds: {np.mean(valid_odds_values):.2f}")
+            print(f"Median odds: {np.median(valid_odds_values):.2f}")
+    
     print("=" * 80)
     
     return ds
@@ -135,7 +179,7 @@ def save_dataset(ds, output_dir):
     # Save the dataset
     output_file = output_path / "processed_prediction_data.nc"
     ds.to_netcdf(output_file)
-    print(f"Dataset saved to {output_file}")
+    print(f"\nDataset saved to {output_file}")
 
 if __name__ == "__main__":
     # Process prediction data

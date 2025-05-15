@@ -114,7 +114,8 @@ def parse_past_performance_xml(xml_file):
             'horses': [],
             'jockeys': [],
             'trainers': [],
-            'program_numbers': []
+            'program_numbers': [],
+            'odds': []  # Add odds to current races
         }
         
         # Initialize data structures for past performances
@@ -184,15 +185,21 @@ def parse_past_performance_xml(xml_file):
                         # Get program number
                         program_number = starter.find('ProgramNumber').text if starter.find('ProgramNumber') is not None else ''
                         
+                        # Get odds
+                        odds_elem = starter.find('Odds')
+                        odds = odds_elem.text if odds_elem is not None else None
+                        decimal_odds = convert_fractional_odds(odds) if odds else np.nan
+                        
                         # Store current race data
                         current_races['race_ids'].append(current_race_id)
                         current_races['surfaces'].append(surface)
                         current_races['distances'].append(distance)
-                        current_races['purses'].append(purse)
+                        current_races['purses'].append(purse)  # Store purse per race
                         current_races['horses'].append(horse)
                         current_races['jockeys'].append(jockey)
                         current_races['trainers'].append(trainer)
                         current_races['program_numbers'].append(program_number)
+                        current_races['odds'].append(decimal_odds)  # Store decimal odds
                         
                         # Process past performances for this horse
                         past_races = []
@@ -226,6 +233,21 @@ def parse_past_performance_xml(xml_file):
                                 finish_position = 0
                                 last_call_position = 0
                                 
+                                # Get official finish position
+                                official_fin = start_elem.find('OFFICIAL_FIN')
+                                if official_fin is not None:
+                                    finish_position = int(official_fin.text)
+                                else:
+                                    # Fallback to FINAL position if OFFICIAL_FIN is not available
+                                    point_of_calls = start_elem.findall('PointOfCall')
+                                    for call in point_of_calls:
+                                        point_of_call = call.find('PointOfCall').text
+                                        if point_of_call == 'F':
+                                            position = call.find('Position')
+                                            if position is not None:
+                                                finish_position = int(position.text)
+                                                break
+                                
                                 point_of_calls = start_elem.findall('PointOfCall')
                                 last_printed_call = None
                                 
@@ -237,17 +259,9 @@ def parse_past_performance_xml(xml_file):
                                         if position is not None:
                                             start_position = int(position.text)
                                     elif point_of_call == 'F':
-                                        # Get finish position and lengths behind at finish
-                                        position = call.find('Position')
-                                        if position is not None:
-                                            finish_position = int(position.text)
-                                            # If horse is in first position, lengths behind should be 0
-                                            if finish_position == 1:
-                                                lengths_finish = 0.0
-                                            else:
-                                                lengths_behind = call.find('LengthsBehind')
-                                                if lengths_behind is not None:
-                                                    lengths_finish = float(lengths_behind.text)
+                                        # Get lengths behind at finish
+                                        if finish_position == 1:
+                                            lengths_finish = 0.0
                                         else:
                                             lengths_behind = call.find('LengthsBehind')
                                             if lengths_behind is not None:
@@ -378,7 +392,8 @@ def create_xarray_dataset(data_dir):
         'horses': [],
         'jockeys': [],
         'trainers': [],
-        'program_numbers': []
+        'program_numbers': [],
+        'odds': []  # Add odds to current races
     }
     
     past_performances = {
@@ -511,6 +526,7 @@ def create_xarray_dataset(data_dir):
             'surface': (['race'], np.array([current_races['surfaces'][np.where(np.array(current_races['race_ids']) == race)[0][0]] for race in unique_races], dtype='U1')),
             'distance_f': (['race'], [current_races['distances'][np.where(np.array(current_races['race_ids']) == race)[0][0]] for race in unique_races]),
             'purse': (['race'], [current_races['purses'][np.where(np.array(current_races['race_ids']) == race)[0][0]] for race in unique_races]),
+            'odds': (['race', 'starter'], create_current_data_array(current_races['odds'], np.float32)),  # Add odds to dataset
             
             # Past performance data
             'recent_race_id': (['race', 'starter', 'past_race'], create_past_data_array(past_performances['recent_race_ids'], 'U35')),
@@ -542,10 +558,28 @@ def save_dataset(ds, output_dir):
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
+    # Print odds statistics
+    print("\nOdds Data Statistics:")
+    print("=" * 50)
+    total_entries = ds.odds.size
+    valid_odds = np.sum(~np.isnan(ds.odds))
+    print(f"Total possible odds entries: {total_entries}")
+    print(f"Valid odds entries found: {valid_odds}")
+    print(f"Percentage of valid odds: {(valid_odds/total_entries)*100:.2f}%")
+    
+    # Calculate some basic statistics for valid odds
+    valid_odds_values = ds.odds.values[~np.isnan(ds.odds.values)]
+    if len(valid_odds_values) > 0:
+        print(f"\nOdds Statistics (for valid entries):")
+        print(f"Minimum odds: {np.min(valid_odds_values):.2f}")
+        print(f"Maximum odds: {np.max(valid_odds_values):.2f}")
+        print(f"Mean odds: {np.mean(valid_odds_values):.2f}")
+        print(f"Median odds: {np.median(valid_odds_values):.2f}")
+    
     # Save the dataset
     output_file = output_path / "processed_race_data.nc"
     ds.to_netcdf(output_file)
-    print(f"Dataset saved to {output_file}")
+    print(f"\nDataset saved to {output_file}")
 
 if __name__ == "__main__":
     data_dir = "data/rawDataForTraining/pastPerformanceData"
