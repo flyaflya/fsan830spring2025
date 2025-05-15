@@ -11,7 +11,7 @@ from pathlib import Path
 def calculate_points(finish_pos):
     """
     Calculate points based on finish position:
-    - 1st place: 6 points
+    - 1st place: 3 points
     - 2nd place: 2 points
     - 3rd place: 1 point
     - Other positions: 0 points
@@ -33,7 +33,7 @@ def calculate_points(finish_pos):
     try:
         finish_pos = float(finish_pos)
         if finish_pos == 1:
-            return 6.0
+            return 3.0
         elif finish_pos == 2:
             return 2.0
         elif finish_pos == 3:
@@ -209,6 +209,62 @@ def load_and_process_data(input_path, is_training_data=False, max_starters=14):
     
     return df
 
+def load_scratches(scratches_file):
+    """
+    Load scratches from a CSV file.
+    Expected format: race_number,starter_number
+    Example:
+    1,3
+    2,5
+    2,7
+    """
+    try:
+        scratches_df = pd.read_csv(scratches_file, header=None, names=['race_number', 'starter_number'])
+        # Convert to dictionary for easy lookup: {race_number: [starter_numbers]}
+        scratches_dict = scratches_df.groupby('race_number')['starter_number'].apply(list).to_dict()
+        return scratches_dict
+    except FileNotFoundError:
+        print(f"Warning: Scratches file {scratches_file} not found. No scratches will be applied.")
+        return {}
+    except Exception as e:
+        print(f"Warning: Error loading scratches file: {e}. No scratches will be applied.")
+        return {}
+
+def apply_scratches(df, scratches_dict):
+    """
+    Apply scratches to the prediction dataframe by setting odds to 999.0 for scratched horses.
+    
+    Parameters:
+    -----------
+    df : pandas.DataFrame
+        The prediction dataframe
+    scratches_dict : dict
+        Dictionary mapping race numbers to lists of starter numbers that are scratched
+        
+    Returns:
+    --------
+    pandas.DataFrame
+        The dataframe with scratched horses' odds set to 999.0
+    """
+    df = df.copy()
+    
+    for race_number, starter_numbers in scratches_dict.items():
+        # Find the row index for this race
+        race_mask = df['race_id'] == race_number
+        if not any(race_mask):
+            print(f"Warning: Race {race_number} not found in prediction data")
+            continue
+            
+        # Set odds to 999.0 for each scratched starter
+        for starter in starter_numbers:
+            odds_col = f'st{starter}_odds'
+            if odds_col in df.columns:
+                df.loc[race_mask, odds_col] = 999.0
+            else:
+                print(f"Warning: Column {odds_col} not found in prediction data")
+    
+    return df
+
 def create_feature_dataframes():
     """
     Create feature dataframes for both training and prediction data.
@@ -216,6 +272,7 @@ def create_feature_dataframes():
     # Define paths
     training_input = Path("students/fleischhacker_adam2/data/processed/processed_race_data_with_results.nc")
     prediction_input = Path("students/fleischhacker_adam2/data/processed/processed_prediction_data.nc")
+    scratches_file = Path("students/fleischhacker_adam2/data/features/scratches.csv")
     
     # Create output directory if it doesn't exist
     output_dir = Path("students/fleischhacker_adam2/data/features")
@@ -230,6 +287,13 @@ def create_feature_dataframes():
     # Process prediction data with actual number of starters per race
     print("\nProcessing prediction data...")
     prediction_df = load_and_process_data(prediction_input, is_training_data=False, max_starters=14)
+    
+    # Load and apply scratches
+    scratches_dict = load_scratches(scratches_file)
+    if scratches_dict:
+        print("\nApplying scratches...")
+        prediction_df = apply_scratches(prediction_df, scratches_dict)
+    
     prediction_df.to_csv(output_dir / "prediction_features.csv", index=False)
     print(f"Prediction features saved to {output_dir / 'prediction_features.csv'}")
     
