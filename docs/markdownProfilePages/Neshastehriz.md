@@ -3,7 +3,7 @@
 
 ## About Me
 
-Hello!! My name is Masoud and I am a PhD student in Financial Services Analytics! I love Swimming and Running!
+Hello! My name is Masoud and I am a PhD student in Financial Services Analytics! I love Swimming and Running!
 
 ## Research Interests
 
