@@ -1,0 +1,5583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHART RACE_DATE="2023-05-11"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://info.trackmaster.com/xmlSchema/tchSchema.xsd">
+   <TRACK>
+      <CODE>CD</CODE>
+      <NAME>CHURCHILL DOWNS</NAME>
+   </TRACK>
+<RACE NUMBER="1">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Maiden Special Weight</TYPE>
+   <PURSE>92000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    1  5F Dirt CR: 85. Maiden Special Weight Purse 92000. FOR MAIDENS, TWO YEARS OLD. Weight, 119 lbs. (For Horses That Sold Or RNA For $50,000 Or Less In Their Most Recent Auction).      </RACE_TEXT>
+   <AGE_RESTRICTIONS>02 A </AGE_RESTRICTIONS>
+   <DISTANCE>500</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>85</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>2,8,12</STRT_DESC>
+   <POST_TIME>5:05</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>22.26</FRACTION_1>
+   <FRACTION_2>45.99</FRACTION_2>
+   <FRACTION_3>0.00</FRACTION_3>
+   <FRACTION_4>0.00</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>58.89</WIN_TIME>
+   <PACE_CALL1>81</PACE_CALL1>
+   <PACE_CALL2>86</PACE_CALL2>
+   <PACE_FINAL>93</PACE_FINAL>
+   <PAR_TIME>58.20</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>52320</SPLIT_1>
+      <SPLIT_2>18400</SPLIT_2>
+      <SPLIT_3>7200</SPLIT_3>
+      <SPLIT_4>4600</SPLIT_4>
+      <SPLIT_5>2760</SPLIT_5>
+      <SPLIT_6>1148</SPLIT_6>
+      <SPLIT_7>1148</SPLIT_7>
+      <SPLIT_8>1146</SPLIT_8>
+      <SPLIT_9>1146</SPLIT_9>
+      <SPLIT_10>1146</SPLIT_10>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>161412</POOL_TOTAL>
+      <WINNERS> 5-1</WINNERS>
+      <PAYOFF>35.50</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>60264</POOL_TOTAL>
+      <WINNERS> 5-1-3-7</WINNERS>
+      <PAYOFF>35.98</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>72928</POOL_TOTAL>
+      <WINNERS> 5-1-3</WINNERS>
+      <PAYOFF>37.48</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>5 Super Hi-5</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>1426</POOL_TOTAL>
+      <WINNERS> 5-1-3-7-4</WINNERS>
+      <PAYOFF>0.00</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>55</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>244230.00</WPS_POOL>
+   <FOOTNOTES>FROSTY THE GIANT pressed the leader from the outside entering the turn, bid nearing the lane, led in upper stretch, and drove clear at the furlong grounds. WEST SARATOGA chased along the inside, vacated the rail in upper stretch before bidding for place along with an outer rival at the sixteenth pole, and held that position from that one thereafter. PATCH O&apos;BRIEN chased from the three path, then stayed on in the four path to bid for place entering the sixteenth pole along with an inner foe, but was for place denied by that rival late. FIVE STAR RUN lacked speed in the two path around turn, improved inside of rivals in upper stretch, and ran on. DUNPHY set the pace along the inside, but was headed by the eventual winner in upper stretch, and weakened on his left lead. FIVE O&apos; SOMEWHERE broke slowly, gained midpack position along the inside entering the turn, shifted out entering the lane, but lacked a bid. INNOCENT MAN took mild bumps from an outer rival at the start, laid off of the pace in the four to five path, and failed to factor. IMPERIAL THUNDER bumped an inner rival at the start, pursued from off of the pace in the five to six path, and made little impact. MIDNIGHT STORMY broke slowly and never got involved from the five path. NUEVO AMANECER steadied soon after the start when an outer rival took his path, then saved ground far back to no avail. NOBLE GENTLEMAN broke a step slow, and was outrun in the three to four path.</FOOTNOTES>
+      <ENTRY>
+         <NAME>West Saratoga</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-07</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>C</CODE>
+            <DESCRIPTION>Colt</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>8.32</DOLLAR_ODDS>
+         <PROGRAM_NUM>1</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>3.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>4.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>77</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Rafael</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Bejarano</LAST_NAME>
+            <SUFFIX/>
+            <KEY>102032</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Larry</FIRST_NAME>
+            <LAST_NAME>Demeritte</LAST_NAME>
+            <MIDDLE_NAME>W</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>429</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Harry L. Veruchi</OWNER>
+         <COMMENT>chased inside, place bid btwn 1/16, dueled, held</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>6.84</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.76</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051060059059056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Five o&apos; Somewhere</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>7.30</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>10</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>7.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>10.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>13.4</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>57</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Reylu</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gutierrez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>162067</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Kenneth</FIRST_NAME>
+            <LAST_NAME>Spraggins</LAST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>40017</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Spraggins Kenneth R Palazzo Marilyn Atanacio Edna Atanacio Richard Mueda-Sadural</OWNER>
+         <COMMENT>slow start, midpack ins, 4p1/4, no bid</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052061053063055</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Patch O&apos;Brien</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>2.77</DOLLAR_ODDS>
+         <PROGRAM_NUM>3</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>6.1</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>77</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Eddie</FIRST_NAME>
+            <LAST_NAME>Kenneally</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>37372</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Red Gate Racing</OWNER>
+         <COMMENT>chased 3p, 4p upr, stayed on, place bid 1/16, dueled, denied</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.02</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051061061055057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Dunphy</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-26</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>30.42</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>2.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>11.4</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>63</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>James</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Graham</LAST_NAME>
+            <SUFFIX/>
+            <KEY>107418</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>John</FIRST_NAME>
+            <LAST_NAME>Ennis</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>945437</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Greathouse Allen Arnold Mark 47 Roses LLC and Selima Holdings LLC</OWNER>
+         <COMMENT>set pace ins, ins winner turn, headed upper, wknd, left lead</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051054053063060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Frosty the Giant</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-20</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>1.45</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>93</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Tyler</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gaffalione</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154538</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Anthony</FIRST_NAME>
+            <LAST_NAME>Farrior</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>278193</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Mammas Boys Thoroughbred Racing Group LLC</OWNER>
+         <COMMENT>pressed 2wd, bid 1/4, led upper, drove clear</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>CH</CODE>
+               <DESCRIPTION>Chestnut</DESCRIPTION>
+            </COLOR>
+            <SIRE>Frosted</SIRE>
+            <DAM>Field of Flowers</DAM>
+            <DAM_SIRE>City Zip</DAM_SIRE>
+            <BREEDER>Machmer Hall</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>4.90</WIN_PAYOFF>
+         <PLACE_PAYOFF>3.40</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.42</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052055058057058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Five Star Run</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>R</CODE>
+            <DESCRIPTION>Ridgling</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>8.24</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>7</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>8</POSITION>
+            <LENGTHS>8.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>8</POSITION>
+            <LENGTHS>10.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>8.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>9.6</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>67</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Jack</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gilligan</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154563</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michelle</FIRST_NAME>
+            <LAST_NAME>Nihei</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>258757</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Circle 8</OWNER>
+         <COMMENT>far back 2p, improved upper, ran on</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051061061061058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Nuevo Amanecer</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>62.77</DOLLAR_ODDS>
+         <PROGRAM_NUM>8</PROGRAM_NUM>
+         <POST_POS>7</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>8</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>10</POSITION>
+            <LENGTHS>10.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>10</POSITION>
+            <LENGTHS>13.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>10</POSITION>
+            <LENGTHS>15.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>10</POSITION>
+            <LENGTHS>18.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>10</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>44</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Edgar</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Morales</LAST_NAME>
+            <SUFFIX/>
+            <KEY>162009</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Ismael</FIRST_NAME>
+            <LAST_NAME>Bahena</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>963994</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Augusto Garcia</OWNER>
+         <COMMENT>steadied after start, far back inside, saved ground, no avail</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052052062059057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Innocent Man</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-20</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>14.06</DOLLAR_ODDS>
+         <PROGRAM_NUM>9</PROGRAM_NUM>
+         <POST_POS>8</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>6.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>8.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>7</POSITION>
+            <LENGTHS>12.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>7</POSITION>
+            <LENGTHS>16.4</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>7</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>49</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Brian</FIRST_NAME>
+            <MIDDLE_NAME>Joseph</MIDDLE_NAME>
+            <LAST_NAME>Hernandez</LAST_NAME>
+            <SUFFIX>Jr</SUFFIX>
+            <KEY>109036</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Anna</FIRST_NAME>
+            <LAST_NAME>Navarrete</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>268155</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Foxbrook Farm LLC</OWNER>
+         <COMMENT>bumps start, off pace 4p, 5p1/4, no factor</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051060061055056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Imperial Thunder</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-26</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>112</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>19.15</DOLLAR_ODDS>
+         <PROGRAM_NUM>10</PROGRAM_NUM>
+         <POST_POS>9</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>7</POSITION>
+            <LENGTHS>7.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>7</POSITION>
+            <LENGTHS>9.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>8</POSITION>
+            <LENGTHS>12.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>8</POSITION>
+            <LENGTHS>16.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>8</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>49</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Yoel</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Navas</LAST_NAME>
+            <SUFFIX/>
+            <KEY>172868</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Ben</FIRST_NAME>
+            <LAST_NAME>Colebrook</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>252592</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Shamrock Highlands Thoroughbreds</OWNER>
+         <COMMENT>bumps start, off pace 5p, 6p1/4, no impact</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052059058061064</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Noble Gentleman</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>C</CODE>
+            <DESCRIPTION>Colt</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>39.71</DOLLAR_ODDS>
+         <PROGRAM_NUM>11</PROGRAM_NUM>
+         <POST_POS>10</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>9</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>9</POSITION>
+            <LENGTHS>9.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>11</POSITION>
+            <LENGTHS>13.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>11</POSITION>
+            <LENGTHS>15.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>11</POSITION>
+            <LENGTHS>20.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>11</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>39</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Martin</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Garcia</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117931</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Larry</FIRST_NAME>
+            <LAST_NAME>Demeritte</LAST_NAME>
+            <MIDDLE_NAME>W</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>429</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Joe Hancock</OWNER>
+         <COMMENT>step slow start, at rear 3-4p, outrun</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052054059055057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Midnight Stormy</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>62.80</DOLLAR_ODDS>
+         <PROGRAM_NUM>12</PROGRAM_NUM>
+         <POST_POS>11</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>11</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>11</POSITION>
+            <LENGTHS>10.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>9</POSITION>
+            <LENGTHS>12.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>9</POSITION>
+            <LENGTHS>14.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>9</POSITION>
+            <LENGTHS>17.7</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>9</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>46</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Rogelio</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Miranda</LAST_NAME>
+            <SUFFIX/>
+            <KEY>160879</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Wayne</FIRST_NAME>
+            <LAST_NAME>Minnock</LAST_NAME>
+            <MIDDLE_NAME>G</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>11772</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Douglas Terry</OWNER>
+         <COMMENT>slow start, at rear 5p, never involved</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052057062058057</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Callin My Name</NAME>
+         <BREED>TB</BREED>
+         <REASON>Stewards</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-07</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="2">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Maiden Special Weight</TYPE>
+   <PURSE>120000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    2  4 1/2F Dirt CR: 80. Maiden Special Weight Purse 120000. FOR MAIDENS, FILLIES TWO YEARS OLD. Weight, 119 lbs.      </RACE_TEXT>
+   <AGE_RESTRICTIONS>02F  </AGE_RESTRICTIONS>
+   <DISTANCE>450</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>80</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>10</STRT_DESC>
+   <POST_TIME>5:32</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>22.67</FRACTION_1>
+   <FRACTION_2>46.49</FRACTION_2>
+   <FRACTION_3>0.00</FRACTION_3>
+   <FRACTION_4>0.00</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>52.89</WIN_TIME>
+   <PACE_CALL1>80</PACE_CALL1>
+   <PACE_CALL2>0</PACE_CALL2>
+   <PACE_FINAL>80</PACE_FINAL>
+   <PAR_TIME>52.20</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>42000</SPLIT_1>
+      <SPLIT_2>24000</SPLIT_2>
+      <SPLIT_3>12000</SPLIT_3>
+      <SPLIT_4>6000</SPLIT_4>
+      <SPLIT_5>3600</SPLIT_5>
+      <SPLIT_6>1125</SPLIT_6>
+      <SPLIT_7>1427</SPLIT_7>
+      <SPLIT_8>1422</SPLIT_8>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>57089</POOL_TOTAL>
+      <WINNERS> 5-5</WINNERS>
+      <PAYOFF>20.61</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>133514</POOL_TOTAL>
+      <WINNERS> 5-3</WINNERS>
+      <PAYOFF>223.04</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>37456</POOL_TOTAL>
+      <WINNERS> 5-3-9-6</WINNERS>
+      <PAYOFF>169.85</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>65455</POOL_TOTAL>
+      <WINNERS> 5-3-9</WINNERS>
+      <PAYOFF>216.84</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>5 Super Hi-5</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>2454</POOL_TOTAL>
+      <WINNERS> 5-3-9-6-8</WINNERS>
+      <PAYOFF>0.00</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>50</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>205790.00</WPS_POOL>
+   <FOOTNOTES>CLOSING ACT broke a step slowly, tracked two wide and between horses around the turn, tipped to the five path in upper stretch, then sustained a grinding charge to bid in the closing stages and edged ahead. FOOLISH FRONT FIFI brushed with an outer rival in the early stages, chased along the inside, rallied with good energy three wide and between horses entering the final sixteenth, sparred with an outer rival late, but got outfinished. KRICKLE pressed outside of the top pair, sustained a chase to bid along with rivals on either side in the final sixteenth, but was outkicked by them. TOO FAST FOR YOU set the pace along the inside, maintained a clear margin through midstretch, but was overhauled in the final sixteenth. APRIL CLOVER prompted the pace two wide, chased the clear leader in upper stretch, and gave way in the final furlong. YOU&apos;RE KITTEN ME backed out from between horses entering the lane, and failed to factor two wide. GIRLS WEEKEND veered outwardly while off very slow, was urged along in the four path around the turn, and tired in the six path in upper stretch. BELLA VALENTINA brushed with an inner rival early on, and was outrun along the inside.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Foolish Front Fifi</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-19</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>8</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>22.62</DOLLAR_ODDS>
+         <PROGRAM_NUM>3</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>79</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Rogelio</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Miranda</LAST_NAME>
+            <SUFFIX/>
+            <KEY>160879</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Jack</FIRST_NAME>
+            <LAST_NAME>Hancock</LAST_NAME>
+            <MIDDLE_NAME>L</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>24644</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Gary V James</OWNER>
+         <COMMENT>brush early, chased ins, rallied btw 3w1/16, bid, outfinished</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>16.64</PLACE_PAYOFF>
+         <SHOW_PAYOFF>7.38</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052058057058056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Bella Valentina</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>112</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>f</EQUIP>
+         <DOLLAR_ODDS>34.61</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>8</POSITION>
+            <LENGTHS>9.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>8</POSITION>
+            <LENGTHS>12.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>8</POSITION>
+            <LENGTHS>17.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>8</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>27</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Yoel</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Navas</LAST_NAME>
+            <SUFFIX/>
+            <KEY>172868</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Yoni</FIRST_NAME>
+            <LAST_NAME>Orantes</LAST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>973230</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Yoni R Orantes</OWNER>
+         <COMMENT>brush early, outrun inside</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052057062061060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Closing Act</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>5.97</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>7</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>80</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Tyler</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gaffalione</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154538</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Steven</FIRST_NAME>
+            <LAST_NAME>Asmussen</LAST_NAME>
+            <MIDDLE_NAME>M</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>5621</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Douglas Scharbauer</OWNER>
+         <COMMENT>step slow start, tracked 2wd btwn, 5p upr, grind, late bid, edged</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>CH</CODE>
+               <DESCRIPTION>Chestnut</DESCRIPTION>
+            </COLOR>
+            <SIRE>Munnings</SIRE>
+            <DAM>Evening Show</DAM>
+            <DAM_SIRE>Master Command</DAM_SIRE>
+            <BREEDER>Douglas Scharbauer</BREEDER>
+            <BRED_LOCATION>
+               <CODE>TX</CODE>
+               <DESCRIPTION>Texas</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>13.94</WIN_PAYOFF>
+         <PLACE_PAYOFF>6.38</PLACE_PAYOFF>
+         <SHOW_PAYOFF>4.72</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051052060056059</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Too Fast for You</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>1.73</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>75</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Eddie</FIRST_NAME>
+            <LAST_NAME>Kenneally</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>37372</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Jonathan Dean</OWNER>
+         <COMMENT>set pace inside, cleared upper, led to 1/16, overhaued late</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052053059054058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>You&apos;re Kitten Me</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>15.71</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>7</POSITION>
+            <LENGTHS>8.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>7</POSITION>
+            <LENGTHS>7.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>61</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Martin</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Garcia</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117931</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>George</FIRST_NAME>
+            <LAST_NAME>Arnold</LAST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <SUFFIX>II</SUFFIX>
+            <KEY>12433</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Dew Sweepers LLC</OWNER>
+         <COMMENT>backed out btwn 7/16, at rear 2wd, no factor</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051057059060062</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>April Clover</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>11.87</DOLLAR_ODDS>
+         <PROGRAM_NUM>8</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>66</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Ricardo</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Santana Jr</LAST_NAME>
+            <SUFFIX/>
+            <KEY>136048</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Steven</FIRST_NAME>
+            <LAST_NAME>Asmussen</LAST_NAME>
+            <MIDDLE_NAME>M</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>5621</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Heiligbrodt, L. William and Corinne</OWNER>
+         <COMMENT>prompt 2wd, chased upper, gave way</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050051058056058055</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Krickle</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-19</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP/>
+         <DOLLAR_ODDS>5.93</DOLLAR_ODDS>
+         <PROGRAM_NUM>9</PROGRAM_NUM>
+         <POST_POS>7</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>77</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Colby</FIRST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <LAST_NAME>Hernandez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>123498</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Hutch</FIRST_NAME>
+            <LAST_NAME>Holsapple</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>40943</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Hutch Holsapple</OWNER>
+         <COMMENT>pressed 3wd, chased bid 4wd btwn 1/16, outkicked btwn</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>4.10</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052055054057055</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Girls Weekend</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>119</WEIGHT>
+         <AGE>2</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>1.84</DOLLAR_ODDS>
+         <PROGRAM_NUM>10</PROGRAM_NUM>
+         <POST_POS>8</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>8</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>5.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>7</POSITION>
+            <LENGTHS>6.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>7</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>60</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Jareth</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Loveberry</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117079</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Jason</FIRST_NAME>
+            <LAST_NAME>Barkley</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>954338</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Legion Racing</OWNER>
+         <COMMENT>very slow/veered out start, urged off pace 4p, 6p upr, tired</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050050050052056053054062</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Musical Diva</NAME>
+         <BREED>TB</BREED>
+         <REASON>Trainer</REASON>
+         <LAST_PP/>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>V V&apos;s Dream</NAME>
+         <BREED>TB</BREED>
+         <REASON>Trainer</REASON>
+         <LAST_PP/>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="3">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Starter Allowance</TYPE>
+   <PURSE>72000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    3  6 1/2F Dirt CR: 86. Starter Allowance Purse 72000. FOR FILLIES THREE YEARS OLD  WHICH HAVE STARTED FOR A CLAIMING PRICE OF $50,000 OR LESS AND WHICH HAVE NEVER WON A RACE OTHER THAN MAIDEN, CLAIMING OR WAIVER CLAIMING. Weight, 122 lbs. Non-winners Of A Race Since April 11 Allowed 2 lbs. (Races Where Enter ed For $40,000 Or Less Not Considered In Allowances).    </RACE_TEXT>
+   <AGE_RESTRICTIONS>03F NW1X</AGE_RESTRICTIONS>
+   <DISTANCE>650</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>86</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>5:59</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>22.82</FRACTION_1>
+   <FRACTION_2>46.01</FRACTION_2>
+   <FRACTION_3>70.89</FRACTION_3>
+   <FRACTION_4>0.00</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>77.57</WIN_TIME>
+   <PACE_CALL1>82</PACE_CALL1>
+   <PACE_CALL2>79</PACE_CALL2>
+   <PACE_FINAL>85</PACE_FINAL>
+   <PAR_TIME>77.19</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>46800</SPLIT_1>
+      <SPLIT_2>16560</SPLIT_2>
+      <SPLIT_3>8280</SPLIT_3>
+      <SPLIT_4>4140</SPLIT_4>
+      <SPLIT_5>2484</SPLIT_5>
+      <SPLIT_6>1296</SPLIT_6>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>62438</POOL_TOTAL>
+      <WINNERS> 5-5-2</WINNERS>
+      <PAYOFF>56.63</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>19110</POOL_TOTAL>
+      <WINNERS> 5-2</WINNERS>
+      <PAYOFF>50.27</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>95107</POOL_TOTAL>
+      <WINNERS> 2-1</WINNERS>
+      <PAYOFF>40.58</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>25389</POOL_TOTAL>
+      <WINNERS> 2-1-4-6</WINNERS>
+      <PAYOFF>12.70</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>50722</POOL_TOTAL>
+      <WINNERS> 2-1-4</WINNERS>
+      <PAYOFF>24.90</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>45</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>187851.00</WPS_POOL>
+   <FOOTNOTES>TELL ME WHEN set the pace along the inside, and held well from outer chasers through the lane. MOON MAGIC CHRISSY laid closer up along the inside while pulling under stout restraint leading the chute, steadied along from the eleven sixteenths pole to the nine sixteenths pole, stalked along the inside around the turn, tipped to the three path to take aim outside of the leader entering the lane, but failed to progress on that one through the final furlong, and held place late. GHOSTLY GIRL tracked two wide and between horses, but retreated to trail passing the three furlong pole, tipped three wide turning for home, rallied inside of foes in upper stretch before shifting out at the furlong grounds, and stayed on but did not have enough to gain place. FRIGID LADY laid off of the pace four wide, spun into the lane in the six path, and lacked a bid. MEAN SUE tracked three wide, came into the lane in the five path while between horses and weakened. CHARLEE MAE pressed two wide, but weakened between horses turning for home.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Moon Magic Chrissy</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-14</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>115</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>6.12</DOLLAR_ODDS>
+         <PROGRAM_NUM>1</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>83</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Walter</FIRST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <LAST_NAME>Rodriguez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>171494</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Douglas</FIRST_NAME>
+            <LAST_NAME>Danner</LAST_NAME>
+            <MIDDLE_NAME>W</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>20097</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>K. C. Garrett Farm</OWNER>
+         <COMMENT>close up ins,pull/stout restraint,stdy 11/16-9/16,aim 3p1/4,chasd</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>5.76</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.18</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050052059053059063</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Tell Me When</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-14</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS/>
+         <EQUIP>bf</EQUIP>
+         <DOLLAR_ODDS>3.66</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>85</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Timothy</FIRST_NAME>
+            <LAST_NAME>Hamm</LAST_NAME>
+            <MIDDLE_NAME>E</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>114453</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Horseshoe Racing LLC</OWNER>
+         <COMMENT>set pace inside, held sway</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>B</CODE>
+               <DESCRIPTION>Bay</DESCRIPTION>
+            </COLOR>
+            <SIRE>Midshipman</SIRE>
+            <DAM>Aura Rose</DAM>
+            <DAM_SIRE>Uncle Mo</DAM_SIRE>
+            <BREEDER>Horseshoe Racing, LLC</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>9.32</WIN_PAYOFF>
+         <PLACE_PAYOFF>4.76</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.94</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051053058061055</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Ghostly Girl</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-22</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>1.10</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>82</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Brian</FIRST_NAME>
+            <MIDDLE_NAME>Joseph</MIDDLE_NAME>
+            <LAST_NAME>Hernandez</LAST_NAME>
+            <SUFFIX>Jr</SUFFIX>
+            <KEY>109036</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Kenneth</FIRST_NAME>
+            <LAST_NAME>McPeek</LAST_NAME>
+            <MIDDLE_NAME>G</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>1226</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>C&amp;H Diamond Racing LLC Fowler Barry Breffni Farm and Magdalena Racing (Sherri Mc</OWNER>
+         <COMMENT>tracked 2wd btw,trailed 3/8,3w5/16,rallied 5p1/8,not enough place</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.56</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051057059059060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Charlee Mae</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-22</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>6.53</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>12.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>36.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>11</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Jack</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gilligan</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154563</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Sarah</FIRST_NAME>
+            <LAST_NAME>Hamilton</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>971296</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Cecil Peters</OWNER>
+         <COMMENT>pressed 2wd, wknd btwn 5/16</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051056056055059</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Frigid Lady</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-14</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>4.23</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>73</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Tyler</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gaffalione</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154538</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Maker</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>29986</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Chase &apos;n Dreams Stable</OWNER>
+         <COMMENT>off pace 4wd, 6p1/4, lacked bid</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051058062055061</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Mean Sue</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-14</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>F</CODE>
+            <DESCRIPTION>Filly</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>16.19</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>11.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>61</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Joseph</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Rocco</LAST_NAME>
+            <SUFFIX>Jr</SUFFIX>
+            <KEY>70746</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Tomlinson</LAST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>5412</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Hatfield Rod and Hatfield Bud</OWNER>
+         <COMMENT>tracked 3wd, 5p btw 1/4, wknd</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051058061056059</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Key to Success</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-14</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Pigalle</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>TP</CODE>
+               <NAME>TURFWAY PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-16</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="4">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Maiden Claiming</TYPE>
+   <PURSE>42000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    4  6F Dirt CR: 76. Maiden Claiming Purse 42000. FOR MAIDENS, THREE YEARS OLD  AND UPWARD. Three Year Olds, 118 lbs.; Older, 124 lbs. Claiming Price $20,000.      </RACE_TEXT>
+   <AGE_RESTRICTIONS>3U   </AGE_RESTRICTIONS>
+   <DISTANCE>600</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>76</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>6:28</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>21.66</FRACTION_1>
+   <FRACTION_2>45.29</FRACTION_2>
+   <FRACTION_3>57.62</FRACTION_3>
+   <FRACTION_4>0.00</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>70.65</WIN_TIME>
+   <PACE_CALL1>98</PACE_CALL1>
+   <PACE_CALL2>88</PACE_CALL2>
+   <PACE_FINAL>80</PACE_FINAL>
+   <PAR_TIME>72.88</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>27300</SPLIT_1>
+      <SPLIT_2>9660</SPLIT_2>
+      <SPLIT_3>4830</SPLIT_3>
+      <SPLIT_4>2415</SPLIT_4>
+      <SPLIT_5>1449</SPLIT_5>
+      <SPLIT_6>756</SPLIT_6>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>20844</POOL_TOTAL>
+      <WINNERS> 5-2-8</WINNERS>
+      <PAYOFF>88.47</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>17456</POOL_TOTAL>
+      <WINNERS> 2-8</WINNERS>
+      <PAYOFF>29.93</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>79500</POOL_TOTAL>
+      <WINNERS> 8-2</WINNERS>
+      <PAYOFF>22.92</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>21252</POOL_TOTAL>
+      <WINNERS> 8-2-5-1</WINNERS>
+      <PAYOFF>8.56</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>43936</POOL_TOTAL>
+      <WINNERS> 8-2-5</WINNERS>
+      <PAYOFF>18.43</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED>
+      <CLAIM NUMBER="1">
+      <HORSE>ISOCLINE</HORSE>
+      <PRICE>20000</PRICE>
+         <OWNER>Thomas Michael J Weiter Joseph A Allen Jeff W and Habeeb Donald</OWNER>
+         <TRAINER>
+            <FIRST_NAME>Donald</FIRST_NAME>
+            <LAST_NAME>Habeeb</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+         </TRAINER>
+      </CLAIM>
+      <CLAIM NUMBER="2">
+      <HORSE>LAZARUS</HORSE>
+      <PRICE>20000</PRICE>
+         <OWNER>William Donovan</OWNER>
+         <TRAINER>
+            <FIRST_NAME>Waylon</FIRST_NAME>
+            <LAST_NAME>Cundiff</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+         </TRAINER>
+      </CLAIM>
+   </CLAIMED>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>200</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>155975.00</WPS_POOL>
+   <FOOTNOTES>LAZARUS stalked three wide, bid entering the lane, and edged clear. ISOCLINE set the pace along the inside, but was headed entering the lane, and gave way yet held place. CROSSING was taken back leaving the chute, chased from behind the leaders around the turn, and ran on thereafter without enough to reach place. LITTLE MAN CAN laid off of the pace along the inside, shifted to the five path entering the lane, then was one paced. BODONTKNOW lagged along the inside and never got involved. PERFECT THUNDER pressed two wide and between horses, then weakened nearing the quarter pole.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Little Man Can</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-26</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>10</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>bf</EQUIP>
+         <DOLLAR_ODDS>3.81</DOLLAR_ODDS>
+         <PROGRAM_NUM>1</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>5.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>7.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>63</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>James</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Graham</LAST_NAME>
+            <SUFFIX/>
+            <KEY>107418</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michelle</FIRST_NAME>
+            <LAST_NAME>Lovell</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>233605</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Lawson Billy and Doi Jeanne</OWNER>
+         <COMMENT>off pace ins, 5p1/4, one paced</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052053058058064</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Isocline</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>IND</CODE>
+               <NAME>HORSESHOE INDIANAPOLIS</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-18</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>R</CODE>
+            <DESCRIPTION>Ridgling</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>1.91</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>4.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>71</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Adam</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Beschizza</LAST_NAME>
+            <SUFFIX/>
+            <KEY>155352</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Mark</FIRST_NAME>
+            <LAST_NAME>Simms Jr</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>962953</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Calumet Farm</OWNER>
+         <COMMENT>set pace inside, headed 1/4, gave way, held place</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>3.38</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.56</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051058053059059</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Bodontknow</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP/>
+         <WEIGHT>118</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>C</CODE>
+            <DESCRIPTION>Colt</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>4.02</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>7.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>9.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>10.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>8.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>60</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Isaac</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Castillo</LAST_NAME>
+            <SUFFIX/>
+            <KEY>159948</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Lindsay</FIRST_NAME>
+            <LAST_NAME>Schultz</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>960414</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Choctaw Racing Stable</OWNER>
+         <COMMENT>lagged inside, never involved</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051056060055063</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Crossing</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-12</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>113</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>5.51</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>5.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>69</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Walter</FIRST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <LAST_NAME>Rodriguez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>171494</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Lauer</LAST_NAME>
+            <MIDDLE_NAME>E</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>1054</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Lauer Penny S and Jones Ryan K</OWNER>
+         <COMMENT>taken back, chased 2p, ran on</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.44</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050052060055062060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Perfect Thunder</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-23</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>17.12</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>7.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>20.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>34</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Colby</FIRST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <LAST_NAME>Hernandez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>123498</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Terry</FIRST_NAME>
+            <LAST_NAME>Brennan</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>20003</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Emma Ramos</OWNER>
+         <COMMENT>pressed 2wd btwn, wknd 1/4</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050051059062057057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Lazarus</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-21</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>3</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>2.93</DOLLAR_ODDS>
+         <PROGRAM_NUM>8</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>20000</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>80</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Rafael</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Bejarano</LAST_NAME>
+            <SUFFIX/>
+            <KEY>102032</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>William</FIRST_NAME>
+            <LAST_NAME>Morey</LAST_NAME>
+            <MIDDLE_NAME>E</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>199159</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Mathiesen Racing LLC</OWNER>
+         <COMMENT>stalked 3wd, bid 1/4, edged clear 1/8</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>B</CODE>
+               <DESCRIPTION>Bay</DESCRIPTION>
+            </COLOR>
+            <SIRE>Practical Joke</SIRE>
+            <DAM>Forbidden Brew</DAM>
+            <DAM_SIRE>Milwaukee Brew</DAM_SIRE>
+            <BREEDER>Richard Peardon</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>7.86</WIN_PAYOFF>
+         <PLACE_PAYOFF>3.46</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.92</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>050049050052057055054063</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Wicked Secret</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>CD</CODE>
+               <NAME>CHURCHILL DOWNS</NAME>
+            </TRACK>
+            <RACE_DATE>2022-11-03</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Divining Stone</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>LRL</CODE>
+               <NAME>LAUREL PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2021-10-15</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>8</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="5">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Allowance Optional Claiming</TYPE>
+   <PURSE>141000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    5  1 1/8M Turf CR: 109. Allowance Optional Claiming Purse 141000. FOR THREE YEAR OLDS AND UPWARD WHICH HAVE NEVER WON $18,000 THREE TIMES OTHER THAN MAIDEN, CLAIMING, STARTER, RESTRICTED, OR STATE BRED OR WHICH HAVE NEVER WON FOUR RACES OR CLAIMING PRICE $100,000. Three Year Olds, 120 lbs.; Older, 126 lbs. Non-winners O f $30,000 Twice Over A Mile On The Turf Since March 11 Allowed 2 lbs. $24,000 Over A Mile On The Turf Since Then Allowed 4 lbs. Claiming Price $100,000 (Races Where Entered For $62,500 Or Less Not Considered In Allowances). (If deemed inadvisable by manag ement to run this race over the turf course, it will be run on the main track at One and One Eighth mile.).  </RACE_TEXT>
+   <AGE_RESTRICTIONS>3U  NW3$X</AGE_RESTRICTIONS>
+   <DISTANCE>900</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>T</COURSE_ID>
+   <COURSE_DESC>Turf</COURSE_DESC>
+   <SURFACE>T</SURFACE>
+   <CLASS_RATING>109</CLASS_RATING>
+   <TRK_COND>FM</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>6:58</POST_TIME>
+   <DTV>3</DTV>
+   <FRACTION_1>23.51</FRACTION_1>
+   <FRACTION_2>49.17</FRACTION_2>
+   <FRACTION_3>73.25</FRACTION_3>
+   <FRACTION_4>96.26</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>108.32</WIN_TIME>
+   <PACE_CALL1>70</PACE_CALL1>
+   <PACE_CALL2>85</PACE_CALL2>
+   <PACE_FINAL>109</PACE_FINAL>
+   <PAR_TIME>109.10</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>80880</SPLIT_1>
+      <SPLIT_2>18600</SPLIT_2>
+      <SPLIT_3>14100</SPLIT_3>
+      <SPLIT_4>7050</SPLIT_4>
+      <SPLIT_5>4230</SPLIT_5>
+      <SPLIT_6>1717</SPLIT_6>
+      <SPLIT_7>1717</SPLIT_7>
+      <SPLIT_8>1711</SPLIT_8>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>36576</POOL_TOTAL>
+      <WINNERS> 2-8-8</WINNERS>
+      <PAYOFF>46.42</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Pick 4</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>88621</POOL_TOTAL>
+      <WINNERS> 5-2-8-1/8/10</WINNERS>
+      <PAYOFF>264.72</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Pick 5</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>288863</POOL_TOTAL>
+      <WINNERS> 5/6-5-2-8-1/8/10</WINNERS>
+      <PAYOFF>756.40</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>19085</POOL_TOTAL>
+      <WINNERS> 8-8</WINNERS>
+      <PAYOFF>14.27</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>160574</POOL_TOTAL>
+      <WINNERS> 8-4</WINNERS>
+      <PAYOFF>65.60</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="6">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>39711</POOL_TOTAL>
+      <WINNERS> 8-4-9-5</WINNERS>
+      <PAYOFF>193.31</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="7">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>79587</POOL_TOTAL>
+      <WINNERS> 8-4-9</WINNERS>
+      <PAYOFF>85.53</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="8">
+      <WAGER_TYPE>5 Super Hi-5</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>5232</POOL_TOTAL>
+      <WINNERS> 8-4-9-5-6</WINNERS>
+      <PAYOFF>0.00</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>114</RUNUPDIST>
+   <RAILDIST>36</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>243766.00</WPS_POOL>
+   <FOOTNOTES>TIBERIUS MERCURIUS vied for the lead two wide, led narrowly in hand around the far turn, then sparred with his inner counterpart through the lane via a long battle, and won the nod at the wire. HARLAN ESTATE set the pace inside of a vying rival, was roused while headed around the far turn, gamely prolonged the war through the lane, but narrowly lost the head bob at the wire. VINTAGE PRINT tracked three wide, chased outside of the embattled leading pair around the far turn, then failed to gain through the lane and held show. DASH ATTACK pursued from off of the pace two wide and between horses, tipped four wide in upper stretch, and offered a mild kick. VIVAR laid off of the pace three wide and between horses, eased back to trail leaving the nine sixteenths pole, swung out six wide approaching midstretch, and stayed on. FOUNDER saved ground towards the rear, but to no avail. TOMMY BEE stalked along the inside, chased under urging around the far turn, and weakened. FENWICK STATION got a bit crowded between horses soon after the start, settled off of the pace while hung four wide around both turns, then tired between horses after being floated five wide in upper stretch.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Tommy Bee</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>LRL</CODE>
+               <NAME>LAUREL PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2022-08-06</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>4.32</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>7</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>7</POSITION>
+            <LENGTHS>5.6</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>7</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>101</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Florent</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Geroux</LAST_NAME>
+            <SUFFIX/>
+            <KEY>119101</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Brad</FIRST_NAME>
+            <LAST_NAME>Cox</LAST_NAME>
+            <MIDDLE_NAME>H</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>241578</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>LaPenta Robert V and Madaket Stables LLC</OWNER>
+         <COMMENT>stalked inside, chased 2nd, wknd</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051053057063057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Founder</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>TP</CODE>
+               <NAME>TURFWAY PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-25</RACE_DATE>
+            <RACE_NUMBER>10</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>R</CODE>
+            <DESCRIPTION>Ridgling</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>3.70</DOLLAR_ODDS>
+         <PROGRAM_NUM>3</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>8</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>8</POSITION>
+            <LENGTHS>4.4</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>8</POSITION>
+            <LENGTHS>3.8</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>7</POSITION>
+            <LENGTHS>2.9</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>5.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>4.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>102</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Tyler</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gaffalione</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154538</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Maker</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>29986</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Drown Jeffrey and Rachel Don</OWNER>
+         <COMMENT>trailed inside, saved ground, no avail</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050051057061058063</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Harlan Estate</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>TP</CODE>
+               <NAME>TURFWAY PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-02-18</RACE_DATE>
+            <RACE_NUMBER>6</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>9.74</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>100000</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>109</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Declan</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Cannon</LAST_NAME>
+            <SUFFIX/>
+            <KEY>156132</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>D Whitworth</FIRST_NAME>
+            <LAST_NAME>Beckman</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>971712</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Graham Grace Stable</OWNER>
+         <COMMENT>set pace ins, roused/headed 2nd, game, long duel, lost bob</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>7.78</PLACE_PAYOFF>
+         <SHOW_PAYOFF>5.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050052061058063062</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Dash Attack</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-28</RACE_DATE>
+            <RACE_NUMBER>5</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>13.17</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>6</POSITION>
+            <LENGTHS>2.8</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>105</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>David</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Cohen</LAST_NAME>
+            <SUFFIX/>
+            <KEY>111066</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Kenneth</FIRST_NAME>
+            <LAST_NAME>McPeek</LAST_NAME>
+            <MIDDLE_NAME>G</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>1226</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Catalyst Stable Magdalena Racing Pollard Kevin J and Slevin Patty</OWNER>
+         <COMMENT>off pace 2wd btwn, 4wd upper, mild kick</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051056055058055</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Vivar</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-15</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>1</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>4.19</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>7</POSITION>
+            <LENGTHS>2.9</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>7</POSITION>
+            <LENGTHS>3.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>8</POSITION>
+            <LENGTHS>4.4</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>7</POSITION>
+            <LENGTHS>5.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>3.6</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>104</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Chris</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Landeros</LAST_NAME>
+            <SUFFIX/>
+            <KEY>120381</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Robert</FIRST_NAME>
+            <LAST_NAME>Medina</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>968958</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Shortleaf Stable, Inc.</OWNER>
+         <COMMENT>off pace 3wd btwn, trailed 9/16, 6wd upper, stayed on</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051061062056056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Fenwick Station</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-20</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>11</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>6</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>17.54</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>2.8</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>8</POSITION>
+            <LENGTHS>6.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>8</POSITION>
+            <LENGTHS>6.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>8</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>100</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Martin</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Garcia</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117931</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Eddie</FIRST_NAME>
+            <LAST_NAME>Kenneally</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>37372</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Summerplace Farm</OWNER>
+         <COMMENT>bit crowded after start, off pace 4wd, 5wd upper, tired btwn</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049056050051057057060060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Tiberius Mercurius</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-20</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>122</WEIGHT>
+         <AGE>7</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>2.68</DOLLAR_ODDS>
+         <PROGRAM_NUM>8</PROGRAM_NUM>
+         <POST_POS>7</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>109</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Maker</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>29986</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Three Diamonds Farm</OWNER>
+         <COMMENT>vied 2wd, led in hand 2nd, long duel, won nod</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>B</CODE>
+               <DESCRIPTION>Bay</DESCRIPTION>
+            </COLOR>
+            <SIRE>The Factor</SIRE>
+            <DAM>The Winged Venus</DAM>
+            <DAM_SIRE>Rock Hard Ten</DAM_SIRE>
+            <BREEDER>Anastasie Astrid Christiansen-Croy</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>7.36</WIN_PAYOFF>
+         <PLACE_PAYOFF>3.52</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.90</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049055050051061053059058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Vintage Print</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2022-10-23</RACE_DATE>
+            <RACE_NUMBER>5</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>117</WEIGHT>
+         <AGE>6</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>6.66</DOLLAR_ODDS>
+         <PROGRAM_NUM>9</PROGRAM_NUM>
+         <POST_POS>8</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>106</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Walter</FIRST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <LAST_NAME>Rodriguez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>171494</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Paulo</FIRST_NAME>
+            <LAST_NAME>Lobo</LAST_NAME>
+            <MIDDLE_NAME>H</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>207791</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>OXO Equine LLC</OWNER>
+         <COMMENT>tracked 3wd, chased 3p2nd, no gain late, held show</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>4.50</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049056050051052061061059</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Eleven Central</NAME>
+         <BREED>TB</BREED>
+         <REASON>Main-Track-Only</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>AQU</CODE>
+               <NAME>AQUEDUCT</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-15</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Jungle Warfare</NAME>
+         <BREED>TB</BREED>
+         <REASON>Trainer</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-20</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="6">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Starter Allowance</TYPE>
+   <PURSE>52000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    6  6 1/2F Dirt CR: 89. Starter Allowance Purse 52000. FOR FILLIES AND MARES FOUR YEARS OLD  AND UPWARD WHICH HAVE STARTED FOR A CLAIMING PRICE OF $10,000 OR LESS IN 2022 - 2023. Weight, 123 lbs. Non-winners Of Two Races Since March 11 Allowed 3 lbs. A Race Since Then Allowed 5 lbs. (Races Where Entered For $ 10,000 Or Less Not Considered In Allowances).    </RACE_TEXT>
+   <AGE_RESTRICTIONS>4UF  </AGE_RESTRICTIONS>
+   <DISTANCE>650</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>89</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>7:27</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>22.36</FRACTION_1>
+   <FRACTION_2>45.45</FRACTION_2>
+   <FRACTION_3>70.91</FRACTION_3>
+   <FRACTION_4>0.00</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>77.99</WIN_TIME>
+   <PACE_CALL1>101</PACE_CALL1>
+   <PACE_CALL2>90</PACE_CALL2>
+   <PACE_FINAL>80</PACE_FINAL>
+   <PAR_TIME>76.98</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>33800</SPLIT_1>
+      <SPLIT_2>11960</SPLIT_2>
+      <SPLIT_3>5980</SPLIT_3>
+      <SPLIT_4>2990</SPLIT_4>
+      <SPLIT_5>1560</SPLIT_5>
+      <SPLIT_6>780</SPLIT_6>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>31338</POOL_TOTAL>
+      <WINNERS> 8-8-6</WINNERS>
+      <PAYOFF>70.38</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>20215</POOL_TOTAL>
+      <WINNERS> 8-6</WINNERS>
+      <PAYOFF>54.95</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>96391</POOL_TOTAL>
+      <WINNERS> 6-5</WINNERS>
+      <PAYOFF>134.28</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>32927</POOL_TOTAL>
+      <WINNERS> 6-5-2-3</WINNERS>
+      <PAYOFF>87.90</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>65297</POOL_TOTAL>
+      <WINNERS> 6-5-2</WINNERS>
+      <PAYOFF>119.88</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>45</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>174535.00</WPS_POOL>
+   <FOOTNOTES>PRINCESSTAPITURE dueled for the lead two wide, drew clear at the five sixteenths pole, and held sway safely late. LA CUMPARSITA lacked speed four wide around the turn, then stayed on in the six path to gain place leaving the sixteenth pole, and was slowly but belatedly gaining on the leader. INVALUABLE chased the dueling leaders from the three path, pursued from the five path while failing to keep pace with the clearing eventual winner in upper stretch, bid for place entering the final sixteenth, but was outkicked shortly after. SUPERTALEOFHOUDINI lacked speed two wide, chased between horses in midstretch, attempted a bid for show inside of INVALUABLE late, but did not have enough. LI&apos;L GRAZEN dueled for the lead inside of the eventual winner, but gave way at the five sixteenths pole, shifted outwardly in upper stretch, but continued to weaken between horses. EVERYOTHERWON chased along the inside and faded.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Everyotherwon</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-10</RACE_DATE>
+            <RACE_NUMBER>2</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>12.51</DOLLAR_ODDS>
+         <PROGRAM_NUM>1</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>7.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>64</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Reylu</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gutierrez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>162067</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Lauer</LAST_NAME>
+            <MIDDLE_NAME>E</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>1054</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Penny S. Lauer</OWNER>
+         <COMMENT>chased inside, faded</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050051053061061061</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Invaluable</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-13</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>1</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>120</WEIGHT>
+         <AGE>6</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>0.73</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>3.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>5.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>5.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>69</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michael</FIRST_NAME>
+            <LAST_NAME>Maker</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>29986</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Paradise Farms Corp.</OWNER>
+         <COMMENT>chased 3p, 5p upr, lacked kick, place bid 1/16, outkicked</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.14</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049056050051055056060060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Supertaleofhoudini</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-12</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>18.66</DOLLAR_ODDS>
+         <PROGRAM_NUM>3</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>4.2</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>5.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>6.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>5.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>68</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Rafael</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Bejarano</LAST_NAME>
+            <SUFFIX/>
+            <KEY>102032</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Reina</FIRST_NAME>
+            <LAST_NAME>Gonzalez</LAST_NAME>
+            <MIDDLE_NAME>E</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>196644</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Gonzalez Reina E Doyle Cheryl and Viramontes Jorge E</OWNER>
+         <COMMENT>off pace 2wd, btwn 1/8, show bid, not enough</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050051059057056058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Li&apos;l Grazen</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-22</RACE_DATE>
+            <RACE_NUMBER>8</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>118</WEIGHT>
+         <AGE>9</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>bf</EQUIP>
+         <DOLLAR_ODDS>1.79</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>4.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>7.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>66</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Ricardo</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Santana Jr</LAST_NAME>
+            <SUFFIX/>
+            <KEY>136048</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Robertino</FIRST_NAME>
+            <LAST_NAME>Diodoro</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>46290</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>John P. Holleman</OWNER>
+         <COMMENT>dueled inside winner, gave way 5/16, shifted out upr, wknd btwn</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049053050051059055060061</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>La Cumparsita</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-13</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>111</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>22.32</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>3.2</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>5.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>6.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>3.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>72</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Alice</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Beckman</LAST_NAME>
+            <SUFFIX/>
+            <KEY>169464</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Haley</FIRST_NAME>
+            <LAST_NAME>Hester</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>954910</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Gold Ribbon Horse Racing</OWNER>
+         <COMMENT>off pace 4wd, 6p upr, stayed on, place bid 1/16, belated gain</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>19.78</PLACE_PAYOFF>
+         <SHOW_PAYOFF>4.94</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052052057063060</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Princesstapiture</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-13</RACE_DATE>
+            <RACE_NUMBER>1</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>111</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>M</CODE>
+            <DESCRIPTION>Mare</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>7.99</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>80</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME>Y</MIDDLE_NAME>
+            <LAST_NAME>Marcano</LAST_NAME>
+            <SUFFIX/>
+            <KEY>172508</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Hugo</FIRST_NAME>
+            <LAST_NAME>Andrade</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>970779</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Hugo Andrade</OWNER>
+         <COMMENT>dueled 2wd, drew clear 5/16, held safely</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>B</CODE>
+               <DESCRIPTION>Bay</DESCRIPTION>
+            </COLOR>
+            <SIRE>Tapiture</SIRE>
+            <DAM>Garzacountyqueen</DAM>
+            <DAM_SIRE>Harlan&apos;s Holiday</DAM_SIRE>
+            <BREEDER>Lou Dunn DieKemper Racing</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>17.98</WIN_PAYOFF>
+         <PLACE_PAYOFF>7.62</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.42</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050051059055057058</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Discernment</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>TUP</CODE>
+               <NAME>TURF PARADISE</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-04</RACE_DATE>
+            <RACE_NUMBER>8</RACE_NUMBER>
+            <OFL_FINISH>1</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="7">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Allowance</TYPE>
+   <PURSE>127000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    7  1 3/16M Dirt CR: 103. Allowance Purse 127000. FOR THREE YEAR OLDS AND UPWARD WHICH HAVE NEVER WON A RACE OTHER THAN MAIDEN, CLAIMING OR STARTER OR WHICH HAVE NEVER WON TWO RACES. Three Year Olds, 120 lbs.; Older, 126 lbs. Non-winners Of $24,600 Over A Mile Since March 11 Allowed 2 lbs. (Races Where E ntered For $35,000 Or Less Not Considered In Allowances).    </RACE_TEXT>
+   <AGE_RESTRICTIONS>3U  NW1X</AGE_RESTRICTIONS>
+   <DISTANCE>950</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>103</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>7:55</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>24.22</FRACTION_1>
+   <FRACTION_2>49.57</FRACTION_2>
+   <FRACTION_3>74.00</FRACTION_3>
+   <FRACTION_4>98.60</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>116.95</WIN_TIME>
+   <PACE_CALL1>85</PACE_CALL1>
+   <PACE_CALL2>84</PACE_CALL2>
+   <PACE_FINAL>101</PACE_FINAL>
+   <PAR_TIME>116.34</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>72960</SPLIT_1>
+      <SPLIT_2>25400</SPLIT_2>
+      <SPLIT_3>12700</SPLIT_3>
+      <SPLIT_4>6350</SPLIT_4>
+      <SPLIT_5>3810</SPLIT_5>
+      <SPLIT_6>1445</SPLIT_6>
+      <SPLIT_7>1445</SPLIT_7>
+      <SPLIT_8>1445</SPLIT_8>
+      <SPLIT_9>1445</SPLIT_9>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>23970</POOL_TOTAL>
+      <WINNERS> 8-6-4</WINNERS>
+      <PAYOFF>116.93</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>26224</POOL_TOTAL>
+      <WINNERS> 6-4</WINNERS>
+      <PAYOFF>69.63</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>199888</POOL_TOTAL>
+      <WINNERS> 4-5</WINNERS>
+      <PAYOFF>75.34</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Superfecta</WAGER_TYPE>
+      <NUM_TICKETS>0.1</NUM_TICKETS>
+      <POOL_TOTAL>60273</POOL_TOTAL>
+      <WINNERS> 4-5-10-11</WINNERS>
+      <PAYOFF>108.57</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Super High Five</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>13362</POOL_TOTAL>
+      <WINNERS> 4-5-10-11-12</WINNERS>
+      <PAYOFF>5596.69</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="6">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>108278</POOL_TOTAL>
+      <WINNERS> 4-5-10</WINNERS>
+      <PAYOFF>107.91</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED/>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>45</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>291600.00</WPS_POOL>
+   <FOOTNOTES>GIANT GAME set the pace along the inside, showed the way from a pair of outer pressers around the far turn, and gamely held a margin from TIWANAKU through the lane. TIWANAKU pressed two wide and from between horses, vied around the far turn, sparred through the lane while not quite at even terms, and was kept at bay. THE PRINCE&apos;S SPUR stalked three wide, pressed around the far turn, failed to keep pace between horses in upper stretch, and held show. BOLZY tracked four wide, then chased while dueling for show through the lane, but was denied that position. O CAPTAIN laid off of the pace three wide, attempted to inch closer five wide around the far turn, but flattened out in upper stretch. PRINCIPE D&apos;ORO stuttered a step at the start, was keen to place behind the leaders early on, settled into stalking stride down the backstretch, vacated the rail around the far turn, then lacked a rail rally after tipping back in. COUSIN LARRY laid off of the pace two wide and between horses, and failed to factor. SPIN WHEEL was slow into stride and made little impact. MASTER GAME was taken in hand after a step slow at the start, laid off of the pace along the inside and faded.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Spin Wheel</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-12</RACE_DATE>
+            <RACE_NUMBER>5</RACE_NUMBER>
+            <OFL_FINISH>7</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>11.65</DOLLAR_ODDS>
+         <PROGRAM_NUM>1</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>9</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>9</POSITION>
+            <LENGTHS>6.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>9</POSITION>
+            <LENGTHS>7.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>9</POSITION>
+            <LENGTHS>6.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>8</POSITION>
+            <LENGTHS>7.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>8</POSITION>
+            <LENGTHS>10.1</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>8</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>87</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Julien</FIRST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <LAST_NAME>Leparoux</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117753</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>George</FIRST_NAME>
+            <LAST_NAME>Arnold</LAST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <SUFFIX>II</SUFFIX>
+            <KEY>12433</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>BBN Racing LLC</OWNER>
+         <COMMENT>slow into stride, trailed ins, 4p2nd, no impact</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051057059060056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Master Game</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-15</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>14.16</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>8</POSITION>
+            <LENGTHS>4.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>7</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>7</POSITION>
+            <LENGTHS>4.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>9</POSITION>
+            <LENGTHS>9.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>9</POSITION>
+            <LENGTHS>18.9</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>9</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>75</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>James</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Graham</LAST_NAME>
+            <SUFFIX/>
+            <KEY>107418</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Grant</FIRST_NAME>
+            <LAST_NAME>Forster</LAST_NAME>
+            <MIDDLE_NAME>T</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>228233</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Mutiny Bay Backstretch LLC Sargent Stables and DKline Racing</OWNER>
+         <COMMENT>taken in hand start, off pace inside, faded</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052053058058063</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Giant Game</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>GP</CODE>
+               <NAME>GULFSTREAM PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-01</RACE_DATE>
+            <RACE_NUMBER>4</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>2.56</DOLLAR_ODDS>
+         <PROGRAM_NUM>4</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>101</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Martin</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Garcia</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117931</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Dale</FIRST_NAME>
+            <LAST_NAME>Romans</LAST_NAME>
+            <MIDDLE_NAME>L</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>13888</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>West Point Thoroughbreds and Albaugh Family Stables LLC</OWNER>
+         <COMMENT>set pace inside, inside pair 2nd, dueled, game, held firm</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>DK B/</CODE>
+               <DESCRIPTION>Dark Bay or Brown</DESCRIPTION>
+            </COLOR>
+            <SIRE>Giant&apos;s Causeway</SIRE>
+            <DAM>Game for More</DAM>
+            <DAM_SIRE>More Than Ready</DAM_SIRE>
+            <BREEDER>H. Allen Poindexter</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>7.12</WIN_PAYOFF>
+         <PLACE_PAYOFF>4.36</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.36</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052059053056058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Tiwanaku</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>FG</CODE>
+               <NAME>FAIR GROUNDS</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-26</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>9.46</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>100</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Edgar</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Morales</LAST_NAME>
+            <SUFFIX/>
+            <KEY>162009</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Thomas</FIRST_NAME>
+            <LAST_NAME>Amoss</LAST_NAME>
+            <MIDDLE_NAME>M</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>3496</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Maggi Moss</OWNER>
+         <COMMENT>pressed 2wd btwn, vied 2nd, dueled, denied</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>9.52</PLACE_PAYOFF>
+         <SHOW_PAYOFF>6.10</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050051057058059061</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Principe d&apos;Oro</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-15</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>3.11</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>8</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>6</POSITION>
+            <LENGTHS>6.1</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>6</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>93</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Ricardo</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Santana Jr</LAST_NAME>
+            <SUFFIX/>
+            <KEY>136048</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Todd</FIRST_NAME>
+            <LAST_NAME>Pletcher</LAST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>114342</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Juddmonte Winchell Thoroughbreds LLC and Bridlewood Farm</OWNER>
+         <COMMENT>stuttered step start, keen, stalked ins, 2p2nd, lacked rail rally</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051055061054057</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Cousin Larry</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>FG</CODE>
+               <NAME>FAIR GROUNDS</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-26</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>27.56</DOLLAR_ODDS>
+         <PROGRAM_NUM>8</PROGRAM_NUM>
+         <POST_POS>6</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>7</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>5</POSITION>
+            <LENGTHS>3.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>6</POSITION>
+            <LENGTHS>5.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>7</POSITION>
+            <LENGTHS>6.4</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>7</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>92</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Gabriel</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>121307</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Michelle</FIRST_NAME>
+            <LAST_NAME>Lovell</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>233605</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Ten Strike Racing Lovell Michelle and Griffon Farms</OWNER>
+         <COMMENT>off pace 2wd btwn, chased 3p2nd, no factor</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050052056054059062</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>The Prince&apos;s Spur</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2022-10-22</RACE_DATE>
+            <RACE_NUMBER>8</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>5.56</DOLLAR_ODDS>
+         <PROGRAM_NUM>10</PROGRAM_NUM>
+         <POST_POS>7</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>4.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>95</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Tyler</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Gaffalione</LAST_NAME>
+            <SUFFIX/>
+            <KEY>154538</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Philip</FIRST_NAME>
+            <LAST_NAME>Bauer</LAST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>948624</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Rigney Racing LLC</OWNER>
+         <COMMENT>stalked 3wd, pressed 2nd, outpaced btwn upr, held show</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>4.72</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051055060056061</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Bolzy</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-22</RACE_DATE>
+            <RACE_NUMBER>6</RACE_NUMBER>
+            <OFL_FINISH>1</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>126</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>7.89</DOLLAR_ODDS>
+         <PROGRAM_NUM>11</PROGRAM_NUM>
+         <POST_POS>8</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>3.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>6</POSITION>
+            <LENGTHS>3.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.8</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>95</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Francisco</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Arrieta</LAST_NAME>
+            <SUFFIX/>
+            <KEY>148561</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Donnie</FIRST_NAME>
+            <LAST_NAME>Von Hemel</LAST_NAME>
+            <MIDDLE_NAME>K</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>1951</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Robert H. Zoellner</OWNER>
+         <COMMENT>tracked 4wd, chased, denied show</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052061057063056</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>O Captain</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>GP</CODE>
+               <NAME>GULFSTREAM PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-01</RACE_DATE>
+            <RACE_NUMBER>4</RACE_NUMBER>
+            <OFL_FINISH>3</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>H</CODE>
+            <DESCRIPTION>Horse</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>5.75</DOLLAR_ODDS>
+         <PROGRAM_NUM>12</PROGRAM_NUM>
+         <POST_POS>9</POST_POS>
+         <CLAIM_PRICE>0</CLAIM_PRICE>
+         <START_POSITION>6</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>7</POSITION>
+            <LENGTHS>3.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>8</POSITION>
+            <LENGTHS>5.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>8</POSITION>
+            <LENGTHS>4.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>7</POSITION>
+            <LENGTHS>5.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>93</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Cristian</FIRST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <LAST_NAME>Torres</LAST_NAME>
+            <SUFFIX/>
+            <KEY>158863</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Gustavo</FIRST_NAME>
+            <LAST_NAME>Delgado</LAST_NAME>
+            <MIDDLE_NAME/>
+            <SUFFIX/>
+            <KEY>227060</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>OGMA Investments LLC Iavarone Michael Iavarone Jules Marquee Bloodstock and Towe</OWNER>
+         <COMMENT>off pace 3wd, inched closer 5w2nd, flattened out upper</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051058053062063</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>Interlock Empire</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-22</RACE_DATE>
+            <RACE_NUMBER>11</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Redeemer</NAME>
+         <BREED>TB</BREED>
+         <REASON>Trainer</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2022-10-12</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>B Minor</NAME>
+         <BREED>TB</BREED>
+         <REASON>Also-Eligible</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>CD</CODE>
+               <NAME>CHURCHILL DOWNS</NAME>
+            </TRACK>
+            <RACE_DATE>2023-05-06</RACE_DATE>
+            <RACE_NUMBER>13</RACE_NUMBER>
+            <OFL_FINISH>4</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Bright Spark</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-19</RACE_DATE>
+            <RACE_NUMBER>7</RACE_NUMBER>
+            <OFL_FINISH>2</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+<RACE NUMBER="8">
+   <BREED>TB</BREED>
+   <CARD_ID>D</CARD_ID>
+   <TYPE>Claiming</TYPE>
+   <PURSE>68000</PURSE>
+   <RACE_TEXT>CHURCHILL DOWNS RACE    8  1 1/16M Dirt CR: 95. Claiming Purse 68000. FOR THREE YEAR OLDS AND UPWARD WHICH HAVE NEVER WON THREE RACES OR THREE YEAR OLDS. Three Year Olds, 120 lbs.; Older, 126 lbs. Non-winners Of A Race Since April 11 Allowed 2 lbs. Claiming Price $50,000.      </RACE_TEXT>
+   <AGE_RESTRICTIONS>3U  C</AGE_RESTRICTIONS>
+   <DISTANCE>850</DISTANCE>
+   <DIST_UNIT>F</DIST_UNIT>
+   <ABOUT_DIST_FLAG/>
+   <COURSE_ID>D</COURSE_ID>
+   <COURSE_DESC>Dirt</COURSE_DESC>
+   <SURFACE>D</SURFACE>
+   <CLASS_RATING>95</CLASS_RATING>
+   <TRK_COND>FT</TRK_COND>
+   <WEATHER>Cloudy</WEATHER>
+   <STRT_DESC>Good</STRT_DESC>
+   <POST_TIME>8:24</POST_TIME>
+   <DTV>4</DTV>
+   <FRACTION_1>24.63</FRACTION_1>
+   <FRACTION_2>49.13</FRACTION_2>
+   <FRACTION_3>73.25</FRACTION_3>
+   <FRACTION_4>98.35</FRACTION_4>
+   <FRACTION_5>0.00</FRACTION_5>
+   <WIN_TIME>104.89</WIN_TIME>
+   <PACE_CALL1>74</PACE_CALL1>
+   <PACE_CALL2>84</PACE_CALL2>
+   <PACE_FINAL>91</PACE_FINAL>
+   <PAR_TIME>104.26</PAR_TIME>
+   <EARNING_SPLITS>
+      <SPLIT_1>44200</SPLIT_1>
+      <SPLIT_2>15640</SPLIT_2>
+      <SPLIT_3>7820</SPLIT_3>
+      <SPLIT_4>3910</SPLIT_4>
+      <SPLIT_5>2346</SPLIT_5>
+   </EARNING_SPLITS>
+   <EXOTIC_WAGERS>
+   <WAGER NUMBER="1">
+      <WAGER_TYPE>Pick 3</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>73587</POOL_TOTAL>
+      <WINNERS> 6-4-3</WINNERS>
+      <PAYOFF>99.97</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="2">
+      <WAGER_TYPE>Pick 4</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>176610</POOL_TOTAL>
+      <WINNERS> 1/8/10-6-3/4/6/9/13-3</WINNERS>
+      <PAYOFF>455.79</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="3">
+      <WAGER_TYPE>Pick 5</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>191487</POOL_TOTAL>
+      <WINNERS> 8-1/8/10-6-3/4/6/9/13-3</WINNERS>
+      <PAYOFF>1614.64</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="4">
+      <WAGER_TYPE>Pick 6 Jackpot</WAGER_TYPE>
+      <NUM_TICKETS>0.2</NUM_TICKETS>
+      <POOL_TOTAL>44925</POOL_TOTAL>
+      <WINNERS> 2-8-1/8/10-6-3/4/6/9/13-3</WINNERS>
+      <PAYOFF>8590.87</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="5">
+      <WAGER_TYPE>Daily Double</WAGER_TYPE>
+      <NUM_TICKETS>1</NUM_TICKETS>
+      <POOL_TOTAL>93613</POOL_TOTAL>
+      <WINNERS> 4-3</WINNERS>
+      <PAYOFF>14.31</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="6">
+      <WAGER_TYPE>Exacta</WAGER_TYPE>
+      <NUM_TICKETS>2</NUM_TICKETS>
+      <POOL_TOTAL>94659</POOL_TOTAL>
+      <WINNERS> 3-5</WINNERS>
+      <PAYOFF>18.00</PAYOFF>
+   </WAGER>
+   <WAGER NUMBER="7">
+      <WAGER_TYPE>Trifecta</WAGER_TYPE>
+      <NUM_TICKETS>0.5</NUM_TICKETS>
+      <POOL_TOTAL>56931</POOL_TOTAL>
+      <WINNERS> 3-5-7</WINNERS>
+      <PAYOFF>16.75</PAYOFF>
+   </WAGER>
+   </EXOTIC_WAGERS>
+   <CLAIMED>
+      <CLAIM NUMBER="1">
+      <HORSE>UNINVITED GUEST</HORSE>
+      <PRICE>50000</PRICE>
+         <OWNER>Blue Tarp Too LLC</OWNER>
+         <TRAINER>
+            <FIRST_NAME>Paul</FIRST_NAME>
+            <LAST_NAME>McGee</LAST_NAME>
+            <MIDDLE_NAME>J</MIDDLE_NAME>
+            <SUFFIX/>
+         </TRAINER>
+      </CLAIM>
+   </CLAIMED>
+   <VOIDED_CLAIMS/>
+   <WIND_DIRECTION/>
+   <WIND_SPEED/>
+   <RUNUPDIST>50</RUNUPDIST>
+   <RAILDIST>0</RAILDIST>
+   <SEALED>N</SEALED>
+   <WPS_POOL>195901.00</WPS_POOL>
+   <FOOTNOTES>JOHNY&apos;S FIREBALL stalked along the inside, got slightly keen while well handled behind the leaders around the first turn, tipped to the four path to take aim outside of the pace setter turning for home, bid in midstretch sparking a duel and edged ahead. CARMICHAEL pressed two wide, vied down the backstretch, cleared at the three furlong pole, dug in to resist an outer challenge in midstretch and was bested. UNINVITED GUEST tracked outside of the top pair from the five path, then lacked a bid before reaching show late. STONEVICIOUS set the pace along the inside, gave way at the three furlong pole, then lost show late. LONG CROW trailed in the two path, failed to respond to urging in the six path around the far turn, and failed to factor on his left lead.</FOOTNOTES>
+      <ENTRY>
+         <NAME>Stonevicious</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-08</RACE_DATE>
+            <RACE_NUMBER>3</RACE_NUMBER>
+            <OFL_FINISH>12</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>7.38</DOLLAR_ODDS>
+         <PROGRAM_NUM>2</PROGRAM_NUM>
+         <POST_POS>1</POST_POS>
+         <CLAIM_PRICE>50000</CLAIM_PRICE>
+         <START_POSITION>4</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>2</POSITION>
+            <LENGTHS>2.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>4</POSITION>
+            <LENGTHS>6.4</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>4</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>81</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>James</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Graham</LAST_NAME>
+            <SUFFIX/>
+            <KEY>107418</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Eric</FIRST_NAME>
+            <LAST_NAME>Foster</LAST_NAME>
+            <MIDDLE_NAME>N</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>190256</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Foster Family Racing Miller Douglas E Wargel William J and RK Eckrich Racing LLC</OWNER>
+         <COMMENT>set pace inside, gave way 3/8, lost show late</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051059059057058</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Johny&apos;s Fireball</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>TP</CODE>
+               <NAME>TURFWAY PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-02-22</RACE_DATE>
+            <RACE_NUMBER>6</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>5</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>2.28</DOLLAR_ODDS>
+         <PROGRAM_NUM>3</PROGRAM_NUM>
+         <POST_POS>2</POST_POS>
+         <CLAIM_PRICE>50000</CLAIM_PRICE>
+         <START_POSITION>5</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>4</POSITION>
+            <LENGTHS>1.7</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>3</POSITION>
+            <LENGTHS>2.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>1</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>91</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Julien</FIRST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <LAST_NAME>Leparoux</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117753</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Philip</FIRST_NAME>
+            <LAST_NAME>Bauer</LAST_NAME>
+            <MIDDLE_NAME>A</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>948624</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Rigney Racing LLC</OWNER>
+         <COMMENT>stalked ins,keen 1st,took aim 4p5/16,bid 1/8,dueled,edged</COMMENT>
+         <WINNERS_DETAILS>
+            <COLOR>
+               <CODE>CH</CODE>
+               <DESCRIPTION>Chestnut</DESCRIPTION>
+            </COLOR>
+            <SIRE>Tonalist</SIRE>
+            <DAM>Sweet Emma Rose</DAM>
+            <DAM_SIRE>City Zip</DAM_SIRE>
+            <BREEDER>R. S. Evans</BREEDER>
+            <BRED_LOCATION>
+               <CODE>KY</CODE>
+               <DESCRIPTION>Kentucky</DESCRIPTION>
+            </BRED_LOCATION>
+         </WINNERS_DETAILS>
+         <WIN_PAYOFF>6.56</WIN_PAYOFF>
+         <PLACE_PAYOFF>3.04</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.76</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049057050052052062055062</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Carmichael</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>GP</CODE>
+               <NAME>GULFSTREAM PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-02-05</RACE_DATE>
+            <RACE_NUMBER>8</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>6</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP/>
+         <DOLLAR_ODDS>1.93</DOLLAR_ODDS>
+         <PROGRAM_NUM>5</PROGRAM_NUM>
+         <POST_POS>3</POST_POS>
+         <CLAIM_PRICE>50000</CLAIM_PRICE>
+         <START_POSITION>1</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>1</POSITION>
+            <LENGTHS>0.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>2</POSITION>
+            <LENGTHS>0.5</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>2</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>91</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Martin</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Garcia</LAST_NAME>
+            <SUFFIX/>
+            <KEY>117931</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Dale</FIRST_NAME>
+            <LAST_NAME>Romans</LAST_NAME>
+            <MIDDLE_NAME>L</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>13888</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Kyle W. Nagel</OWNER>
+         <COMMENT>pressed 2wd, vied, cleared 3/8, dueled 1/8, bested</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>2.92</PLACE_PAYOFF>
+         <SHOW_PAYOFF>2.44</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049056050051056055062063</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Long Crow</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>OP</CODE>
+               <NAME>OAKLAWN PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-08</RACE_DATE>
+            <RACE_NUMBER>9</RACE_NUMBER>
+            <OFL_FINISH>5</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>2.00</DOLLAR_ODDS>
+         <PROGRAM_NUM>6</PROGRAM_NUM>
+         <POST_POS>4</POST_POS>
+         <CLAIM_PRICE>50000</CLAIM_PRICE>
+         <START_POSITION>3</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>5</POSITION>
+            <LENGTHS>2.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>5</POSITION>
+            <LENGTHS>3.2</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>5</POSITION>
+            <LENGTHS>4.1</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>5</POSITION>
+            <LENGTHS>6.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>5</POSITION>
+            <LENGTHS>15.6</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>5</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>67</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>Luis</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Saez</LAST_NAME>
+            <SUFFIX/>
+            <KEY>135658</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Steven</FIRST_NAME>
+            <LAST_NAME>Asmussen</LAST_NAME>
+            <MIDDLE_NAME>M</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>5621</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Calumet Farm</OWNER>
+         <COMMENT>trailed 2p, urged 6p2nd, no factor, left lead</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>0.00</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050052054058060064</AXCISKEY>
+      </ENTRY>
+      <ENTRY>
+         <NAME>Uninvited Guest</NAME>
+         <DH_DQ_FLAGS/>
+         <BREED>TB</BREED>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-23</RACE_DATE>
+            <RACE_NUMBER>4</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+         <WEIGHT>124</WEIGHT>
+         <AGE>4</AGE>
+         <SEX>
+            <CODE>G</CODE>
+            <DESCRIPTION>Gelding</DESCRIPTION>
+         </SEX>
+         <MEDS>L</MEDS>
+         <EQUIP>b</EQUIP>
+         <DOLLAR_ODDS>7.76</DOLLAR_ODDS>
+         <PROGRAM_NUM>7</PROGRAM_NUM>
+         <POST_POS>5</POST_POS>
+         <CLAIM_PRICE>50000</CLAIM_PRICE>
+         <START_POSITION>2</START_POSITION>
+         <POINT_OF_CALL WHICH="1">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.5</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="2">
+            <POSITION>3</POSITION>
+            <LENGTHS>1.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="3">
+            <POSITION>4</POSITION>
+            <LENGTHS>3.6</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="4">
+            <POSITION>0</POSITION>
+            <LENGTHS>0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="5">
+            <POSITION>4</POSITION>
+            <LENGTHS>4.0</LENGTHS>
+         </POINT_OF_CALL>
+         <POINT_OF_CALL WHICH="FINAL">
+            <POSITION>3</POSITION>
+            <LENGTHS>6.3</LENGTHS>
+         </POINT_OF_CALL>
+         <OFFICIAL_FIN>3</OFFICIAL_FIN>
+         <FINISH_TIME>0.000</FINISH_TIME>
+         <SPEED_RATING>82</SPEED_RATING>
+         <JOCKEY>
+            <FIRST_NAME>David</FIRST_NAME>
+            <MIDDLE_NAME/>
+            <LAST_NAME>Cohen</LAST_NAME>
+            <SUFFIX/>
+            <KEY>111066</KEY>
+            <TYPE>E</TYPE>
+         </JOCKEY>
+         <TRAINER>
+            <FIRST_NAME>Steve</FIRST_NAME>
+            <LAST_NAME>Margolis</LAST_NAME>
+            <MIDDLE_NAME>R</MIDDLE_NAME>
+            <SUFFIX/>
+            <KEY>120478</KEY>
+            <TYPE>E</TYPE>
+         </TRAINER>
+         <OWNER>Low, Lawana L. and Robert E.</OWNER>
+         <COMMENT>tracked 3w-5p, lacked bid, up show late</COMMENT>
+         <WINNERS_DETAILS/>
+         <WIN_PAYOFF>0.00</WIN_PAYOFF>
+         <PLACE_PAYOFF>0.00</PLACE_PAYOFF>
+         <SHOW_PAYOFF>3.14</SHOW_PAYOFF>
+         <SHOW_PAYOFF2>0.00</SHOW_PAYOFF2>
+         <AXCISKEY>049058050051055055055063</AXCISKEY>
+      </ENTRY>
+      <SCRATCH>
+         <NAME>American Hero</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-13</RACE_DATE>
+            <RACE_NUMBER>8</RACE_NUMBER>
+            <OFL_FINISH>11</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Floki&apos;s Flight</NAME>
+         <BREED>TB</BREED>
+         <REASON>Trainer</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>GP</CODE>
+               <NAME>GULFSTREAM PARK</NAME>
+            </TRACK>
+            <RACE_DATE>2023-03-30</RACE_DATE>
+            <RACE_NUMBER>4</RACE_NUMBER>
+            <OFL_FINISH>6</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+      <SCRATCH>
+         <NAME>Cool Rags</NAME>
+         <BREED>TB</BREED>
+         <REASON>Veterinarian</REASON>
+         <LAST_PP>
+            <TRACK>
+               <CODE>KEE</CODE>
+               <NAME>KEENELAND</NAME>
+            </TRACK>
+            <RACE_DATE>2023-04-27</RACE_DATE>
+            <RACE_NUMBER>5</RACE_NUMBER>
+            <OFL_FINISH>8</OFL_FINISH>
+         </LAST_PP>
+      </SCRATCH>
+</RACE>
+</CHART>
