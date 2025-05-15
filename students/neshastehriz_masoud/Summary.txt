@@ -1,0 +1,27 @@
+
+Introduction:
+The objective of this project is to develop a machine learning model capable of predicting the winner of horse races based on historical race data. 
+The overall pipeline includes extracting and processing historical data, engineering predictive features, training a Bayesian Additive Regression Trees (BART) model, and applying the trained model to predict winners for future races. 
+Accurate prediction of race outcomes has valuable applications in betting markets, horse racing analytics, and sports management.
+
+Training and Model Development:
+The training data was sourced from a collection of XML files located in \texttt{rawDataForTraining/}, including files such as \texttt{SIMD20230502CD\_USA.xml}, \texttt{SIMD20230503CD\_USA.xml}, and others. 
+These files contained detailed past performance data about horses, races, surfaces, and jockeys. 
+The XML files were parsed to extract structured information, including race results (such as finishing position and margins), distances of races, surfaces raced on, and jockey details.
+
+From this information, several key predictive features were engineered: average finish position across previous races, average lengths behind the race winner, average race distance, the most common surface type the horse raced on, and the primary jockey associated with the horse. 
+Categorical variables like surface type and jockey were transformed into machine-readable format using one-hot encoding. 
+The final structured dataset included these engineered features along with a binary target variable, \texttt{is\_winner}, indicating whether the horse won the race.
+
+A Bayesian Additive Regression Trees (BART) model was selected due to its strong ability to capture complex, non-linear relationships and interactions between features while simultaneously providing uncertainty quantification through posterior distributions. 
+
+Test Data Preparation:
+The test data was provided in the form of the file \texttt{CDX0515.csv}, which included new race entries requiring prediction. 
+This file was processed similarly to the training data. 
+Column headers were assigned based on a provided mapping, and the same feature engineering process was applied to calculate average finish positions, lengths behind, average race distances, most frequent surfaces, and associated jockeys. 
+Categorical features were one-hot encoded to match the structure of the training data, ensuring compatibility with the trained BART model.
+
+Prediction and Output:
+The trained BART model was applied to the processed test data to predict the probability of each horse winning its respective race. 
+For each race, the horse with the highest predicted winning probability was selected as the model's prediction for the winner.  
+The final output, including horse names and predicted win probabilities, was saved into \texttt{final\_race\_winners\_with\_names.csv}.
