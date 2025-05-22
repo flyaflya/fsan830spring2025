@@ -6,6 +6,23 @@ import pymc_bart as pmb
 import os
 import xarray as xr
 
+def identify_real_starters(df, n_starters=14):
+    """Returns a boolean mask for each race indicating which starters are real (not padded)."""
+    odds_cols = [f'st{i}_odds' for i in range(1, n_starters + 1)]
+    
+    # Create a DataFrame with n_races rows and n_starters columns
+    is_real_starter = pd.DataFrame(index=df.index, columns=range(1, n_starters + 1))
+    
+    # Mark starters as real if their odds are not imputed (not 999.0)
+    for i, col in enumerate(odds_cols, 1):
+        # Check if column exists in the dataframe
+        if col in df.columns:
+            is_real_starter[i] = df[col] < 999.0
+        else:
+            is_real_starter[i] = False
+    
+    return is_real_starter
+
 def load_data():
     # Load training and prediction data
     train_df = pd.read_csv('students/fleischhacker_adam2/data/features/training_features.csv')
@@ -83,13 +100,13 @@ def create_multi_output_bart_model(X_train, y_train, n_starters):
             "μ", 
             X,
             y_train,  
-            m=500,     # number of trees
+            m=200,     # number of trees
             dims=["starters", "n_obs"],
             separate_trees=False  # Use separate trees for each starter
         )
         
         # error term
-        σ = pm.HalfNormal("σ", 3)
+        σ = pm.HalfNormal("σ", 2)
         
         # Make sure the observation matches dimensions properly
         # No need for dimshuffle since dimensions already match
@@ -186,12 +203,25 @@ def main():
     # Select 100 random sample indices
     random_indices = np.random.choice(total_samples, size=100, replace=False)
     
+    # Load the prediction features to get odds for identifying real starters
+    pred_features = pd.read_csv('students/fleischhacker_adam2/data/features/prediction_features.csv')
+    
+    # Identify real starters in each race
+    real_starters_mask = identify_real_starters(pred_features, n_starters)
+    
     for i, idx in enumerate(random_indices):
         # Extract a single draw from the posterior - shape (14, 10)
         single_draw = predictions_subset[idx]
         
         # Transpose to get (10, 14) shape for DataFrame - observations as rows, starters as columns
         draw_df = pd.DataFrame(single_draw.T, columns=target_cols)
+        
+        # Mask non-existent starters with NaN
+        for race_idx in range(len(draw_df)):
+            for starter_idx in range(n_starters):
+                if not real_starters_mask.iloc[race_idx, starter_idx]:
+                    draw_df.iloc[race_idx, starter_idx] = np.nan
+        
         draw_df.to_csv(os.path.join(draws_dir, f'draw_{i+1}.csv'), index=False)
     
     # Option 3: Calculate summary statistics and save them
@@ -210,28 +240,61 @@ def main():
     # Add diagnostic analysis of odds vs predictions
     print("\nAnalyzing relationship between odds and predictions...")
     
-    # Load the prediction features to get odds
-    pred_features = pd.read_csv('students/fleischhacker_adam2/data/features/prediction_features.csv')
     odds_cols = [col for col in pred_features.columns if 'odds' in col]
     
-    # For each race, compare odds with predictions
+    # For each race, compare odds with predictions ONLY for real starters
     for race_idx in range(len(mean_df)):
         print(f"\nRace {race_idx + 1}:")
         race_odds = pred_features.iloc[race_idx][odds_cols].values
         race_preds = mean_df.iloc[race_idx].values
         
-        # Get the lowest odds horse and highest predicted points horse
-        lowest_odds_idx = np.argmin(race_odds)
-        highest_pred_idx = np.argmax(race_preds)
+        # Get mask for this race's real starters
+        real_starters = real_starters_mask.iloc[race_idx].values
         
-        print(f"Lowest odds horse (starter {lowest_odds_idx + 1}): {race_odds[lowest_odds_idx]:.2f}")
-        print(f"Highest predicted points horse (starter {highest_pred_idx + 1}): {race_preds[highest_pred_idx]:.2f}")
-        print(f"Predicted points for lowest odds horse: {race_preds[lowest_odds_idx]:.2f}")
+        # Filter odds and predictions to only include real starters
+        valid_indices = np.where(real_starters)[0]  # Get original indices of real starters
         
-        # Print all horses' odds and predictions
+        if len(valid_indices) == 0:
+            print("No valid starters found for this race!")
+            continue
+        
+        valid_odds = [race_odds[i] for i in valid_indices]
+        valid_preds = [race_preds[i] for i in valid_indices]
+        
+        # Get the lowest odds horse and highest predicted points horse among REAL starters
+        lowest_odds_relative_idx = np.argmin(valid_odds)
+        highest_pred_relative_idx = np.argmax(valid_preds)
+        
+        # Convert back to original starter numbers (1-indexed)
+        lowest_odds_idx = valid_indices[lowest_odds_relative_idx] + 1
+        highest_pred_idx = valid_indices[highest_pred_relative_idx] + 1
+        
+        print(f"Lowest odds horse (starter {lowest_odds_idx}): {valid_odds[lowest_odds_relative_idx]:.2f}")
+        print(f"Highest predicted points horse (starter {highest_pred_idx}): {valid_preds[highest_pred_relative_idx]:.2f}")
+        print(f"Predicted points for lowest odds horse: {valid_preds[lowest_odds_relative_idx]:.2f}")
+        
+        # Print all REAL horses' odds and predictions
         print("\nAll horses in this race:")
-        for i in range(len(race_odds)):
-            print(f"Starter {i+1}: Odds = {race_odds[i]:.2f}, Predicted Points = {race_preds[i]:.2f}")
+        for rel_idx, orig_idx in enumerate(valid_indices):
+            print(f"Starter {orig_idx + 1}: Odds = {valid_odds[rel_idx]:.2f}, Predicted Points = {valid_preds[rel_idx]:.2f}")
+    
+    # For saved outputs, create masked versions that clearly indicate which starters are real
+    for race_idx in range(len(mean_df)):
+        # Get real starters for this race
+        real_starters = real_starters_mask.iloc[race_idx].values
+        
+        # Set predictions for non-existent starters to NaN in the DataFrame copies
+        for col_idx, is_real in enumerate(real_starters):
+            if not is_real:
+                col_name = f'st{col_idx+1}_pts'
+                if col_name in mean_df.columns:
+                    mean_df.loc[race_idx, col_name] = np.nan
+                if col_name in median_df.columns:
+                    median_df.loc[race_idx, col_name] = np.nan
+                if col_name in q05_df.columns:
+                    q05_df.loc[race_idx, col_name] = np.nan
+                if col_name in q95_df.columns:
+                    q95_df.loc[race_idx, col_name] = np.nan
     
     # Save summary statistics
     mean_df.to_csv(os.path.join(output_dir, 'predictions_mean.csv'), index=False)
@@ -263,6 +326,15 @@ def main():
             "race": race_ids_subset
         }
     )
+    
+    # Add metadata about real starters
+    # Convert the real_starters_mask DataFrame to a numpy array for the xarray Dataset
+    starter_validity = np.zeros((n_pred, n_starters), dtype=bool)
+    for i in range(n_pred):
+        starter_validity[i] = real_starters_mask.iloc[i].values
+    
+    # Add the real starter information to the Dataset
+    ds["is_real_starter"] = (["race", "starter"], starter_validity)
     
     # Add some metadata
     ds.attrs["description"] = "Posterior predictive draws for race predictions"

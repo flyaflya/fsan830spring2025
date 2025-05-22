@@ -1,8 +1,8 @@
 """
 This script processes racing data from the following locations:
-- Input: ../data/rawDataForPrediction/CDX0426.csv (raw racing data)
-- Output: ../data/processed/CDX0426_processed.csv (processed data with all columns)
-- Output: ../data/processed/CDX0426_filtered.csv (filtered data with only mapped columns)
+- Input: ../data/rawDataForPrediction/CDX0515.csv (raw racing data)
+- Output: ../data/processed/CDX0515_processed.csv (processed data with all columns)
+- Output: ../data/processed/CDX0515_filtered.csv (filtered data with only mapped columns)
 - Mapping: ../data/column_mapping.csv (column header mappings)
 """
 
@@ -75,7 +75,7 @@ def create_prediction_dataset(data_dir):
     else:
         print("[DEBUG] 'odds' column not found after renaming.")
     # Save processed CSV with all columns
-    processed_file = Path("data/processed") / 'CDX0426_processed.csv'
+    processed_file = Path("data/processed") / 'CDX0515_processed.csv'
     print("[DEBUG] Saving processed DataFrame to:", processed_file)
     processed_file.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(processed_file, index=False)

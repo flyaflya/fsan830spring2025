@@ -3,7 +3,7 @@ import numpy as np
 
 def analyze_lowest_odds_performance():
     # Read the training features CSV file
-    df = pd.read_csv('data/features/training_features.csv')
+    df = pd.read_csv('students/fleischhacker_adam2/data/features/training_features.csv')
     
     # Initialize counters
     total_races = len(df)

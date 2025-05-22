@@ -20,21 +20,17 @@ def compute_rankings(ds, odds_df):
     second_place = np.zeros((n_draws, n_races), dtype=int)
     third_place = np.zeros((n_draws, n_races), dtype=int)
     
-    # Get odds columns
-    odds_cols = [col for col in odds_df.columns if 'odds' in col]
-    
     # For each draw and race, find top 3 starters
     for d in range(n_draws):
         for r in range(n_races):
             # Get predictions for this draw and race
             race_preds = predictions[d, :, r].values
             
-            # Get odds for this race
-            race_odds = odds_df.iloc[r][odds_cols].values
+            # Use is_real_starter to identify valid starters
+            is_real = ds.is_real_starter[r, :].values
             
-            # Get indices of valid predictions (non-zero and not scratched)
-            # A horse is scratched if odds >= 999.0
-            valid_indices = np.where((race_preds > 0) & (race_odds < 999.0))[0]
+            # Get indices of valid predictions (non-zero and real starters)
+            valid_indices = np.where((race_preds > 0) & is_real)[0]
             if len(valid_indices) > 0:
                 valid_preds = race_preds[valid_indices]
                 top_3_indices = valid_indices[np.argsort(valid_preds)[-3:][::-1]]
@@ -62,8 +58,14 @@ def main():
     print("Loading odds data...")
     odds_df = pd.read_csv('students/fleischhacker_adam2/data/features/prediction_features.csv')
     
+    # Print a summary of the number of real starters per race
+    print("\nReal starters per race:")
+    for r in range(len(ds.race)):
+        n_real = np.sum(ds.is_real_starter[r, :].values)
+        print(f"Race {ds.race.values[r]}: {n_real} real starters")
+    
     # Compute rankings
-    print("Computing rankings...")
+    print("\nComputing rankings...")
     first_place, second_place, third_place = compute_rankings(ds, odds_df)
     
     # Add ranking variables to the dataset
@@ -107,19 +109,14 @@ def main():
     place_counts = np.zeros((n_races, n_starters))  # For top 2
     show_counts = np.zeros((n_races, n_starters))   # For top 3
     
-    # Get odds columns
-    odds_cols = [col for col in odds_df.columns if 'odds' in col]
-    
     # Count occurrences
     for r in range(n_races):
         # Get predictions for this race across all draws
         race_preds = ds.predictions[:, :, r].values
         
-        # Get odds for this race
-        race_odds = odds_df.iloc[r][odds_cols].values
-        
-        # Find actual starters (those with non-zero predictions and not scratched)
-        actual_starters = np.any((race_preds > 0) & (race_odds < 999.0), axis=0)
+        # Use is_real_starter to identify actual starters
+        is_real = ds.is_real_starter[r, :].values
+        actual_starters = np.any(race_preds > 0, axis=0) & is_real
         n_actual_starters = np.sum(actual_starters)
         
         for d in range(n_draws):
@@ -158,4 +155,4 @@ def main():
     print("Processing complete!")
 
 if __name__ == "__main__":
-    main() 
+    main()
