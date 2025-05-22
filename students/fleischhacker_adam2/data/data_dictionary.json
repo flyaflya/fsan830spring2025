@@ -1,0 +1,22 @@
+{
+    "track_code": "Two-letter code representing the track",
+    "race_date": "Date of the race in YYYYMMDD format",
+    "race_number": "Race number at the track for the day",
+    "entry_number": "Horse's entry number in the race",
+    "distance": "Race distance in yards",
+    "surface_code": "Track surface code (D=Dirt, T=Turf)",
+    "class_code": "Race class code",
+    "claiming_price_category": "Category of claiming race",
+    "race_class": "Descriptive race class",
+    "purse": "Race purse amount in dollars",
+    "claiming_price": "Claiming price in dollars",
+    "speed_rating": "Speed rating for the race",
+    "trainer_name": "Name of the horse's trainer",
+    "jockey_name": "Name of the horse's jockey",
+    "owner_name": "Name of the horse's owner",
+    "horse_name": "Name of the horse",
+    "sire": "Name of the horse's sire (father)",
+    "dam": "Name of the horse's dam (mother)",
+    "weight": "Weight carried by the horse",
+    "odds": "Morning line odds"
+}
