@@ -3,7 +3,7 @@
 
 ## About Me
 
-Hello! My name is Masoud and I am a PhD student in Financial Services Analytics! I love Swimming and Running!
+Hello! My name is Masoud and I am a PhD student in Financial Services Analytics! I love Swimming and Running!!
 
 ## Research Interests
 
@@ -22,8 +22,8 @@ Explanation:
 The xml_to_xarray.py script processes an XML file containing race results by parsing it with xml.etree.ElementTree, extracting relevant data such as race details, horse names, jockeys, and trainers, and storing this information in lists. These lists are then converted into a pandas DataFrame, which is subsequently transformed into an xarray Dataset. This Dataset includes coordinates for track and race date, and variables for each race, such as horse names, positions, and odds. The script also includes functionality to save the Dataset to a NetCDF file for further analysis, and it handles errors related to file parsing and data extraction. This setup allows for efficient data manipulation and querying using Python's data science libraries.
 
 ### Code:
-"""
-python
+
+```python
 for race_num in ds.coords['RACE_NUMBER'].values:
         positions = ds[f'race_{race_num}_positions'].values
         horses = ds[f'race_{race_num}_horses'].values
@@ -34,7 +34,7 @@ for race_num in ds.coords['RACE_NUMBER'].values:
         top_horses = race_df.sort_values('position').head(n)
 
         results[int(race_num)] = top_horses
-"""
+```
 
 ### Output:
 
