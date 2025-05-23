@@ -350,5 +350,5 @@ if __name__ == "__main__":
     merged_ds = merge_race_data_with_results(race_ds, results_ds)
     
     # Save the merged dataset
-    output_dir = "students/fleischhacker_adam2/data/processed"
+    output_dir = "students/Buskin_Evgeny/Horse_bets/data/processed"
     save_dataset(merged_ds, output_dir) 

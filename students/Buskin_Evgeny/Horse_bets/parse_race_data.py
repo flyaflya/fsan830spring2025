@@ -549,7 +549,7 @@ def save_dataset(ds, output_dir):
 
 if __name__ == "__main__":
     data_dir = "data/rawDataForTraining/pastPerformanceData"
-    output_dir = "students/fleischhacker_adam2/data/processed"
+    output_dir = "students/Buskin_Evgeny/Horse_bets/data/processed"
     
     # Create and save the dataset
     ds = create_xarray_dataset(data_dir)

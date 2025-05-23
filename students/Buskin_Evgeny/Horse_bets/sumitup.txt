@@ -1,0 +1,63 @@
+Horse Race Outcome Prediction Using BART
+
+    This project implements a sophisticated machine learning approach to predict horse race outcomes using Bayesian Additive Regression Trees (BART). 
+The model aims to predict finishing positions in horse races by leveraging historical performance data and various race-related features.
+    The Main challenges I think was working with Data Sources and Pre-Processing, well and setting up BART on local PC.
+The project utilizes two primary data sources:
+Past Performance Data: 
+Contains detailed pre-race information including: 
+Horse characteristics (weight, odds, jockey, trainer), Track conditions (surface type, distance), Historical performance metrics
+Results Data: Captures post-race outcomes including Finish positions, Speed ratings, Final odds, etc.
+
+For Feature Engineering
+The model incorporates several sophisticated features:
+Basic race information: Distance (normalized), Surface type (Dirt/Turf)
+Performance metrics: Average past finish position, Win rate, Distance suitability, Jockey win rate, Field strength, Surface-specific win rate
+
+Model Implementation
+    The BART model was implemented with the following specifications:
+    Number of trees: 50
+    Prior probability of splitting (alpha): 0.95
+    Prior probability of growing (beta): 2.0
+    Noise term: HalfNormal distribution with sigma=1.0
+    Sampling parameters:
+    2000 draws
+    1000 tuning steps
+    4 chains
+    Target acceptance rate: 0.95
+Unfortunatly my Model Performance wasn't that great and accuracy is far from desided values..
+The model's performance metrics indicate areas for improvement:
+    MSE: 8.2347
+    RMSE: 2.8696
+    MAE: 2.3571
+    R² Score: 0.0474
+    Accuracy: 0.1156
+These metrics suggest that while the model captures some patterns in the data, there's significant room for improvement.
+
+Challenges and Limitations
+    Model Complexity: The BART model's performance suggests that the relationship between features and outcomes is more complex than initially captured.
+    Data Quality: The relatively low R² score (0.0474) indicates that there might be important features not captured in the current dataset.
+    Prediction Accuracy: The 11.56% accuracy rate suggests that the model needs refinement to be practically useful.
+Future Improvements
+    Feature Engineering:
+    Add more interaction terms between features
+    Incorporate temporal features (e.g., days since last race, so we can track the rest of a horse)
+    Include more detailed jockey and trainer statistics, horse parents(genetic) data
+    Model Optimization:
+    Experiment with different BART parameters
+    Consider ensemble methods combining BART with other models
+    Implement more sophisticated early stopping criteria
+    Data Enhancement:
+    Collect more historical data
+    Include additional features like track conditions
+    Incorporate weather data
+Conclusion
+While the current model shows promise in predicting horse race outcomes, 
+the performance metrics indicate that significant improvements are needed before it can be used for practical betting decisions. 
+The project demonstrates the potential of BART in sports prediction, but also highlights the challenges in modeling complex, real-world events.
+
+I believe this project would have greatly benefited from being initiated earlier in the semester. 
+An earlier start would have allowed us to adopt a more structured engineering approach to XML/XSD data parsing and provided 
+additional time to explore the intricacies of horse racing data—particularly in identifying which features have the most significant impact on race outcomes.
+Anyway, thank you so much, Adam, for this course and for your humor and dedication throughout the semester. 
+It was a pleasure learning from you, I truly appreciated your involvement and guidance during the classes.
